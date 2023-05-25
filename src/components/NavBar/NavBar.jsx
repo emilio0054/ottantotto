@@ -1,22 +1,22 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Logo } from '../Logo/Logo';
+import { NavLink } from 'react-router-dom';
 
 export function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg='secondary' className='navbar' >
+    <Navbar collapseOnSelect expand="lg" bg='secondary' className='navbar' sticky-top>
       <Container className='navbar'>
-        <Navbar.Brand href="#home">
+        <NavLink to='/' className='text-decoration-none nav-links'>
             <Logo />
-        </Navbar.Brand>
+        </NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#menu">Menú</Nav.Link>
-            <Nav.Link href="#about-us">Sobre Nosotros</Nav.Link>
-            <Nav.Link href="#contact">Contacto</Nav.Link>
+            <NavLink to='/menu' className='text-decoration-none nav-links'>Menú</NavLink>
+            <NavLink to='/about-us' className='text-decoration-none nav-links'>Sobre Nosotros</NavLink>
+            <NavLink to='/contact' className='text-decoration-none nav-links'>Contacto</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
