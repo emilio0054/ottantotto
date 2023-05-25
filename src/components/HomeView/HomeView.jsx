@@ -4,7 +4,7 @@ export const HomeView = () => {
       <div>
         <div className="row">
           <div className="col-12">
-            <img className="homeview-image" src="/tomates.jpg"></img>
+            <img className="homeview-image" src="/tomates.jpg" width='100%'/>
             <h1 className="homeview-text-center">¡Bienvenidos a Ottantotto!</h1>
             <a
               classname="homeview-adress"

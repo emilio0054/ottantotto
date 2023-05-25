@@ -5,9 +5,12 @@
 /* NAVBAR */
 
 nav {
+  position: fixed;
+  top: 0;
   background-color: #f4d9d3;
   opacity: 95%;
   box-shadow: #989999 0px 0px 10px;
+  z-index: 9999;
 }
 
 #nav-items {
@@ -29,7 +32,16 @@ nav {
   color: black;
 }
 
+/* MAIN CONTAINER  */
+
+.divisor-line{
+  border: rgb(2, 88, 2) 3px solid;
+  margin: 5rem
+}
+
+/* MENU */
+
 #menu-img {
-  /* width: 100%; */
   height: 100%;
 }
+
