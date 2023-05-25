@@ -1,32 +1,35 @@
 .logo {
-  width: 100px;
+  width: 230px;
+}
+
+/* NAVBAR */
+
+nav {
+  background-color: #f4d9d3;
+  opacity: 95%;
+  box-shadow: #989999 0px 0px 10px;
+}
+
+#nav-items {
+  color: #3d3d3d;
+  text-decoration: none;
+  margin-right: 1em;
+  font-weight: 500;
+  padding: 0.5em;
+}
+
+#nav-items.active {
+  background: #f4d9d3 !important;
+  color: #b53a20 !important;
+  padding: 0.5em;
+  font-weight: 500;
 }
 
 .nav-links {
   color: black;
 }
 
-.homeview-image {
-  width: 100%;
-  height: 100vh;
-  filter: grayscale(25%);
-  filter: brightness(0.8);
-  position: relative;
-  display: inline-block;
-  opacity: 75%;
-}
-
-.homeview-text-center {
-  position: absolute;
-  top: 100px;
-  left: 33%;
-}
-
-a.homeview-adress {
-  text-decoration: none;
-  display: inline;
-  position: absolute;
-  top: 100px;
-  left: 33%;
-  color: black;
+#menu-img {
+  /* width: 100%; */
+  height: 100%;
 }
