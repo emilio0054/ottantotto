@@ -1,9 +1,8 @@
-
 export const Logo = () => {
   return (
     <>
         <div>
-            <img src="/" className="logo"/>
+            <img src="/assets/logo.png" className="logo"/>
         </div>
     </>
   )

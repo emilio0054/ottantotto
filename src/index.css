@@ -1,8 +1,42 @@
 .logo {
-  width: 100px;
+  width: 230px;
 }
 
-.nav-links {
-  color: black
+nav {
+  background-color: #f4d9d3;
+  opacity: 95%;
+  box-shadow: #989999 0px 0px 10px;
 }
 
+#nav-items {
+  color:#3D3D3D;
+  text-decoration: none;
+  margin-right: 1em;
+  font-weight: 500;
+  padding: 0.5em;
+}
+
+#nav-items.active{
+  background: #f4d9d3 !important;
+  color: #b53a20 !important;
+  padding: 0.5em;
+  font-weight: 500;
+}
+
+#nav-items:hover{
+  background: #f4d9d3 !important;
+  color: #b53a20 !important;
+  padding: 0.5em;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  #responsive-navbar-nav {
+    justify-content: flex-end !important;
+    padding: 10px;
+  }
+
+  #nav-items {
+    align-self: center;
+  }
+} 
