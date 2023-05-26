@@ -1,3 +1,5 @@
+import './logo.css'
+
 export const Logo = () => {
   return (
     <>
