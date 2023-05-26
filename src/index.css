@@ -32,10 +32,15 @@ nav {
   color: black;
 }
 
+#responsive-navbar-nav{
+  text-align: center;
+  margin-top: 40px;
+}
+
 /* MAIN CONTAINER  */
 
 .divisor-line{
-  border: rgb(2, 88, 2) 3px solid;
+  border: rgb(2, 88, 2) 2px solid;
   margin: 5rem
 }
 
@@ -45,3 +50,38 @@ nav {
   height: 100%;
 }
 
+
+
+/* HOME VIEW */
+
+.homeview-container{
+  background-image: url(/tomates.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: start;
+  height: 100vh;
+}
+
+.homeview-text{
+  color: #3d3d3d;
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+
+a#homeview-adress, a#homeview-phone {
+  text-decoration: none !important;
+  color: #3d3d3d !important;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+a#homeview-adress:hover, a#homeview-phone:hover {
+  color: #f4d9d3 !important;
+}
+
+a.homeview-adress::selection, a#homeview-phone::selection {
+  color: #f4d9d3 !important;
+}
+
+/* FOOTER */
