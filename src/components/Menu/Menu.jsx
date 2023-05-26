@@ -1,3 +1,4 @@
+import './menu.css'
 
 export const Menu = () => {
   return (
