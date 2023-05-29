@@ -1,0 +1,70 @@
+.contact-container{
+    background-image: url(/assets/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 70vh;
+    padding: 5em 10em;
+    box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
+}
+
+.contact-title {
+    font-weight: 600;
+}
+.main-container{
+    margin-top: 100px;
+}
+
+.whatsapp-icon, .phone-icon{
+    color: #b53a20;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.delivery-icon{
+    margin-bottom: 0.5rem;
+    align-self: center;
+}
+
+.whatsapp-icon:hover, .phone-icon:hover, .delivery-icon:hover{
+    font-size: 6rem;
+    height: 130px;
+    width: 130px;
+}
+
+h3 {
+    color:#b53a20;
+    text-align: center;
+}
+
+p{
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.delivery-text {
+    margin-left: 2.5rem;
+}
+
+.divisor-line{
+    border: rgb(2, 88, 2) 1px solid;
+    background-color: #fbf6f5;
+    margin-top: 0;
+  }
+
+.contact-confirmation{
+    margin-top: 7rem;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+@media (max-width: 991px) {
+    .contact-container{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+}

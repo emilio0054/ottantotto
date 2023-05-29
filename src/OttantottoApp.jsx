@@ -6,6 +6,7 @@ import { MainContainer } from './components/MainContainer/MainContainer';
 import { Menu } from './components/Menu/Menu';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Contact } from './components/Contact/Contact';
+import { BottomNavBar } from './components/BottomNavBar/BottomNavBar';
 
 function OttantottoApp() {
   return (
@@ -17,6 +18,7 @@ function OttantottoApp() {
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
+    <BottomNavBar />
     </ BrowserRouter>
   )
 }

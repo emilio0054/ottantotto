@@ -1,0 +1,16 @@
+.bottom-container {
+    background-color: #fbf7f7;
+    opacity: 95%;
+    box-shadow: #989999 0px 0px 10px;
+    margin-top: 2em;
+    position: sticky;
+    bottom: 0;
+    padding: 1em;
+}
+
+#bottom-items {
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-right: 2em;
+    font-weight: 500;
+}

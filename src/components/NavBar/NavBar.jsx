@@ -5,7 +5,7 @@ import "./navBar.css"
 
 export const NavBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg">
+    <Navbar collapseOnSelect expand="lg" sticky="top">
       <Container>
         <Navbar.Brand>
           <NavLink to="/">
@@ -18,9 +18,9 @@ export const NavBar = () => {
           </Nav>
           <Nav>
             <NavLink to="/" id='nav-items'>Inicio</NavLink>
-            <NavLink to="/menu" id='nav-items'>Menú</NavLink>
+            <NavLink to="/contact" id='nav-items'>Reservas</NavLink>
+            <NavLink to="/menu" id='nav-items'>Pizzas</NavLink>
             <NavLink to="/about-us" id='nav-items'>Nosotros</NavLink>
-            <NavLink to="/contact" id='nav-items'>Contacto</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

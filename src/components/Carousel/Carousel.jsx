@@ -1,6 +1,10 @@
 import "./carousel.css";
-export const Carousel = () => {
-  return;
 
-  <div>hola pepe</div>;
-};
+export const Carousel = () => {
+  return (
+    <div>
+      Hola soy el carousel
+    </div>
+  )
+}
+

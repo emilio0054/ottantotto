@@ -8,10 +8,8 @@ export const MainContainer = () => {
   return (
     <>
         <HomeView />
-        <hr className="divisor-line"/>
-        <Menu />
-        <hr className="divisor-line" />
         <Contact />
+        <Menu />
         <hr className="divisor-line" />
         <AboutUs />
     </>

@@ -1,4 +1,20 @@
 #menu-img {
     height: 100%;
   }
-  
+
+.menu-container {
+  padding: 5em 0;
+}
+
+@media (max-width: 991px) {
+  .menu-container {
+    flex-direction: column;
+  }
+  .menu-container > img {
+    width: 80%;
+    align-self: center
+  }
+  .menu-container > hr {
+    display:block
+  }
+}

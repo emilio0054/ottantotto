@@ -1,4 +1,9 @@
 p {
   margin: 4rem;
-  font-weight: 600;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.us-container {
+  padding: 5rem 7rem;
 }
