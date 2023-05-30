@@ -18,14 +18,14 @@ export const Contact = ({id}) => {
         </div>
         <div className="d-flex flex-column justify-content-center">
           <a href='tel:930381911' target='_blank' className="text-decoration-none text-center">
-          <i class="bi bi-telephone-outbound phone-icon"></i>
+          <i className="bi bi-telephone-outbound phone-icon"></i>
           <h3>Contáctanos por teléfono</h3>
           </a>
           <p>Horario de atención: </p>
         </div>
         <div className="d-flex flex-column justify-content-center">
-          <a href='tel:930381911' target='_blank' className="text-decoration-none text-center">
-          <i class="bi bi-envelope-at mail-icon"></i>
+          <a href='mailto:' target='_blank' className="text-decoration-none text-center">
+          <i className="bi bi-envelope-at mail-icon"></i>
           <h3 className="" >Envíanos un mail</h3>
           </a>
           <p className="mail-text">    .</p>

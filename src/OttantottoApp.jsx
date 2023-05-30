@@ -6,6 +6,7 @@ import { Menu } from './components/Menu/Menu';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Contact } from './components/Contact/Contact';
 import { BottomNavBar } from './components/BottomNavBar/BottomNavBar';
+import { Footer } from './components/Footer/Footer';
 
 function OttantottoApp() {
   return (
@@ -23,11 +24,12 @@ function OttantottoApp() {
         dark={false}
         id="menu"
         />
+        <hr className="divisor-line" />
         <AboutUs  
         dark={false}
         id="about-us"
         />
-        <hr className="divisor-line" />
+    <Footer />
     <BottomNavBar />
     </>
   )
