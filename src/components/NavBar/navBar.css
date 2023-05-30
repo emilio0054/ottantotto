@@ -2,9 +2,11 @@ nav {
     background-color: #fbf7f7;
     opacity: 95%;
     box-shadow: #989999 0px 0px 10px;
+    position: sticky;
+    top: 0;
   }
   
-  #nav-items {
+  .nav-item {
     color: #3d3d3d;
     text-decoration: none;
     margin-right: 2em;
@@ -14,30 +16,50 @@ nav {
   #nav-items.active {
     background: #fbf7f7 !important;
     color: #b53a20 !important;
-    font-weight: 500;
-  }
-  
-  .navbar-nav {
-    align-items: center;
+    font-weight: 600;
   }
   
   .nav-links {
     color: black;
   }
 
+  .phone {
+    font-size: 1em;
+  }
+
+  .contact-button-mobile {
+    display: none;
+  }
+  
   @media (max-width:991px) {
-    #responsive-navbar-nav{
-        text-align: center;
-        margin-top: 30px;
-      } 
-        #nav-items{
-        width: 100%;
-        border:#989999 1px solid;
-        padding: 10px;
-        border-radius: 5px;
-        }  
-      
-        #nav-items.active{
-        box-shadow: 5px solid #b53a20;
-        }
+    .navbar-nav {
+      align-items: center;
+      margin-top: 1em;
+    }
+    
+    .nav-item{
+      border: #b53a20 0.5px solid;
+      margin-top: 0.2em;
+      width: 80%;
+      align-self: center;
+      text-align: center;
+      border-radius: 0.5em;
+    }  
+
+    #nav-items.active{
+      background: #b53a20 !important;
+      color: #fbf7f7 !important;
+    }
+
+    .nav-item:hover{
+      background-color: #b53a20;
+    }
+
+    .contact-button{
+      display: none;
+    }
+
+    .contact-button-mobile {
+      display: block;
+    }
   }

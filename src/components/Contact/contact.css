@@ -4,34 +4,28 @@
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
-    height: 70vh;
     padding: 5em 10em;
     box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
 }
 
 .contact-title {
     font-weight: 600;
+    font-size: 2rem;
 }
 .main-container{
-    margin-top: 100px;
+    margin-top: 8rem;
 }
 
-.whatsapp-icon, .phone-icon{
+.whatsapp-icon, .phone-icon, .mail-icon{
     color: #b53a20;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
-    margin-top: 1rem;
 }
 
-.delivery-icon{
-    margin-bottom: 0.5rem;
-    align-self: center;
-}
-
-.whatsapp-icon:hover, .phone-icon:hover, .delivery-icon:hover{
-    font-size: 6rem;
-    height: 130px;
-    width: 130px;
+.whatsapp-icon:hover, .phone-icon:hover, .mail-icon:hover{
+    font-size: 5rem;
+    height: 110px;
+    width: 110px;
 }
 
 h3 {
@@ -43,10 +37,6 @@ p{
     font-weight: 400;
     margin-top: 1rem;
     text-align: center;
-}
-
-.delivery-text {
-    margin-left: 2.5rem;
 }
 
 .divisor-line{
@@ -63,8 +53,8 @@ p{
 }
 
 @media (max-width: 991px) {
-    .contact-container{
-        margin-top: 50px;
+    .main-container{
         flex-direction: column;
+        margin-top: 2rem
     }
 }

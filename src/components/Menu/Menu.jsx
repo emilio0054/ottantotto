@@ -1,9 +1,9 @@
 import './menu.css'
 
-export const Menu = () => {
+export const Menu = ({id}) => {
   return (
     <>
-      <div className="menu-container">
+      <div className="menu-container" id={id}>
         <div className='d-flex justify-content-start mt-4 mb-5'>
         <img src="/assets/menu/1spa.png" alt='Menú en Español' id='menu-img' width='30%' />
         </div>
