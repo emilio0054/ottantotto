@@ -23,7 +23,7 @@ export const NavBar = () => {
         <a href='tel:930381911' className='contact-button-mobile' target="_blank">
           <button className="btn btn-danger mt-1 me-5"><i className="bi bi-telephone-fill phone"></i>Haz tu reserva</button>
         </a>
-        <div className="collapse navbar-collapse justify-content-end me-lg-5" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <Link 
@@ -33,7 +33,7 @@ export const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-90}
               duration={500}
               >
                 Inicio
@@ -78,10 +78,21 @@ export const NavBar = () => {
               >
                 Nosotros</Link>
             </li>
+            <li className="nav-item dropdown" id='nav-items'>
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                ESP
+              </a>
+              <ul className="dropdown-menu">
+                <li><Link className="dropdown-item" href="home-view">CAT</Link></li>
+                <li><Link className="dropdown-item" href="home-view">ENG</Link></li>
+                <li><Link className="dropdown-item" href="home-view">IT</Link></li>
+                <li><Link className="dropdown-item" href="home-view">FR</Link></li>
+              </ul>
+            </li>
           </ul>
         </div>
         <a href='tel:tel:930381911' className='contact-button'>
-          <button className="btn btn-danger mt-1 me-5"><i className="bi bi-telephone-fill phone"></i>Haz tu reserva</button>
+          <button className="btn btn-danger me-5"><i className="bi bi-telephone-fill phone"></i>Haz tu reserva</button>
         </a>
       </nav>
     </>
