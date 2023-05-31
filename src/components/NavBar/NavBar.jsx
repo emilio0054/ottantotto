@@ -80,13 +80,16 @@ export const NavBar = () => {
             </li>
             <li className="nav-item dropdown" id='nav-items'>
               <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                ESP
+                <img src="/assets/languages/esp.png" width='30px' />
               </a>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" href="home-view">CAT</Link></li>
-                <li><Link className="dropdown-item" href="home-view">ENG</Link></li>
-                <li><Link className="dropdown-item" href="home-view">IT</Link></li>
-                <li><Link className="dropdown-item" href="home-view">FR</Link></li>
+                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
+                <hr />
+                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
+                <hr />
+                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
+                <hr />
+                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
               </ul>
             </li>
           </ul>
