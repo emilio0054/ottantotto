@@ -1,34 +1,37 @@
-.homeview-container{
-    background-image: url(/pizza-ottantotto.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    background-position: start;
-    height: 95vh;
-  }
-  
-  .homeview-text{
-    color: #3d3d3d;
-    font-size: 2.5em;
-    font-variation-settings: "wght" 900;
-  }
-  
-  a#homeview-adress, a#homeview-phone {
-    text-decoration: none !important;
-    color: #3d3d3d !important;
-    font-variation-settings: "wght" 500;
-    font-size: 1em;
-  }
-  
-  a#homeview-adress:hover, a#homeview-phone:hover {
-    color: #f4d9d3 !important;
-  }
-  
-  a.homeview-adress::selection, a#homeview-phone::selection {
-    color: #f4d9d3 !important;
-  }
+.homeview-container {
+  background-image: url(/pizza-ottantotto.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: start;
+  height: 95vh;
+}
 
-  i{
-    font-size: 20px;
-    margin-right: 0.3rem;
-  }
+.homeview-text {
+  color: #3d3d3d;
+  font-size: 2.5em;
+  font-variation-settings: "wght" 900;
+}
+
+a#homeview-adress,
+a#homeview-phone {
+  text-decoration: none !important;
+  color: #3d3d3d !important;
+  font-variation-settings: "wght" 500;
+  font-size: 1em;
+}
+
+a#homeview-adress:hover,
+a#homeview-phone:hover {
+  color: #f4d9d3 !important;
+}
+
+a.homeview-adress::selection,
+a#homeview-phone::selection {
+  color: #f4d9d3 !important;
+}
+
+i {
+  font-size: 20px;
+  margin-right: 0.3rem;
+}
