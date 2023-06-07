@@ -1,5 +1,5 @@
 .homeview-container{
-    background-image: url(/tomates.jpg);
+    background-image: url(/pizza-ottantotto.png);
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
@@ -9,14 +9,14 @@
   
   .homeview-text{
     color: #3d3d3d;
-    font-weight: bolder;
     font-size: 2.5em;
+    font-variation-settings: "wght" 900;
   }
   
   a#homeview-adress, a#homeview-phone {
     text-decoration: none !important;
     color: #3d3d3d !important;
-    font-weight: 700;
+    font-variation-settings: "wght" 500;
     font-size: 1em;
   }
   

@@ -17,12 +17,28 @@ export const NavBar = () => {
         >
           <Logo />
         </Link>
-        <button className="navbar-toggler me-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a href='tel:930381911' className='contact-button-mobile' target="_blank">
-          <button className="btn btn-danger mt-1 me-5"><i className="bi bi-telephone-fill phone"></i>Haz tu reserva</button>
-        </a>
+        <div className="d-flex align-items-center me-3">
+          <a href='tel:930381911' className='contact-button-mobile' target="_blank">
+            <button className="btn btn-danger mt-1 me-3"><i className="bi bi-telephone-fill phone"></i></button>
+          </a>
+          <li className="dropdown dropdown-mobile" id='nav-items'>
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              <img src="/assets/languages/esp.png" width='30px' />
+            </a>
+            <ul className="dropdown-menu">
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
+              <hr />
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
+              <hr />
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
+              <hr />
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
+            </ul>
+          </li>
+        </div>
         <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
@@ -78,25 +94,27 @@ export const NavBar = () => {
               >
                 Nosotros</Link>
             </li>
-            <li className="nav-item dropdown" id='nav-items'>
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                <img src="/assets/languages/esp.png" width='30px' />
-              </a>
-              <ul className="dropdown-menu">
-                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
-                <hr />
-                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
-                <hr />
-                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
-                <hr />
-                <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
-              </ul>
-            </li>
           </ul>
         </div>
-        <a href='tel:tel:930381911' className='contact-button'>
-          <button className="btn btn-danger me-5"><i className="bi bi-telephone-fill phone"></i>Haz tu reserva</button>
-        </a>
+        <div className="d-flex align-items-center last-container">
+          <a href='tel:tel:930381911' className='contact-button'>
+            <button className="btn btn-danger me-4 w-1"><i className="bi bi-telephone-fill phone"></i></button>
+          </a>
+          <li className="dropdown dropdown-desktop" id='nav-items'>
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              <img src="/assets/languages/esp.png" width='30px' />
+            </a>
+            <ul className="dropdown-menu">
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
+              <hr />
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
+              <hr />
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
+              <hr />
+              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
+            </ul>
+          </li>
+        </div>
       </nav>
     </>
   );

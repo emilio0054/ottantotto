@@ -31,12 +31,18 @@ footer a:hover {
     font-size: 0.9em;
 }
 
+footer a::selection {
+    color:#b53a20;
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
 .developed{
     color: #fbf7f7;
 }
 
 .social-media {
-    background-color: #989797;
+    background-color: #5d5c5c;
 }
 
 @media (max-width: 991px) {
