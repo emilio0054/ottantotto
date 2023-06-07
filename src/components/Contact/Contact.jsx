@@ -1,4 +1,3 @@
-import { Link } from "react-scroll";
 import "./contact.css";
 
 export const Contact = ({id}) => {
