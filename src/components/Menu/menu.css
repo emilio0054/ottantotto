@@ -1,12 +1,22 @@
+.menu-container{
+  background-image: url(/assets/pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  padding: 5em 0em;
+  /* box-shadow: 0px 0px 5px 0px rgba(183, 182, 182, 0.75); */
+}
+
+.bottom-menu-container{
+  margin-top: 7em;
+  margin-bottom: 5em;
+}
+
 #menu-img {
     height: 100%;
     box-shadow: #e6d2cf 0px 0px 10px;
   }
-
-.menu-container {
-  padding: 5em 0;
-  background-color: #f2f2f2;
-}
 
 @media (max-width: 991px) {
   .menu-container {

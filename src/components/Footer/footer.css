@@ -7,21 +7,21 @@ footer {
 footer h5 {
     color: #fbf7f7;
     font-size: 0.9em;
-    font-weight: lighter;
+    font-variation-settings: "wght" 300;
     text-align: start;
 }
 
 footer h3 {
     color: #fbf7f7;
     text-align: start;
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 1.3em;
+    font-variation-settings: "wght" 600;
     margin-bottom: 0.8em;
 }
 
 footer a {
     color:#fbf7f7;
-    font-weight: lighter;
+    font-variation-settings: "wght" 300;
     font-size: 0.9em;
 }
 
@@ -39,6 +39,8 @@ footer a::selection {
 
 .developed{
     color: #fbf7f7;
+    font-variation-settings: "wght" 300;
+    font-size: 0.9em;
 }
 
 .social-media {
