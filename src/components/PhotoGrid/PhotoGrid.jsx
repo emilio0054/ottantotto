@@ -4,7 +4,12 @@ export const PhotoGrid = () => {
     <div>
       <div className="grid-container">
         <div className="grid-item">
-          <img src="/assets/PIZZA ROJA/pizza1.jpg" alt="Image 1"></img>
+          <img
+            src="/assets/PIZZA ROJA/pizza1.jpg"
+            width="750px"
+            height="750px"
+            alt="Image 1"
+          />
         </div>
         <div className="grid-item resize">
           <img
