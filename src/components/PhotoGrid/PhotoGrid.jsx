@@ -111,22 +111,22 @@ export const PhotoGrid = () => {
         <div class="container grid--2-cols grid">
           <div class="gallery">
             <img
-              src="public/assets/z pattern/04 Los ingredientes/ingredientes1.jpg"
+              src="/assets/z pattern/04 Los ingredientes/ingredientes1.jpg"
               class="step-img"
               alt="ingredientes1"
             />
             <img
-              src="public/assets/z pattern/04 Los ingredientes/ingredientes2.jpg"
+              src="/assets/z pattern/04 Los ingredientes/ingredientes2.jpg"
               class="step-img"
               alt="ingredientes2"
             />
             <img
-              src="public/assets/z pattern/04 Los ingredientes/ingredientes3.jpg"
+              src="/assets/z pattern/04 Los ingredientes/ingredientes3.jpg"
               class="step-img"
               alt="ingredientes3"
             />
             <img
-              src="public/assets/z pattern/04 Los ingredientes/ingredientes4.jpg"
+              src="/assets/z pattern/04 Los ingredientes/ingredientes4.jpg"
               class="step-img"
               alt="ingredientes4"
             />
