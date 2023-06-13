@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
 import { NavBar } from "./components/NavBar/NavBar";
 import { HomeView } from "./components/HomeView/HomeView";
 import { Menu } from "./components/Menu/Menu";
