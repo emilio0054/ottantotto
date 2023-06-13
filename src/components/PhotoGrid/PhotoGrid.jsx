@@ -19,22 +19,22 @@ export const PhotoGrid = () => {
           </div>
           <div class="gallery">
             <img
-              src="/assets/z pattern/01 La masa/masa1.png"
+              src="/assets/z-pattern/01 La masa/masa1.png"
               class="step-img"
               alt="masa1"
             />
             <img
-              src="/assets/z pattern/01 La masa/masa2.png"
+              src="/assets/z-pattern/01 La masa/masa2.png"
               class="step-img"
               alt="masa2"
             />
             <img
-              src="/assets/z pattern/01 La masa/masa3.jpg"
+              src="/assets/z-pattern/01 La masa/masa3.jpg"
               class="step-img"
               alt="masa3"
             />
             <img
-              src="/assets/z pattern/01 La masa/masa4.jpg"
+              src="/assets/z-pattern/01 La masa/masa4.jpg"
               class="step-img"
               alt="masa4"
             />
@@ -44,22 +44,22 @@ export const PhotoGrid = () => {
         <div class="container grid--2-cols grid">
           <div class="gallery">
             <img
-              src="/assets/z pattern/02 El tomate/tomate1.jpg"
+              src="/assets/z-pattern/02 El tomate/tomate1.jpg"
               class="step-img"
               alt="tomate1"
             />
             <img
-              src="/assets/z pattern/02 El tomate/tomate2.jpg"
+              src="/assets/z-pattern/02 El tomate/tomate2.jpg"
               class="step-img"
               alt="tomatea2"
             />
             <img
-              src="/assets/z pattern/02 El tomate/tomate3.jpg"
+              src="/assets/z-pattern/02 El tomate/tomate3.jpg"
               class="step-img"
               alt="tomate3"
             />
             <img
-              src="/assets/z pattern/02 El tomate/tomate4.jpg"
+              src="/assets/z-pattern/02 El tomate/tomate4.jpg"
               class="step-img"
               alt="tomate4"
             />
@@ -86,22 +86,22 @@ export const PhotoGrid = () => {
           </div>
           <div class="gallery">
             <img
-              src="/assets/z pattern/03 la mozzarella/lamuzza1.jpg"
+              src="/assets/z-pattern/03 la mozzarella/lamuzza1.jpg"
               class="step-img"
               alt="muzza1"
             />
             <img
-              src="/assets/z pattern/03 la mozzarella/lamuzza2.jpg"
+              src="/assets/z-pattern/03 la mozzarella/lamuzza2.jpg"
               class="step-img"
               alt="muzza2"
             />
             <img
-              src="/assets/z pattern/03 la mozzarella/lamuzza3.jpg"
+              src="/assets/z-pattern/03 la mozzarella/lamuzza3.jpg"
               class="step-img"
               alt="muzza3"
             />
             <img
-              src="/assets/z pattern/03 la mozzarella/lamuzza4.jpg"
+              src="/assets/z-pattern/03 la mozzarella/lamuzza4.jpg"
               class="step-img"
               alt="muzza4"
             />
@@ -111,22 +111,22 @@ export const PhotoGrid = () => {
         <div class="container grid--2-cols grid">
           <div class="gallery">
             <img
-              src="/assets/z pattern/04 Los ingredientes/ingredientes1.jpg"
+              src="/assets/z-pattern/04 Los ingredientes/ingredientes1.jpg"
               class="step-img"
               alt="ingredientes1"
             />
             <img
-              src="/assets/z pattern/04 Los ingredientes/ingredientes2.jpg"
+              src="/assets/z-pattern/04 Los ingredientes/ingredientes2.jpg"
               class="step-img"
               alt="ingredientes2"
             />
             <img
-              src="/assets/z pattern/04 Los ingredientes/ingredientes3.jpg"
+              src="/assets/z-pattern/04 Los ingredientes/ingredientes3.jpg"
               class="step-img"
               alt="ingredientes3"
             />
             <img
-              src="/assets/z pattern/04 Los ingredientes/ingredientes4.jpg"
+              src="/assets/z-pattern/04 Los ingredientes/ingredientes4.jpg"
               class="step-img"
               alt="ingredientes4"
             />
