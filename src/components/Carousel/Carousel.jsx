@@ -53,24 +53,24 @@ export const Carousel = () => {
           </div>
         </div>
       </div>
-      <a
+      <button
         class="carousel-control-prev"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
         class="carousel-control-next"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon"></span>
-        <span class="sr-only">Next</span>
-      </a>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   );
 };

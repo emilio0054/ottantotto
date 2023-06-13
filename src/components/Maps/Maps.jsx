@@ -1,6 +1,6 @@
 import "./maps.css";
 
-const maps = () => {
+export const Maps = () => {
   return (
     <div>
       <h1>
