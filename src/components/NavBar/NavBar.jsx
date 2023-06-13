@@ -8,8 +8,8 @@ export const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-lg sticky-top" id='navbar'>
         <Link 
+        to="home-view" 
         className="navbar-brand" 
-        to='home-view' 
         activeClass="active"
         spy={true}
         smooth={true}
@@ -29,13 +29,13 @@ export const NavBar = () => {
               <img src="/assets/languages/esp.png" width='30px' />
             </a>
             <ul className="dropdown-menu">
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
               <hr />
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
               <hr />
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
               <hr />
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
             </ul>
           </li>
         </div>
@@ -105,13 +105,13 @@ export const NavBar = () => {
               <img src="/assets/languages/esp.png" width='30px' />
             </a>
             <ul className="dropdown-menu">
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/cat.png" width='30px' /></Link></li>
               <hr />
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/usa.png" width='30px' /></Link></li>
               <hr />
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/ita.png" width='30px' /></Link></li>
               <hr />
-              <li><Link className="dropdown-item mb-1" href="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
+              <li><Link className="dropdown-item mb-1" to="home-view"><img src="/assets/languages/fr.png" width='30px' /></Link></li>
             </ul>
           </li>
         </div>
