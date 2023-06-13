@@ -6,17 +6,13 @@ import { Contact } from "./components/Contact/Contact";
 import { BottomNavBar } from "./components/BottomNavBar/BottomNavBar";
 import { Footer } from "./components/Footer/Footer";
 import { SideBar } from "./components/SideBar/SideBar";
-import { Maps } from "./components/Maps/maps";
-
+import { Maps } from "./components/Maps/Maps";
 
 function OttantottoApp() {
   return (
     <>
       <NavBar />
-      <HomeView 
-      dark={false} 
-      id="home-view" 
-      />
+      <HomeView dark={false} id="home-view" />
       <Contact dark={false} id="contact" />
       <Menu dark={false} id="menu" />
       <hr className="divisor-line" />
