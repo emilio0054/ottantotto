@@ -1,5 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './index.css'
+
 import { NavBar } from './components/NavBar/NavBar'
 import { HomeView } from './components/HomeView/HomeView';
 import { Menu } from './components/Menu/Menu';
@@ -9,11 +8,15 @@ import { BottomNavBar } from './components/BottomNavBar/BottomNavBar';
 import { Footer } from './components/Footer/Footer';
 import { SideBar } from './components/SideBar/SideBar';
 
+
 function OttantottoApp() {
   return (
     <>
       <NavBar />
-      <HomeView dark={false} id="home-view" />
+      <HomeView 
+      dark={false} 
+      id="home-view" 
+      />
       <Contact dark={false} id="contact" />
       <Menu dark={false} id="menu" />
       <hr className="divisor-line" />
