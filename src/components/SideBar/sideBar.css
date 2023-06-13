@@ -18,7 +18,8 @@
     margin-bottom: 0.5em;
 }
 
-.bi-whatsapp {
+.side-bar-container > a > .bi-whatsapp:hover {
     color: #64da82
 }
+
 
