@@ -1,58 +1,76 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export function Maps() {
-  const mapContainerRef = useRef(null);
-  const [map, setMap] = useState(null);
+  const [coordinates, setCoordinates] = useState(null);
 
   useEffect(() => {
-    const loadMap = () => {
-      const google = window.google;
+    const fetchData = async () => {
+      try {
+        const address = "Passatge d'Utset, 2, 08013 Barcelona"; // Dirección para geocodificar
 
-      const mapOptions = {
-        center: { lat: 41.404770221563545, lng: 2.177465510753392 }, // Coordenadas de ubicación predeterminadas  
-        zoom: 16,
-      };
+        const response = await fetch(
+          `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address)}&key=AIzaSyDapB6-c-4-j_hlUtlXqto4oGFSBi-AYRs`
+        );
 
-      const mapElement = mapContainerRef.current;
-      const newMap = new google.maps.Map(mapElement, mapOptions);
-
-      const geocoder = new google.maps.Geocoder();
-      const address = "Passatge d'Utset, 2, 08013 Barcelona";
-
-      geocoder.geocode({ address }, (results, status) => {
-        if (status === google.maps.GeocoderStatus.OK) {
-          const location = results[0].geometry.location;
-          newMap.setCenter(location);
-
-          const marker = new google.maps.Marker({
-            position: location,
-            map: newMap,
-            title: address,
-          });
-        } else {
-          console.error('Geocodificación fallida. Error:', status);
+        if (!response.ok) {
+          throw new Error('No se pudo obtener las coordenadas');
         }
-      });
 
-      setMap(newMap);
-    };
+        const data = await response.json();
 
-    const loadGoogleMapsScript = () => {
-      if (!window.google) {
-        const googleMapScript = document.createElement('script');
-        googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDapB6-c-4-j_hlUtlXqto4oGFSBi-AYRs&callback=initMap`;
-        googleMapScript.async = true;
-        googleMapScript.defer = true;
-        window.initMap = loadMap;
-        document.head.appendChild(googleMapScript);
-      } else {
-        loadMap();
+        if (data.results && data.results.length > 0) {
+          const { lat, lng } = data.results[0].geometry.location;
+          setCoordinates({ lat, lng });
+        } else {
+          throw new Error('No se encontraron resultados');
+        }
+      } catch (error) {
+        console.error(error);
       }
     };
 
-    loadGoogleMapsScript();
+    fetchData();
   }, []);
 
-  return <div ref={mapContainerRef} style={{ width: '100%', height: '400px' }} />;
+  useEffect(() => {
+    if (coordinates) {
+      // Cargar la API de Google Maps
+      loadGoogleMapsAPI(() => {
+        // Código para inicializar y mostrar el mapa con las coordenadas
+        const { lat, lng } = coordinates;
+
+        const map = new window.google.maps.Map(document.getElementById('map'), {
+          center: { lat, lng },
+          zoom: 16,
+        });
+
+        // Código para agregar un marcador en las coordenadas
+        new window.google.maps.Marker({
+          position: { lat, lng },
+          map,
+        });
+      });
+    }
+  }, [coordinates]);
+
+  return <div id="map" style={{ width: '100%', height: '400px' }} />;
+}
+
+function loadGoogleMapsAPI(callback) {
+  if (window.google && window.google.maps) {
+    // La API de Google Maps ya está cargada
+    callback();
+  } else {
+    // Cargar la API de Google Maps de manera asíncrona
+    const script = document.createElement('script');
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDapB6-c-4-j_hlUtlXqto4oGFSBi-AYRs&callback=initMap`;
+    script.defer = true;
+    script.async = true;
+    script.onerror = () => {
+      console.error('Error al cargar la API de Google Maps');
+    };
+    window.initMap = callback;
+    document.head.appendChild(script);
+  }
 }
 
