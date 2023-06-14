@@ -29,21 +29,21 @@ export const Carousel = () => {
         <div className="carousel-item active">
           <img
             src="/assets/PIZZA BLANCA/pizzab2.jpg"
-            className="h-100 w-100"
-            alt="..."
+            className="h-50 w-50"
+            alt="pizza2"
           />
         </div>
         <div className="carousel-item">
           <img
             src="/assets/PIZZA ROJA/pizza2.jpg"
-            className="h-100 w-100"
+            className="h-50 w-50"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
             src="/assets/PIZZA ROJA/pizza5.jpg"
-            className="h-100 w-100"
+            className="h-50 w-50"
             alt="..."
           />
         </div>
@@ -54,7 +54,7 @@ export const Carousel = () => {
         data-bs-target="#carouselIndicators"
         data-bs-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="carousel-control-prev-icon" aria-hidden="false"></span>
         <span className="visually-hidden">Previous</span>
       </button>
       <button
@@ -63,10 +63,9 @@ export const Carousel = () => {
         data-bs-target="#carouselIndicators"
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="carousel-control-next-icon" aria-hidden="false"></span>
         <span className="visually-hidden">Next</span>
       </button>
-         
     </div>
   );
 };
