@@ -33,13 +33,13 @@ export const Footer = ({id}) => {
           </div>
         </div>
       <div className="social-media d-flex justify-content-between">
-        <div className="ms-5 mt-2">
+        <div className="ms-5 mt-2 p-1">
           <a href='https://www.instagram.com/pizzeriaottantotto/' target='_blank' ><i className="bi bi-instagram fs-3 me-3"></i></a>
           <a href='https://www.facebook.com/profile.php?id=100067941662855' target='_blank' ><i className="bi bi-facebook fs-3 me-3"></i></a>
           <a href='https://api.whatsapp.com/send?phone=34722194408&text=¡Hola!%20quiero%20hacer%20una
 %20reserva:%20(incluye%20cantidad%20de%20personas,%20día%20y%20hora%20en%20tu%20solicitud.)' target='_blank' ><i className="bi bi-whatsapp fs-3"></i></a>
         </div>
-        <p className="text-end mb-3 me-5 developed">Pizzeria Bar Ottantotto © 2023 | Diseño y desarrollo por Lucía Hobrecht & Emilio León ✨ </p>
+        <p className="text-end me-5  mt-4 developed">Pizzeria Bar Ottantotto © 2023 | Diseño y desarrollo por Lucía Hobrecht & Emilio León ✨ </p>
       </div>
     </footer>
   )
