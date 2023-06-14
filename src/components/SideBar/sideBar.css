@@ -2,20 +2,21 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    /* background-color: #3d3d3d; */
-    opacity: 95%;
+    background-color: #b53a20;
+    opacity: 80%;
     margin-bottom: 3em;
     box-shadow: #989999 0px 0px 10px;
     border-radius: 1em;
     padding: 0.2em;
 }
 
-.side-bar-container > a > i {
+.side-bar-container > a > i , #arrow-icon {
     font-size: 1.2em;
+    color: #f3f3f3
 }
 
 .side-bar-container > a {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
 }
 
 .side-bar-container > a > .bi-whatsapp:hover {
