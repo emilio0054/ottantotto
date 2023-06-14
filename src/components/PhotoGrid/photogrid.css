@@ -1,68 +1,9 @@
-/*
-.section-zpattern {
-  padding: 9.6rem 0;
-}
-.container {
-  max-width: 120rem;
-  padding: 0 3.2rem;
-  margin: 0 auto;
+.image {
+  width: 250px;
+  height: 250px;
 }
 
-.grid {
-  display: grid;
-  column-gap: 8rem;
-  justify-content: center;
-  grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 2rem;
-  max-width: 100%;
-}
-.text {
-  display: grid;
-  justify-items: center;
-}
-.description {
-  font-size: 3rem;
-  font-weight: 600;
-  color: #0000005c;
-  margin-top: 3rem;
-}
-
-.step-description {
-  font-size: 1rem;
-  line-height: 1.8;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 0.5rem;
-  column-gap: 0.5rem;
-  align-content: center;
-  justify-items: center;
-}
-
-.step-img {
-  width: 20rem;
-  height: 20rem;
-}
- */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: 1px;
-  grid-template-areas:
-    "a a b b"
-    "a a b b";
-  max-width: 1200px;
-}
-.text {
-  grid-area: a;
-}
-.gallery {
-  display: grid;
-  grid-area: b;
+.image-container {
+  margin: 0;
+  padding: 0
 }

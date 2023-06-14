@@ -8,6 +8,7 @@
     box-shadow: #989999 0px 0px 10px;
     border-radius: 1em;
     padding: 0.2em;
+    max-width: fit-content
 }
 
 .side-bar-container > a > i , #arrow-icon {
