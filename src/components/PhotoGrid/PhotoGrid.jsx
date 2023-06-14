@@ -3,11 +3,7 @@ export const PhotoGrid = () => {
   return (
     <div>
       <section className="section-zpattern">
-        <div className="container">
-          <h2 className="heading-secondary">Lo que hacemos, lo hacemos con amor</h2>
-        </div>
-
-        <div className="container grid--2-cols grid">
+        <div className="container grid">
           <div className="text">
             <p className="description">La masa</p>
             <h3 className="step-description">
@@ -41,7 +37,7 @@ export const PhotoGrid = () => {
           </div>
         </div>
 
-        <div className="container grid--2-cols grid">
+        <div className="container grid">
           <div className="gallery">
             <img
               src="/assets/z-pattern/02 El tomate/tomate1.jpg"
@@ -64,7 +60,7 @@ export const PhotoGrid = () => {
               alt="tomate4"
             />
           </div>
-          <div>
+          <div className="text">
             <p className="description">El tomate</p>
             <h3 className="step-description">
               hacemos la salsa con tomates italianos de primera calidad. Cocida
@@ -73,11 +69,10 @@ export const PhotoGrid = () => {
           </div>
         </div>
 
-        <div className="container grid--2-cols grid">
-          <div>
+        <div className="container grid">
+          <div className="text">
             <p className="description">La mozzarella</p>
             <h3 className="step-description">
-              La mozzarella de búfala es la mejor opción para nuestras pizzas.
               Hecha con leche fresca de búfala, tiene un sabor suave y cremoso.
               Su textura elástica y capacidad para fundirse la convierten en el
               complemento perfecto para nuestra pizza deliciosa. Utilizarla
@@ -108,7 +103,7 @@ export const PhotoGrid = () => {
           </div>
         </div>
 
-        <div className="container grid--2-cols grid">
+        <div className="container grid">
           <div className="gallery">
             <img
               src="/assets/z-pattern/04 Los ingredientes/ingredientes1.jpg"
@@ -131,7 +126,7 @@ export const PhotoGrid = () => {
               alt="ingredientes4"
             />
           </div>
-          <div>
+          <div className="text">
             <p className="description">Ingredientes</p>
             <h3 className="step-description">
               sólo utilizamos ingredientes de primera, importados de Italia o de
