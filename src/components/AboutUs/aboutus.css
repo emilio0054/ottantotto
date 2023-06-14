@@ -1,9 +1,17 @@
-p {
+.text {
   margin: 4rem;
-  font-weight: 500;
+  font-weight: 300;
   font-style: italic;
+  color:#3d3d3d;
 }
 
 .us-container {
-  padding: 5rem 7rem;
+  padding: 0rem 0rem;
+}
+
+.container-p {
+  background-color: #fbf7f7;
+  border-radius: 10px;
+  padding: 1px;
+  margin-bottom: 15px;
 }
