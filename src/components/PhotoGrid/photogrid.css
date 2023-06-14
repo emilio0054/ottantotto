@@ -47,8 +47,12 @@
   width: 20rem;
   height: 20rem;
 }
- */
-.grid {
+*/
+.step-img {
+  width: 300px;
+  height: 300px;
+}
+.containergrid1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -56,13 +60,23 @@
   grid-auto-rows: 1px;
   grid-template-areas:
     "a a b b"
-    "a a b b";
+    "a a b b"
+    "c c d d"
+    "c c d d";
   max-width: 1200px;
 }
-.text {
+.text1 {
   grid-area: a;
 }
-.gallery {
-  display: grid;
+
+.gallery1 {
   grid-area: b;
+}
+
+.text2 {
+  grid-area: c;
+  justify-self: end;
+}
+.gallery2 {
+  grid-area: d;
 }

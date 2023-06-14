@@ -3,8 +3,8 @@ export const PhotoGrid = () => {
   return (
     <div>
       <section className="section-zpattern">
-        <div className="container grid">
-          <div className="text">
+        <div className="containergrid1">
+          <div className="text1">
             <p className="description">La masa</p>
             <h3 className="step-description">
               nuestra masa, de leudado lento, está hecha con harina de trigo Bio
@@ -13,7 +13,7 @@ export const PhotoGrid = () => {
               profundamente gratificante.
             </h3>
           </div>
-          <div className="gallery">
+          <div className="gallery1">
             <img
               src="/assets/z-pattern/01 La masa/masa1.png"
               className="step-img"
@@ -38,7 +38,7 @@ export const PhotoGrid = () => {
         </div>
 
         <div className="container grid">
-          <div className="gallery">
+          <div className="gallery2">
             <img
               src="/assets/z-pattern/02 El tomate/tomate1.jpg"
               className="step-img"
@@ -60,7 +60,7 @@ export const PhotoGrid = () => {
               alt="tomate4"
             />
           </div>
-          <div className="text">
+          <div className="text2">
             <p className="description">El tomate</p>
             <h3 className="step-description">
               hacemos la salsa con tomates italianos de primera calidad. Cocida

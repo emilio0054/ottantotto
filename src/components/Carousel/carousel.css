@@ -1,0 +1,12 @@
+.carousel-item {
+}
+.carousel-control-prev {
+  left: 100;
+}
+#carouselExample {
+  height: 600px;
+}
+.carousel-inner {
+  height: 600px;
+  border-radius: 10px;
+}
