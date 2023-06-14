@@ -1,12 +1,22 @@
-.carousel-item {
-}
+/* .carousel-item {
+} */
+
 .carousel-control-prev {
   left: 100;
 }
-#carouselExample {
+
+#carousel {
   height: 600px;
+  display: none;
 }
+
 .carousel-inner {
   height: 600px;
   border-radius: 10px;
+}
+
+@media(max-width: 991px) {
+  #carousel {
+    display:block;
+  }
 }

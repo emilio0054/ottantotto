@@ -1,9 +1,25 @@
-.image {
-  width: 250px;
-  height: 250px;
+
+@media(max-width: 991) {
+  #photo-grid {
+    display: none !important;
+  }
+  div#photo-grid.container {
+    display: none !important;
+  }
 }
 
-.image-container {
-  margin: 0;
-  padding: 0;
-}
+/* @media (min-width: 992) {
+  #photo-grid {
+    display: block;
+  }
+
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .image-container {
+    margin: 0;
+    padding: 0;
+  }
+} */

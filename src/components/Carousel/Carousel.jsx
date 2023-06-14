@@ -2,7 +2,7 @@ import "./carousel.css";
 
 export const Carousel = () => {
   return (
-    <div id="carouselExample" className="container-fluid carousel slide">
+    <div id="carousel" className="container-fluid carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
