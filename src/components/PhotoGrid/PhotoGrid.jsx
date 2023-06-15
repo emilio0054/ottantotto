@@ -3,8 +3,8 @@ import "./photoGrid.css";
 export const PhotoGrid = () => {
   return (
     <div className="container text-center mb-5" id='photo-grid'>
-        <div className='row row-cols-2 justify-content-between' id='photo-grid'>
-            <div className='col-5 align-self-center'>
+        <div className='row row-cols-2 justify-content-between mb-5'>
+            <div className='col-4 align-self-center'>
                 <h2>La masa</h2>
                 <p>Nuestra masa, de leudado lento, está hecha con harina de trigo Bio
                 italiana. Una masa bien hecha es simplemente hermosa. El resultado
@@ -34,7 +34,7 @@ export const PhotoGrid = () => {
                 />
             </div>
         </div>
-        <div className='row row-cols-2 justify-content-between'>
+        <div className='row row-cols-2 justify-content-between mb-5'>
             <div className="row row-cols-2 image-container rounded gx-2 gy-2">
                 <img
                 src="/assets/z-pattern/01 La masa/masa1.png"
@@ -57,14 +57,14 @@ export const PhotoGrid = () => {
                 alt="masa4"
                 />
             </div>
-            <div className='col-5 align-self-center'>
+            <div className='col-4 align-self-center'>
                 <h2>El tomate</h2>
                 <p>Hacemos la salsa con tomates italianos de primera calidad. Cocida
                 al horno, su perfume es incunfundible.</p>
             </div>
         </div>
-        <div className='row row-cols-2 justify-content-between'>
-            <div className='col-5 align-self-center'>
+        <div className='row row-cols-2 justify-content-between mb-5'>
+            <div className='col-4 align-self-center'>
                 <h2>La mozzarella</h2>
                 <p>Hecha con leche fresca de búfala, tiene un sabor suave y cremoso.
                 Su textura elástica y capacidad para fundirse la convierten en el

@@ -15,7 +15,6 @@ function OttantottoApp() {
       <HomeView dark={false} id="home-view" />
       <Contact dark={false} id="contact" />
       <Menu dark={false} id="menu" />
-      <hr className="divisor-line" />
       <AboutUs dark={false} id="about-us" />
       <Maps />
       <Footer />
