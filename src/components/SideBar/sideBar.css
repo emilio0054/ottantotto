@@ -5,8 +5,9 @@
     background-color: #b53a20;
     opacity: 80%;
     margin-bottom: 3em;
+    margin-right: -0.5em;
     box-shadow: #989999 0px 0px 10px;
-    border-radius: 1em;
+    border-radius: 1em 0em 0em 1em;
     padding: 0.2em;
     max-width: fit-content
 }

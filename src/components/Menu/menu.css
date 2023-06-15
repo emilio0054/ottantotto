@@ -5,7 +5,7 @@
   background-attachment: scroll;
   background-position: center;
   padding: 5em 0em;
-  /* box-shadow: 0px 0px 5px 0px rgba(183, 182, 182, 0.75); */
+  box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
 }
 
 .bottom-menu-container{

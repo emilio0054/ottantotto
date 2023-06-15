@@ -1,3 +1,19 @@
+#photo-grid{
+  background-color: white;
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+#photo-grid > div > div > h2 {
+  font-variation-settings: "wght" 500;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+#photo-grid > div > div > p {
+  font-variation-settings: "wght" 300;
+  text-align: justify;
+}
 
 @media(max-width: 991) {
   #photo-grid {

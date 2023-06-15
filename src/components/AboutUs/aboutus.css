@@ -1,17 +1,21 @@
 .text {
   margin: 4rem;
-  font-weight: 300;
+  font-variation-settings: "wght" 300;
   font-style: italic;
   color:#3d3d3d;
 }
 
 .us-container {
-  padding: 0rem 0rem;
+  padding: 6rem 6rem;
+  background-color: #fbf7f7;
 }
 
 .container-p {
-  background-color: #fbf7f7;
   border-radius: 10px;
   padding: 1px;
   margin-bottom: 15px;
+}
+
+.us-container > div > h2 {
+  font-variation-settings: "wght" 600;
 }

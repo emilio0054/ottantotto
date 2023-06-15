@@ -2,7 +2,7 @@ import './footer.css'
 
 export const Footer = ({id}) => {
   return (
-    <footer className="" id={id}>
+    <footer className="container-fluid" id={id}>
         <div className="row mb-0 align-items-start justify-content-around">
           <div className="col-lg-3 p-5">
             <h3>Información</h3>
