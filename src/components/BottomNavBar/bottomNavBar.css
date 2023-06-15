@@ -1,5 +1,5 @@
 .bottom-container{
-    display:none
+    display:none;
 }
 #bottom-items{
     display: none;
@@ -12,7 +12,7 @@
         background-color: #fbf7f7;
         opacity: 95%;
         box-shadow: #989999 0px 0px 10px;
-        margin-top: 2em;
+        /* margin-top: 2em; */
         position: sticky;
         bottom: 0;
         padding: 1em;

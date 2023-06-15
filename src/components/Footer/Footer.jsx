@@ -2,8 +2,8 @@ import './footer.css'
 
 export const Footer = ({id}) => {
   return (
-    <footer className="container-fluid" id={id}>
-        <div className="row mb-0 align-items-start justify-content-around">
+    <footer className="" id={id}>
+        <div className="row mb-0 align-items-start justify-content-between m-0">
           <div className="col-lg-3 p-5">
             <h3>Información</h3>
             <a  href='https://goo.gl/maps/kEcNZSV8wWY8TKst6?coh=178571&entry=tt' className="mt-2 text-decoration-none" target="_blank"
@@ -13,20 +13,20 @@ export const Footer = ({id}) => {
               <i className="bi bi-telephone-fill phone"></i> 930381911
             </a>
           </div>
-          <div className='col-lg-2 p-5'>
+          <div className='col-lg-3 p-5'>
             <h3>Horarios</h3>
             <h5>Miercoles a Domingo</h5>
             <h5>13:00 a 16:00</h5>
             <h5>20:00 a 23:00</h5>
           </div>
-          <div className="col-lg-2 p-5">
+          <div className="col-lg-3 p-5">
             <h3>Secciones</h3>
             <h5>Inicio</h5>
             <h5>Reservas y pedidos</h5>
             <h5>Pizzas</h5>
             <h5>Sobre Nosotros</h5>
           </div>
-          <div className="col-lg-2 p-5">
+          <div className="col-lg-3 p-5">
             <h3>Políticas</h3>
             <h5>Privacidad</h5>
             <h5>Cookies</h5>
