@@ -1,6 +1,6 @@
 .text {
   margin: 4rem;
-  font-variation-settings: "wght" 300;
+  font-variation-settings: "wght" 400;
   font-style: italic;
   color:#3d3d3d;
 }
@@ -8,6 +8,7 @@
 .us-container {
   padding: 6rem 6rem;
   background-color: #fbf7f7;
+  box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
 }
 
 .container-p {

@@ -5,11 +5,11 @@
   background-attachment: scroll;
   background-position: center;
   padding: 5em 0em;
-  box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
+  /* box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75); */
 }
 
 .bottom-menu-container{
-  margin-top: 7em;
+  margin-top: 5em;
   margin-bottom: 5em;
 }
 
@@ -21,16 +21,33 @@
 @media (max-width: 991px) {
   .menu-container {
     flex-direction: column;
+    margin-bottom: 1em;
   }
+
   .menu-container > img {
     width: 80%;
     align-self: center
   }
+
   .menu-container > hr {
     display:block
   }
 
+  .logo-photo{
+    width: 40%;
+  }
+
   #menu-img {
     margin-bottom: 2em;
+  }
+
+  .bottom-menu-container{
+    flex-direction: column;
+    margin-top: 0em
+  }
+
+  .bottom-menu-container > img{
+    width: 80%;
+    align-self: center;
   }
 }
