@@ -183,12 +183,12 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="public/assets/carousel-fotos/Ottantotto_florescalabazaentempura.jpg"
+            src="/assets/carousel-fotos/Ottantotto_florescalabazaentempura.jpg"
             className="d-block w-100"
             alt="Flores de calabaza"
           />
           <div
-            id="slide-description"
+            id="slide-description1"
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Flores de calabaza en tempura</h5>
@@ -201,7 +201,7 @@ export const Carousel = () => {
             alt="Burrata con pesto hecho en casa"
           />
           <div
-            id="slide-description"
+            id="slide-description1"
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Burrata con pesto hecho en casa</h5>

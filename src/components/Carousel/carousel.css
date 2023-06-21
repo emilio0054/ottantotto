@@ -13,7 +13,13 @@
   left: 50%;
   top: 70%;
 }
-
+#slide-description1 {
+  margin-bottom: 0;
+  width: 100%;
+  bottom: auto;
+  left: 50%;
+  top: 94%;
+}
 .carousel-caption {
   position: absolute;
   top: 50%;
