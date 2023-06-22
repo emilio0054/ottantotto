@@ -16,7 +16,7 @@
   text-align: start;
 }
 
-@media (max-width: 991) {
+@media (max-width: 991px) {
   #photo-grid {
     display: none;
   }
