@@ -1,4 +1,4 @@
-#photo-grid{
+#photo-grid {
   background-color: white;
   padding: 5rem;
   border-radius: 10px;
@@ -15,12 +15,9 @@
   text-align: justify;
 }
 
-@media(max-width: 991) {
+@media (max-width: 991px) {
   #photo-grid {
-    display: none !important;
-  }
-  div#photo-grid.container {
-    display: none !important;
+    display: none;
   }
 }
 
