@@ -6,7 +6,7 @@
   border-radius: 10px;
 }
 #carousel {
-  height: 750px;
+  height: 600px;
   display: none;
 }
 
@@ -35,14 +35,20 @@
   text-align: center;
   padding: 15px;
 }
-.bg-danger {
-  height: 100px;
-  box-sizing: border-box;
+
+.carousel-caption h5 {
+  margin: 0;
+  padding: 0;
+}
+.carousel-inner {
+  height: 600px;
+  border-radius: 10px;
 }
 
-#slide-description {
-  max-height: 100%;
-  padding: 0px;
+.carousel-img-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 991px) {

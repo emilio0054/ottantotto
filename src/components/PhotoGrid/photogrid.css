@@ -2,20 +2,21 @@
   background-color: white;
   padding: 5rem;
   border-radius: 10px;
+  display: block;
 }
 
 #photo-grid > div > div > h2 {
   font-variation-settings: "wght" 500;
   margin-bottom: 1em;
-  text-align: justify;
+  text-align: start;
 }
 
 #photo-grid > div > div > p {
   font-variation-settings: "wght" 300;
-  text-align: justify;
+  text-align: start;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991) {
   #photo-grid {
     display: none;
   }

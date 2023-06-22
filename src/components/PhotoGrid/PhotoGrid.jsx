@@ -3,7 +3,7 @@ import "./photoGrid.css";
 export const PhotoGrid = () => {
   return (
     <div className="container text-center mb-5" id='photo-grid'>
-        <div className='row row-cols-2 justify-content-between mb-5'>
+        <div className='row row-cols-2 justify-content-between mb-5' id='grid-container'>
             <div className='col-4 align-self-center'>
                 <h2>La masa</h2>
                 <p>Nuestra masa, de leudado lento, está hecha con harina de trigo Bio
