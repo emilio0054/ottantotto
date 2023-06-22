@@ -10,13 +10,12 @@ export const Carousel = () => {
             className="d-block w-100"
             alt="Pizza Emilia"
           />
-
           <div
             id="slide-description"
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Emilia</h5>
-            <h5>Mozzarella, scarmoza, alcachofas, mortadella, parmesano</h5>
+            <h3>Mozzarella, scarmoza, alcachofas, mortadella, parmesano</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -30,10 +29,10 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Marche</h5>
-            <h5>
+            <h3>
               Tomate, muzzarella, champiñones, alcachofas, jamon cocido, olivas
               negras
-            </h5>
+            </h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -47,7 +46,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Piemonte</h5>
-            <h5>Muzzarella, queso taleggio, setas porcini, trufa deshidrata</h5>
+            <h3>Muzzarella, queso taleggio, setas porcini, trufa deshidrata</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -61,7 +60,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Margharita</h5>
-            <h5>Tomate, muzzarella, albhaca fresca</h5>
+            <h3>Tomate, muzzarella, albhaca fresca</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -75,7 +74,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Liguria</h5>
-            <h5>Muzzarella, patatas, pesto hecho en casa</h5>
+            <h3>Muzzarella, patatas, pesto hecho en casa</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -89,7 +88,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Puglia</h5>
-            <h5>Tomate, burrata, albhaca fresca</h5>
+            <h3>Tomate, burrata, albhaca fresca</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -103,9 +102,9 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Calabria</h5>
-            <h5>
+            <h3>
               Tomate, muzzarella, salami picante de Calabria, olivas negras
-            </h5>
+            </h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -119,10 +118,10 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Toscana</h5>
-            <h5>
+            <h3>
               Tomate, muzzarella, finocchiona -fiambre toscano de cerdo con
               semillas de hinojo
-            </h5>
+            </h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -136,7 +135,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Veneto</h5>
-            <h5>Muzzarella, bresaola -ternera curada-, rúcula, parmesano</h5>
+            <h3>Muzzarella, bresaola -ternera curada-, rúcula, parmesano</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -150,7 +149,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Marinara</h5>
-            <h5>Tomate, ajor, oregano</h5>
+            <h3>Tomate, ajo, oregano</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -164,7 +163,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Sardegna</h5>
-            <h5>Tomate, muzzarella, atún, cebolla, olivas negras, oregano</h5>
+            <h3>Tomate, muzzarella, atún, cebolla, olivas negras, oregano</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -178,7 +177,7 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Friuli</h5>
-            <h5>Tomate, muzzarella, jamon curado, albhaca fresca</h5>
+            <h3>Tomate, muzzarella, jamon curado, albhaca fresca</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -191,7 +190,7 @@ export const Carousel = () => {
             id="slide-description1"
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
-            <h5>Flores de calabaza en tempura</h5>
+            <h3>Flores de calabaza en tempura</h3>
           </div>
         </div>
         <div className="carousel-item">
@@ -204,7 +203,7 @@ export const Carousel = () => {
             id="slide-description1"
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
-            <h5>Burrata con pesto hecho en casa</h5>
+            <h3>Burrata con pesto hecho en casa</h3>
           </div>
         </div>
       </div>

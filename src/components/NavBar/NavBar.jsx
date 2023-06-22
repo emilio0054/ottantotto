@@ -96,10 +96,10 @@ export const NavBar = () => {
             </li>
           </ul>
         </div>
-        <div className="d-flex align-items-center last-container">
           <a href='tel:tel:930381911' className='contact-button'>
             <button className="btn btn-danger me-4 w-1"><i className="bi bi-telephone-fill phone"></i></button>
           </a>
+        <div className="d-flex align-items-center last-container">
           <li className="dropdown dropdown-desktop" id='nav-items'>
             <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
               <img src="/assets/languages/esp.png" width='30px' />
