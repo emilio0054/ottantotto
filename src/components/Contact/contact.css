@@ -18,6 +18,8 @@
 .main-container {
   margin-top: 4rem;
   align-items: start;
+  height: 15rem;
+  margin-bottom: 4rem;
 }
 
 .whatsapp-icon,
@@ -32,8 +34,6 @@
 .phone-icon:hover,
 .mail-icon:hover {
   font-size: 5rem;
-  height: 110px;
-  width: 110px;
 }
 
 .contact-text {
