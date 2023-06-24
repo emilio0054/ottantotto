@@ -78,6 +78,7 @@ p {
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+    height: 50rem;
   }
 
   .contact-title {
@@ -101,5 +102,11 @@ p {
 
   .contact-text {
     font-size: 1.7em;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-container {
+    height: 60rem;
   }
 }
