@@ -4,27 +4,60 @@ export const PhotoGrid = () => {
   return (
     <div className="container text-center mb-5" id="photo-grid">
       <div className="row row-cols-2 justify-content-between mb-5">
-        <div className="row row-cols-2 image-container rounded gx-2 gy-2">
-          <img
-            src="/assets/z-pattern/masa1.png"
-            className="col image rounded"
-            alt="masa1"
-          />
-          <img
-            src="/assets/z-pattern/masa2.png"
-            className="col image rounded"
-            alt="masa2"
-          />
-          <img
-            src="/assets/z-pattern/masa3.jpg"
-            className="col image rounded"
-            alt="masa3"
-          />
-          <img
-            src="/assets/z-pattern/masa4.jpg"
-            className="col image rounded"
-            alt="masa4"
-          />
+        <div className="">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/assets/z-pattern/masa1.png"
+                  class="d-block w-100"
+                  alt="..."
+                ></img>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/assets/z-pattern/masa3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                ></img>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/assets/z-pattern/masa2.png"
+                  class="d-block w-100"
+                  alt="..."
+                ></img>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
         <div className="col-4 align-self-center">
           <h2>La masa</h2>
@@ -107,7 +140,8 @@ export const PhotoGrid = () => {
         <div className="col-4 align-self-center">
           <h2>Los ingredientes</h2>
           <p>
-          Sólo utilizamos ingredientes de primera, importados de Italia o de producción local. Sin atajos.
+            Sólo utilizamos ingredientes de primera, importados de Italia o de
+            producción local. Sin atajos.
           </p>
         </div>
         <div className="row row-cols-2 image-container rounded gx-2 gy-2">
