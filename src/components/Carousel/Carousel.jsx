@@ -7,7 +7,7 @@ export const Carousel = () => {
         <div className="carousel-item active">
           <div className="image-container">
             <img
-              src="/assets/carousel-fotos/Ottantotto_emilia.jpg"
+              src="/assets/carousel/pizza3.jpg"
               className="d-block w-100"
               alt="Pizza Emilia"
             />
@@ -24,7 +24,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Marche.jpg"
+            src="/assets/carousel/pizza7.jpg"
             className="d-block w-100"
             alt="Pizza Marche"
           />
@@ -41,7 +41,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Piemonte.jpg"
+            src="/assets/carousel/pizza10.jpg"
             className="d-block w-100"
             alt="Pizza Piemonte"
           />
@@ -55,7 +55,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Margharita.jpg"
+            src="/assets/carousel/pizza8.jpg"
             className="d-block w-100"
             alt="Pizza margharita"
           />
@@ -69,7 +69,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Liguria.jpg"
+            src="/assets/carousel/pizza6.jpg"
             className="d-block w-100"
             alt="Pizza Liguria"
           />
@@ -83,7 +83,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Puglia.jpg"
+            src="/assets/carousel/pizza11.jpg"
             className="d-block w-100"
             alt="Pizza Puglia"
           />
@@ -97,7 +97,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Calabria.jpg"
+            src="/assets/carousel/pizza2.jpg"
             className="d-block w-100"
             alt="Pizza Calabria"
           />
@@ -113,7 +113,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Toscana.jpg"
+            src="/assets/carousel/pizza13.jpg"
             className="d-block w-100"
             alt="Pizza Toscana"
           />
@@ -130,7 +130,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Veneto.jpg"
+            src="/assets/carousel/pizza14.jpg"
             className="d-block w-100"
             alt="Pizza Veneto"
           />
@@ -144,7 +144,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Marinara.jpg"
+            src="/assets/carousel/pizza9.jpg"
             className="d-block w-100"
             alt="Pizza Marinara"
           />
@@ -153,12 +153,12 @@ export const Carousel = () => {
             class="carousel-caption d-none d-md-block bg-danger bg-opacity-25 text-white text-center rounded"
           >
             <h5>Marinara</h5>
-            <h5>Tomate, ajor, oregano</h5>
+            <h5>Tomate, ajo, oregano</h5>
           </div>
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Sardegna.jpg"
+            src="/assets/carousel/pizza12.jpg"
             className="d-block w-100"
             alt="Pizza Sardegna"
           />
@@ -172,7 +172,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Friuli.jpg"
+            src="/assets/carousel/pizza5.jpg"
             className="d-block w-100"
             alt="Pizza Friuli"
           />
@@ -186,7 +186,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_florescalabazaentempura.jpg"
+            src="/assets/carousel/pizza4.jpg"
             className="d-block w-100"
             alt="Flores de calabaza"
           />
@@ -199,7 +199,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/assets/carousel-fotos/Ottantotto_Burrataconpesto.jpg"
+            src="/assets/carousel/pizza1.jpg"
             className="d-block w-100"
             alt="Burrata con pesto hecho en casa"
           />
