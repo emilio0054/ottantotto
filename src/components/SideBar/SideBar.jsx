@@ -14,7 +14,7 @@ export const SideBar = () => {
         duration={500} 
         className='btn'
         >
-          <img src='/assets/chevron.png' width='20px' className='me-1' id='arrow-icon' />
+          <img src='/assets/icons/chevron.png' width='20px' className='me-1' id='arrow-icon' />
         </Link>
     </div>
   )

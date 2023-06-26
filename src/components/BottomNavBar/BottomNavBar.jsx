@@ -38,7 +38,7 @@ export const BottomNavBar = () => {
             offset={-70}
             duration={500}
             >
-              <i className="fa-sharp fa-solid fa-pizza-slice"></i>
+              <i className="fa-solid fa-pizza-slice"></i>
             </Link>
             <a 
             href="tel:930381911" 
