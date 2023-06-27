@@ -10,13 +10,9 @@
 .homeview-text {
   color: #3d3d3d;
   font-size: 2.5em;
-  font-variation-settings: "wght" 800;
+  font-variation-settings: "wght" 600;
   text-align: center;
   text-shadow: 2px 1px 2px #3d3d3d
-  /* position: absolute;
-  top: 150px;
-  left: 50%;
-  transform: translateX(-50%); */
 }
 
 a#homeview-adress,
@@ -26,13 +22,11 @@ a#homeview-phone {
   font-variation-settings: "wght" 500;
   font-size: 1.2em;
   text-align: center;
-  text-shadow: 2px 1px 2px #3d3d3d
 }
 
 a#homeview-adress:hover,
 a#homeview-phone:hover {
   color: #b53a20 !important;
-  text-shadow: 1px 1px 1px #b53a20
 }
 
 a.homeview-adress::selection,
