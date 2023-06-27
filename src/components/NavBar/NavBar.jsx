@@ -17,7 +17,7 @@ export const NavBar = () => {
         >
           <Logo />
         </Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="d-flex align-items-center me-3">
@@ -25,7 +25,7 @@ export const NavBar = () => {
             <button className="btn btn-danger mt-1 me-3"><i className="bi bi-telephone-fill phone"></i></button>
           </a>
           <li className="dropdown dropdown-mobile" id='nav-items'>
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="/assets/languages/esp.png" width='30px' />
             </a>
             <ul className="dropdown-menu">
@@ -101,7 +101,7 @@ export const NavBar = () => {
           </a>
         <div className="d-flex align-items-center last-container">
           <li className="dropdown dropdown-desktop" id='nav-items'>
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="/assets/languages/esp.png" width='30px' />
             </a>
             <ul className="dropdown-menu">
