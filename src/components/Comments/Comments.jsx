@@ -7,10 +7,10 @@ export const Comments = () => {
       class="carousel slide"
       data-bs-ride="carousel"
     >
+      <h1 class="titulo">Testimonios</h1>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="testimonials-container">
-            <h1 class="titulo">Testimonios</h1>
             <div class="testimonials">
               <figure class="testimonial">
                 <div class="testimonialimg">

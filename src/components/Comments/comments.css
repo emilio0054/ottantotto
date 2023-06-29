@@ -4,16 +4,17 @@
 }
 .titulo {
   margin-bottom: 4rem;
+  padding: 2rem;
 }
 
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 6rem;
+  column-gap: 8rem;
 }
 
 .testimonial-img {
-  column-gap: 2rem;
+  column-gap: 5rem;
   width: 50%;
   height: 50%;
   border-radius: 50%;
