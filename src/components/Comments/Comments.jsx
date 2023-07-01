@@ -2,85 +2,46 @@ import "./comments.css";
 
 export const Comments = () => {
   return (
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <h1 class="titulo">Testimonios</h1>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="testimonials-container">
-            <div class="testimonials">
-              <figure class="testimonial">
-                <div class="testimonialimg">
-                  <img
-                    class="testimonial-img"
-                    alt="Photo of customer jonrwilliams"
-                    src="/assets/testimonials/jonrwilliams.jpg"
-                  />
-                  <img
-                    class="testimonial-logo"
-                    alt="tripadvisor logo"
-                    src="/assets/testimonials/tripadvisor-logo.png"
-                  />
-                </div>
-                <blockquote class="testimonial-text">
-                  "A taste of Italy in Barcelona Stopped here for a little taste
-                  of Italy in Barcelona. Service was very personal and the food
-                  was excellent. Highly recommend if you're looking for
-                  alternative to local cuisine."
-                </blockquote>
-                <p class="testimonial-name">&mdash; jonrwilliams</p>
-              </figure>
+    <div className="testimonials">
+      <div className="container">
+        <p>Testimonios</p>
+        <h2 className="heading-secondary">Que opinan de nosotros</h2>
+      </div>
 
-              <figure class="testimonial">
-                <div class="testimonialimg">
-                  <img
-                    class="testimonial-img"
-                    alt="Photo of customer tnegro"
-                    src="/assets/testimonials/tnegro.jpg"
-                  />
-                  <img
-                    class="testimonial-logo"
-                    alt="tripadvisor logo"
-                    src="/assets/testimonials/tripadvisor-logo.png"
-                  />
-                </div>
-                <blockquote class="testimonial-text">
-                  "Great pizza and friendly staff! Choosing this place for good
-                  pizza was right decision. Friendly owner with some good
-                  recommendations make us great lunch!"
-                </blockquote>
-                <p class="testimonial-name">&mdash; tnegro</p>
-              </figure>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..."></img>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..."></img>
+      <div className="container grid grid--4-cols margin-bottom-md">
+        <div className="section">
+          <i className="bi bi-quote quote"></i>
+          <div className="testimonial">
+            Stopped here for a little taste of Italy in Barcelona. Service was
+            very personal and the food was excellent. Highly recommend if you're
+            looking for alternative to local cuisine.
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div className="section">
+          <i className="bi bi-quote quote"></i>
+          <div className="testimonial">
+            Excellent pizza! Went here twice on our trip. Great service. Italian
+            style pizza-Naples Ordered the margarita pizza and pizza with
+            prosciutto
+          </div>
+        </div>
+        <div className="section">
+          <i className="bi bi-quote quote"></i>
+          <div className="testimonial">
+            Stumbled across as it's close to apartment we stayed, and were
+            running late with no chance for major restaurant searches or
+            research, and we definitely got lucky! Great place for pizza, with
+            friendly service & atmosphere. Will definitely return when able.
+          </div>
+        </div>
+        <div className="section">
+          <i className="bi bi-quote quote"></i>
+          <div className="testimonial">
+            Absolutely amazing, amazing place and the pizzas are great. Really
+            enjoyed the experience and the waitresses nice and helping us with
+            making choices. Will go there again!
+          </div>
+        </div>
       </div>
     </div>
   );
