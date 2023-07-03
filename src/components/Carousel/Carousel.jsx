@@ -8,7 +8,7 @@ export const Carousel = () => {
           <div className="image-container">
             <img
               src="/assets/carousel/pizza3.jpg"
-              className="d-block w-100"
+              className="d-block w-100 img-fluid"
               alt="Pizza Emilia"
             />
             <div
@@ -25,7 +25,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza7.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Marche"
           />
           <div
@@ -42,7 +42,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza10.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Piemonte"
           />
           <div
@@ -56,7 +56,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza8.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza margharita"
           />
           <div
@@ -70,7 +70,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza6.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Liguria"
           />
           <div
@@ -84,7 +84,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza11.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Puglia"
           />
           <div
@@ -98,7 +98,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza2.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Calabria"
           />
           <div
@@ -114,7 +114,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza13.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Toscana"
           />
           <div
@@ -131,7 +131,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza14.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Veneto"
           />
           <div
@@ -145,7 +145,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza9.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Marinara"
           />
           <div
@@ -159,7 +159,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza12.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Sardegna"
           />
           <div
@@ -173,7 +173,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza5.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Pizza Friuli"
           />
           <div
@@ -187,7 +187,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza4.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Flores de calabaza"
           />
           <div
@@ -200,7 +200,7 @@ export const Carousel = () => {
         <div className="carousel-item">
           <img
             src="/assets/carousel/pizza1.jpg"
-            className="d-block w-100"
+            className="d-block w-100 img-fluid"
             alt="Burrata con pesto hecho en casa"
           />
           <div

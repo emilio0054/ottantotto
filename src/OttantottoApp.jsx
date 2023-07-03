@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer/Footer";
 import { SideBar } from "./components/SideBar/SideBar";
 import { Maps } from "./components/Maps/Maps";
 import { Comments } from "./components/Comments/Comments";
+import { Testimonials } from "./components/Testimonials/Testimonials";
 
 function OttantottoApp() {
   return (
@@ -17,7 +18,8 @@ function OttantottoApp() {
       <Contact dark={false} id="contact" />
       <Menu dark={false} id="menu" />
       <AboutUs dark={false} id="about-us" />
-      <Comments dark={false} id="comments" />
+      {/*<Comments dark={false} id="comments" /> */}
+      <Testimonials dark={false} id="testimonials" />
       <Maps />
       <Footer />
       <BottomNavBar />
