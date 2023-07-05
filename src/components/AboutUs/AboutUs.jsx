@@ -6,7 +6,7 @@ import { Testimonials } from "../Testimonials/Testimonials";
 export const AboutUs = ({ id }) => {
   return (
     <>
-      <div className="us-container mt-1" id={id}>
+      <div className="us-container" id={id}>
         <div className="container-p p-4">
           <h2 className="text-center us-text">Sobre Nosotros</h2>
           <p className="mt-5 text">
