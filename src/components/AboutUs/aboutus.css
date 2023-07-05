@@ -18,5 +18,7 @@
 }
 
 .us-container > div > h2 {
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 700;
+  font-size: 2rem;
+  color: #3d3d3d;
 }

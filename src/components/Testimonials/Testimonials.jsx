@@ -3,24 +3,22 @@ import "./testimonials.css";
 export const Testimonials = () => {
   return (
     <div className="testimonials">
-      <h1 className="text-center mb-5 mt-2 p-4">
-        Que dicen nuestros clientes...
-      </h1>
+      <h4 className="text-center mb-5 mt-2 p-4 review-title">Que dicen nuestros clientes...</h4>
       <div className="text-center">
         <div className="h-auto py-3">
           <div className="container">
             <div className="row justify-content-around">
-              <div className="col-lg-3 h-100">
+              <div className="col-lg-3 h-100 comment">
                 <img
                   src="/assets/testimonials/jonrwilliams.jpg"
                   className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
                   alt="jornwilliams"
                 />
-                <h5 className="mb-1">Jorn Williams</h5>
+                <h5 className="mb-1">Jon R Williams</h5>
                 <a
                   href="https://www.tripadvisor.com/Restaurant_Review-g187497-d13763198-Reviews-Pizzeria_Bar_Ottantotto-Barcelona_Catalonia.html#REVIEWS"
                   target="_blank"
-                  className="mb-2 text-decoration-none d-block color-black"
+                  className="mb-2 text-decoration-none d-block "
                 >
                   Tripadvisor
                 </a>
@@ -32,23 +30,23 @@ export const Testimonials = () => {
                 </p>
                 <ul className="list-unstyled d-flex justify-content-center text-warning mb-5">
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 h-100">
+              <div className="col-lg-3 h-100 comment">
                 <img
                   src="/assets/testimonials/Daphne B..jpg"
                   className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
@@ -58,7 +56,7 @@ export const Testimonials = () => {
                 <a
                   href="https://www.thefork.com/restaurant/ottantotto-r374051/reviews#tabSwitch=true"
                   target="_blank"
-                  className="mb-2 text-decoration-none d-block color-black"
+                  className="mb-2 text-decoration-none d-block "
                 >
                   The Fork
                 </a>
@@ -70,23 +68,23 @@ export const Testimonials = () => {
                 </p>
                 <ul className="list-unstyled d-flex justify-content-center text-warning mb-5">
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-half"></i>
+                    <i className="bi bi-star-half"></i>
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 h-100">
+              <div className="col-lg-3 h-100 comment">
                 <img
                   src="/assets/testimonials/Erickginesta.jpg"
                   className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
@@ -96,7 +94,7 @@ export const Testimonials = () => {
                 <a
                   href="https://goo.gl/maps/7eMjP4iXePs6kzsr8"
                   target="_blank"
-                  className="mb-2 text-decoration-none d-block color-black"
+                  className="mb-2 text-decoration-none d-block "
                 >
                   Google Maps
                 </a>
@@ -108,19 +106,19 @@ export const Testimonials = () => {
                 </p>
                 <ul className="list-unstyled d-flex justify-content-center text-warning mb-5">
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                   <li>
-                    <i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i>
                   </li>
                 </ul>
               </div>

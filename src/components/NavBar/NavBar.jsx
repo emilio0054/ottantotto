@@ -79,6 +79,19 @@ export const NavBar = () => {
               offset={-70}
               duration={500}
               >
+                Menú</Link>
+            </li>
+            <li className="nav-item">
+              <Link 
+              className="nav-link" 
+              id='nav-items' 
+              to="pizzas"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >
                 Pizzas</Link>
             </li>
             <li className="nav-item">

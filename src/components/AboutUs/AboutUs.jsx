@@ -1,13 +1,14 @@
 import "./aboutUs.css";
-import { Carousel } from "../Carousel/Carousel";
 import { PhotoGrid } from "../PhotoGrid/PhotoGrid";
+import { Map } from "../Map/Map";
+import { Testimonials } from "../Testimonials/Testimonials";
 
 export const AboutUs = ({ id }) => {
   return (
     <>
       <div className="us-container mt-1" id={id}>
         <div className="container-p p-4">
-          <h2 className="text-center">Sobre Nosotros</h2>
+          <h2 className="text-center us-text">Sobre Nosotros</h2>
           <p className="mt-5 text">
             Nuestra pizzería nace de una pasión por la cocina italiana y el
             deseo de compartir su sabor auténtico con el público. Desde las
@@ -21,9 +22,9 @@ export const AboutUs = ({ id }) => {
             familiar y acogedor.
           </p>
         </div>
-        <PhotoGrid />
-        <Carousel />
       </div>
+      <Testimonials />
+      <Map />
     </>
   );
 };
