@@ -3,12 +3,14 @@ import "./testimonials.css";
 export const Testimonials = () => {
   return (
     <div className="testimonials">
-      <h4 className="text-center mb-5 mt-2 p-4 review-title">Que dicen nuestros clientes...</h4>
+      <h4 className="text-center mb-5 mt-2 p-4 review-title">
+        Que dicen nuestros clientes...
+      </h4>
       <div className="text-center">
         <div className="h-auto py-3">
-          <div className="container">
-            <div className="row justify-content-around">
-              <div className="col-lg-3 h-100 comment">
+          <div className="container d-inline">
+            <div className="row justify-content-evenly align-items-start d-flex">
+              <div className="col-lg-3 align-self-stretch comment">
                 <img
                   src="/assets/testimonials/jonrwilliams.jpg"
                   className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
@@ -28,7 +30,7 @@ export const Testimonials = () => {
                   was very personal and the food was excellent. Highly recommend
                   if you're looking for alternative to local cuisine.
                 </p>
-                <ul className="list-unstyled d-flex justify-content-center text-warning mb-5">
+                <ul className="list-unstyled d-flex justify-content-center text-warning">
                   <li>
                     <i className="bi bi-star-fill"></i>
                   </li>
@@ -46,7 +48,7 @@ export const Testimonials = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 h-100 comment">
+              <div className="col-lg-3 align-self-stretch comment">
                 <img
                   src="/assets/testimonials/Daphne B..jpg"
                   className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
@@ -66,7 +68,7 @@ export const Testimonials = () => {
                   Familia so that was a big plus! The food and wine was very
                   affordable so I would highly recommend this place to everyone.
                 </p>
-                <ul className="list-unstyled d-flex justify-content-center text-warning mb-5">
+                <ul className="list-unstyled d-flex justify-content-center text-warning">
                   <li>
                     <i className="bi bi-star-fill"></i>
                   </li>
@@ -84,7 +86,7 @@ export const Testimonials = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 h-100 comment">
+              <div className="col-lg-3 align-self-stretch comment">
                 <img
                   src="/assets/testimonials/Erickginesta.jpg"
                   className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
@@ -100,11 +102,12 @@ export const Testimonials = () => {
                 </a>
                 <p className="text-muted">
                   <i className="bi-quote pe-2"></i>
-                  Best pizza ever!! Arturo, the owner, is so welcoming and
-                  caring. This is the second time we come and he always makes us
-                  feel so special. Will definitely come back again!
+                  Best pizza ever!! Arturo, the owner, is so welcoming,
+                  friendly, and caring. This is the second time we come here and
+                  he always makes us feel so special. We will definitely come
+                  back again!
                 </p>
-                <ul className="list-unstyled d-flex justify-content-center text-warning mb-5">
+                <ul className="list-unstyled d-flex justify-content-center text-warning">
                   <li>
                     <i className="bi bi-star-fill"></i>
                   </li>

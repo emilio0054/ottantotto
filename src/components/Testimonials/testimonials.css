@@ -8,12 +8,28 @@
   padding: 1em 0em;
 }
 
+.star-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.star-list li {
+  display: inline-block;
+  margin-right: 5px; /* Espacio entre las estrellas */
+}
+
 .review-title {
-    font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 600;
 }
 
 @media (max-width: 991px) {
   .comment {
     margin-bottom: 3em;
+  }
+  .text-muted {
+    padding: 1rem 5rem;
   }
 }
