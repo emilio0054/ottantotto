@@ -1,35 +1,23 @@
 .testimonials {
   /* background-image: url("/assets/contact/pattern.png"); */
-  background-color: rgb(251, 250, 250);
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
   padding: 1em 0em;
 }
-
-.star-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.star-list li {
-  display: inline-block;
-  margin-right: 5px; /* Espacio entre las estrellas */
-}
-
-.review-title {
-  font-variation-settings: "wght" 600;
+.comment {
+  box-shadow: #e6d2cfcc 5px 5px 10px;
 }
 
 @media (max-width: 991px) {
   .comment {
     margin-bottom: 3em;
+    box-shadow: none;
   }
-  .text-muted {
-    padding: 1rem 5rem;
+
+  #commentimg {
+    max-width: 15%;
   }
 }

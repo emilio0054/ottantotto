@@ -9,12 +9,13 @@ export const Testimonials = () => {
       <div className="text-center">
         <div className="h-auto py-3">
           <div className="container d-inline">
-            <div className="row justify-content-evenly align-items-start d-flex">
-              <div className="col-lg-3 align-self-stretch comment">
+            <div className="row justify-content-evenly align-items-stretch d-flex">
+              <div className="col-lg-3 align-bottom comment">
                 <img
                   src="/assets/testimonials/jonrwilliams.jpg"
-                  className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
-                  alt="jornwilliams"
+                  className="w-25 img-fluid rounded-circle shadow-1-strong mb-4 mt-2"
+                  alt="Jon R Williams profile pict"
+                  id="commentimg"
                 />
                 <h5 className="mb-1">Jon R Williams</h5>
                 <a
@@ -24,7 +25,7 @@ export const Testimonials = () => {
                 >
                   Tripadvisor
                 </a>
-                <p className="text-muted">
+                <p>
                   <i className="bi-quote pe-2"></i>
                   Stopped here for a little taste of Italy in Barcelona. Service
                   was very personal and the food was excellent. Highly recommend
@@ -48,11 +49,12 @@ export const Testimonials = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 align-self-stretch comment">
+              <div className="col-lg-3 align-bottom comment">
                 <img
                   src="/assets/testimonials/Daphne B..jpg"
-                  className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
-                  alt="jornwilliams"
+                  className="w-25 img-fluid rounded-circle shadow-1-strong mb-4 mt-2"
+                  alt="Daphne B. profile pict"
+                  id="commentimg"
                 />
                 <h5 className="mb-1">Daphne B.</h5>
                 <a
@@ -62,7 +64,7 @@ export const Testimonials = () => {
                 >
                   The Fork
                 </a>
-                <p className="text-muted">
+                <p>
                   <i className="bi-quote pe-2"></i>
                   The food and staf was amazing. It’s very close to Segrada
                   Familia so that was a big plus! The food and wine was very
@@ -86,11 +88,12 @@ export const Testimonials = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 align-self-stretch comment">
+              <div className="col-lg-3 align-bottom comment">
                 <img
                   src="/assets/testimonials/Erickginesta.jpg"
-                  className="w-25 img-fluid rounded-circle shadow-1-strong mb-4"
-                  alt="jornwilliams"
+                  className="w-25 img-fluid rounded-circle shadow-1-strong mb-4  mt-2"
+                  alt="Erick Ginesta profile pict"
+                  id="commentimg"
                 />
                 <h5 className="mb-1">Erick Ginesta</h5>
                 <a
@@ -100,7 +103,7 @@ export const Testimonials = () => {
                 >
                   Google Maps
                 </a>
-                <p className="text-muted">
+                <p>
                   <i className="bi-quote pe-2"></i>
                   Best pizza ever!! Arturo, the owner, is so welcoming,
                   friendly, and caring. This is the second time we come here and
