@@ -5,11 +5,10 @@ export const PhotoGrid = () => {
     <div className="container text-center mb-5" id="photo-grid">
       <div className="row row-cols-2 justify-content-between mb-5">
         <div className="col-4 align-self-center">
-          <h2>El tomate</h2>
-          <p>
-            Hacemos la salsa con tomates italianos de primera calidad. Cocida al
-            horno, su perfume es incunfundible.
-          </p>
+          <img
+           src='/assets/png_pizza/' 
+          />
+          <p></p>
         </div>
         <div className="row row-cols-2 image-container rounded gx-2 gy-2">
           <img
