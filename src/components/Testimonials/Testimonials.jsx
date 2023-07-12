@@ -31,23 +31,25 @@ export const Testimonials = () => {
                   was very personal and the food was excellent. Highly recommend
                   if you're looking for alternative to local cuisine.
                 </p>
-                <ul className="list-unstyled d-flex justify-content-center text-warning">
-                  <li>
-                    <i className="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i className="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i className="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i className="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i className="bi bi-star-fill"></i>
-                  </li>
-                </ul>
+                <div className="col-12">
+                  <ul className="list-unstyled d-flex justify-content-center text-warning">
+                    <li>
+                      <i className="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i className="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i className="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i className="bi bi-star-fill"></i>
+                    </li>
+                    <li>
+                      <i className="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div className="col-lg-3 align-bottom comment">
                 <img
