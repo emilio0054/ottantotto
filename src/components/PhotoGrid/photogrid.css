@@ -5,15 +5,15 @@
   display: block;
 }
 
-#photo-grid > div > div > h2 {
-  font-variation-settings: "wght" 500;
-  margin-bottom: 1em;
-  text-align: start;
+#photo-grid p {
+  font-variation-settings: "wght" 300;
+  font-style: italic;
+  font-size: 0.9rem;
 }
 
-#photo-grid > div > div > p {
-  font-variation-settings: "wght" 300;
-  text-align: start;
+#photo-grid h5 {
+  font-size: 1rem;
+
 }
 
 @media (max-width: 991px) {
@@ -21,19 +21,3 @@
     display: none;
   }
 }
-
-/* @media (min-width: 992) {
-  #photo-grid {
-    display: block;
-  }
-
-  .image {
-    width: 250px;
-    height: 250px;
-  }
-  
-  .image-container {
-    margin: 0;
-    padding: 0;
-  }
-} */

@@ -3,102 +3,131 @@ import "./photoGrid.css";
 export const PhotoGrid = () => {
   return (
     <div className="container text-center mb-5" id="photo-grid">
-      <div className="row row-cols-2 justify-content-between mb-5">
-        <div className="col-4 align-self-center">
-          <img
-           src='/assets/png_pizza/' 
-          />
-          <p></p>
-        </div>
-        <div className="row row-cols-2 image-container rounded gx-2 gy-2">
-          <img
-            src="/assets/z-pattern/tomate1.jpg"
-            className="col image rounded"
-            alt="tomate1"
-          />
-          <img
-            src="/assets/z-pattern/tomate2.jpg"
-            className="col image rounded"
-            alt="tomate2"
-          />
-          <img
-            src="/assets/z-pattern/tomate3.jpg"
-            className="col image rounded"
-            alt="tomate3"
-          />
-          <img
-            src="/assets/z-pattern/tomate4.jpg"
-            className="col image rounded"
-            alt="tomate4"
-          />
-        </div>
+      <div className="row row-cols-2 justify-content-between mb-3">
+          <div className="col-5">
+            <img
+            src='/assets/pizza/calabria.png' 
+            className=""
+            width='100%'
+            />
+          </div>
+          <div className="col-5">
+            <img
+              src="/assets/pizza/emilia.png"
+              alt="tomate1"
+              width='90%'
+              className="mt-3"
+            />
+          </div>
+      </div>
+      <div className="row row-cols-2 justify-content-between">
+          <h5 className="col-5 text-center">Calabria</h5>
+          <h5 className="col-5 text-center">Emilia</h5>
       </div>
       <div className="row row-cols-2 justify-content-between mb-5">
-        <div className="row row-cols-2 image-container rounded gx-2 gy-2">
-          <img
-            src="/assets/z-pattern/muzzarella1.jpg"
-            className="col image rounded"
-            alt="muzzarella1"
-          />
-          <img
-            src="/assets/z-pattern/muzzarella2.jpg"
-            className="col image rounded"
-            alt="muzzarella2"
-          />
-          <img
-            src="/assets/z-pattern/muzzarella3.jpg"
-            className="col image rounded"
-            alt="muzzarella3"
-          />
-          <img
-            src="/assets/z-pattern/muzzarella4.jpg"
-            className="col image rounded"
-            alt="muzzarella4"
-          />
-        </div>
-        <div className="col-4 align-self-center">
-          <h2>La mozzarella</h2>
-          <p>
-            Hecha con leche fresca de búfala, tiene un sabor suave y cremoso. Su
-            textura elástica y capacidad para fundirse la convierten en el
-            complemento perfecto para nuestra pizza deliciosa. Utilizarla
-            garantiza una experiencia culinaria auténtica y de alta calidad.
-          </p>
-        </div>
+          <p className="col-5">Tomate, mozzarella, salami picante de Calabria, olivas negras</p>
+          <p className="col-5">Mozzarella, scarmoza, alcachofas, mortadella, parmesano</p>
       </div>
-      <div
-        className="row row-cols-2 justify-content-between mb-5"
-        id="grid-container"
-      >
-        <div className="col-4 align-self-center">
-          <h2>Los ingredientes</h2>
-          <p>
-            Sólo utilizamos ingredientes de primera, importados de Italia o de
-            producción local. Sin atajos.
-          </p>
-        </div>
-        <div className="row row-cols-2 image-container rounded gx-2 gy-2">
-          <img
-            src="/assets/z-pattern/ingredientes1.jpg"
-            className="col image rounded"
-            alt="salon inf 7 mesas"
-          />
-          <img
-            src="/assets/z-pattern/ingredientes2.jpg"
-            className="col image rounded"
-            alt="salon inf 6 mesas"
-          />
-          <img
-            src="/assets/z-pattern/ingredientes3.jpg"
-            className="col image rounded"
-            alt="salon inf 4 mesas"
-          />
-          <img
-            src="/assets/z-pattern/ingredientes4.jpg"
-            className="col image rounded"
-            alt="salon inf 6 mesas mas escalera"
-          />
-        </div>
+      <div className="row row-cols-2 justify-content-between mb-3">
+          <div className="col-5">
+            <img
+            src='/assets/pizza/friuli.png' 
+            className="mt-4"
+            width='90%'
+            />
+          </div>
+          <div className="col-5">
+            <img
+              src="/assets/pizza/liguria.png"
+              alt="tomate1"
+              width='100%'
+              className=""
+            />
+          </div>
+      </div>
+      <div className="row row-cols-2 justify-content-between">
+          <h5 className="col-5 text-center">Friuli</h5>
+          <h5 className="col-5 text-center">Liguria</h5>
+      </div>
+      <div className="row row-cols-2 justify-content-between mb-5">
+          <p className="col-5">Tomate, mozzarella, salami picante de Calabria, olivas negras</p>
+          <p className="col-5">Mozzarella, scarmoza, alcachofas, mortadella, parmesano</p>
+      </div>
+      <div className="row row-cols-2 justify-content-between mb-3">
+          <div className="col-5">
+            <img
+            src='/assets/pizza/marche.png' 
+            className=""
+            width='110%'
+            />
+          </div>
+          <div className="col-5">
+            <img
+              src="/assets/pizza/margharita.png"
+              alt="tomate1"
+              width='90%'
+              className="mt-5"
+            />
+          </div>
+      </div>
+      <div className="row row-cols-2 justify-content-between">
+          <h5 className="col-5 text-center">Marche</h5>
+          <h5 className="col-5 text-center">Margharita</h5>
+      </div>
+      <div className="row row-cols-2 justify-content-between mb-5">
+          <p className="col-5">Tomate, mozzarella, salami picante de Calabria, olivas negras</p>
+          <p className="col-5">Mozzarella, scarmoza, alcachofas, mortadella, parmesano</p>
+      </div>
+      
+      <div className="row row-cols-2 justify-content-between mb-3">
+          <div className="col-5">
+            <img
+            src='/assets/pizza/piemonte.png' 
+            className="mt-5"
+            width='95%'
+            />
+          </div>
+          <div className="col-5">
+            <img
+              src="/assets/pizza/puglia.png"
+              alt="tomate1"
+              width='120%'
+              className=""
+            />
+          </div>
+      </div>
+      <div className="row row-cols-2 justify-content-between">
+          <h5 className="col-5 text-center">Piemonte</h5>
+          <h5 className="col-5 text-center">Puglia</h5>
+      </div>
+      <div className="row row-cols-2 justify-content-between mb-5">
+          <p className="col-5">Tomate, mozzarella, salami picante de Calabria, olivas negras</p>
+          <p className="col-5">Mozzarella, scarmoza, alcachofas, mortadella, parmesano</p>
+      </div>
+      <div className="row row-cols-2 justify-content-between mb-3">
+          <div className="col-5">
+            <img
+            src='/assets/pizza/sardegna.png' 
+            className=""
+            width='120%'
+            />
+          </div>
+          <div className="col-5">
+            <img
+              src="/assets/pizza/toscana.png"
+              alt="tomate1"
+              width='100%'
+              className="mt-5"
+            />
+          </div>
+      </div>
+      <div className="row row-cols-2 justify-content-between">
+          <h5 className="col-5 text-center">Sardegna</h5>
+          <h5 className="col-5 text-center">Toscana</h5>
+      </div>
+      <div className="row row-cols-2 justify-content-between mb-3">
+          <p className="col-5">Tomate, mozzarella, salami picante de Calabria, olivas negras</p>
+          <p className="col-5">Mozzarella, scarmoza, alcachofas, mortadella, parmesano</p>
       </div>
     </div>
   );
