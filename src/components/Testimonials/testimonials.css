@@ -11,6 +11,10 @@
   box-shadow: #e6d2cfcc 5px 5px 10px;
 }
 
+.message {
+  padding: 0.5rem;
+}
+
 @media (max-width: 991px) {
   .comment {
     margin-bottom: 3em;
@@ -19,5 +23,9 @@
 
   #commentimg {
     max-width: 15%;
+  }
+
+  .message {
+    padding: 3rem;
   }
 }
