@@ -16,6 +16,13 @@
 
 }
 
+#photo-grid > h2 {
+  font-variation-settings: "wght" 700;
+  font-size: 2rem;
+  color: #3d3d3d;
+  margin-bottom: 2rem
+}
+
 @media (max-width: 991px) {
   
 }

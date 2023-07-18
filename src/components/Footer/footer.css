@@ -7,15 +7,15 @@ footer {
 footer h5 {
     color: #fbf7f7;
     font-size: 0.9em;
-    font-variation-settings: "wght" 300;
+    font-variation-settings: "wght" 200;
     text-align: start;
 }
 
 footer h3 {
     color: #fbf7f7;
     text-align: start;
-    font-size: 1.3em;
-    font-variation-settings: "wght" 600;
+    font-size: 1.2em;
+    font-variation-settings: "wght" 400;
     margin-bottom: 0.8em;
 }
 

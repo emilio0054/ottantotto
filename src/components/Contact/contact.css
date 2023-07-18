@@ -1,11 +1,11 @@
 .contact-container {
   background-color: #fbf7f7;
-  background-image: url(/assets/contact/pattern.png);
+  /* background-image: url(/assets/contact/pattern.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  background-position: center;
-  padding: 3em 0em;
+  background-position: center; */
+  padding: 3em 0em; 
   box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
 }
 
@@ -13,11 +13,13 @@
   font-variation-settings: "wght" 700;
   font-size: 2rem;
   color: #3d3d3d;
+  margin-bottom: 0.6rem
 }
 
 .contact-subtitle {
   color: #3d3d3d;
   font-variation-settings: "wght" 300;
+  font-size: 0.9rem;
 }
 
 .main-container {
@@ -67,6 +69,7 @@ p {
   margin-bottom: 0;
   font-variation-settings: "wght" 300;
   color: #3d3d3d;
+  font-size: 0.8rem;
 }
 
 .item {

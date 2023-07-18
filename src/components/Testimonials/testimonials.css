@@ -1,5 +1,5 @@
 .testimonials {
-  /* background-image: url("/assets/contact/pattern.png"); */
+  /* background-image: url("/assets/contact/2.png"); */
   background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +13,11 @@
 
 .message {
   padding: 0.5rem;
+}
+
+.review-title {
+  font-size: 1.4em;
+  font-variation-settings: "wght" 300;
 }
 
 @media (max-width: 991px) {

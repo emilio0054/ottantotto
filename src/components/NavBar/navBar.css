@@ -11,13 +11,13 @@ nav {
     color: #3d3d3d;
     text-decoration: none;
     margin-right: 2em;
-    font-variation-settings: "wght" 600;
+    font-variation-settings: "wght" 400;
   }
   
   #nav-items.active {
     background: #fbf7f7 !important;
     color: #b53a20 !important;
-    font-variation-settings: "wght" 700;
+    font-variation-settings: "wght" 500;
     border-radius: 0.5em;
   }
   

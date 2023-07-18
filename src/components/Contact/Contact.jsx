@@ -5,10 +5,10 @@ export const Contact = ({ id }) => {
     <>
       <div className="contact-container" id={id}>
         <h2 className="d-flex justify-content-center contact-title">
-          Reservas y pedidos
+          RESERVAS Y PEDIDOS
         </h2>
         <p className="d-flex justify-content-center contact-subtitle">
-          Haz tu reserva con tan sólo un click
+         HAZ TU RESERVA CON TAN SÓLO UN CLICK
         </p>
         <div className="d-flex justify-content-evenly main-container container ">
           <div className="d-flex flex-column justify-content-start item">

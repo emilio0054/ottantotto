@@ -1,7 +1,12 @@
 .pizzas-container {
-padding: 6rem 6rem;
 background-color: #fbf7f7;
 box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
+background-image: url(/assets/contact/pattern.png);
+background-repeat: repeat;
+background-size: contain;
+background-attachment: fixed;
+background-position: center;
+padding: 5em 0em;
 }
 
 .container-p {

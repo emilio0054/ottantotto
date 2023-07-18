@@ -52,7 +52,7 @@ export const NavBar = () => {
               offset={-90}
               duration={500}
               >
-                Inicio
+                INICIO
               </Link>
             </li>
             <li className="nav-item">
@@ -66,7 +66,7 @@ export const NavBar = () => {
               offset={-70}
               duration={500}
               >
-                Reservas</Link>
+                RESERVAS</Link>
             </li>
             <li className="nav-item">
               <Link 
@@ -79,7 +79,7 @@ export const NavBar = () => {
               offset={-70}
               duration={500}
               >
-                Menú</Link>
+                MENÚ</Link>
             </li>
             <li className="nav-item">
               <Link 
@@ -92,7 +92,7 @@ export const NavBar = () => {
               offset={-70}
               duration={500}
               >
-                Pizzas</Link>
+                PIZZAS</Link>
             </li>
             <li className="nav-item">
               <Link
@@ -105,7 +105,7 @@ export const NavBar = () => {
               offset={-70}
               duration={500}
               >
-                Nosotros</Link>
+                NOSOTROS</Link>
             </li>
           </ul>
         </div>
