@@ -4,7 +4,7 @@ export const PhotoGrid = () => {
   return (
     <div className="container text-center mb-5" id="photo-grid">
       <div className="row row-cols-2 justify-content-between mb-3">
-          <div className="col-5">
+          <div className="col-lg-5 col-sm-12">
             <img
             src='/assets/pizza/calabria.png' 
             className=""
@@ -29,7 +29,7 @@ export const PhotoGrid = () => {
           <p className="col-5">Mozzarella, scarmoza, alcachofas, mortadella, parmesano</p>
       </div>
       <div className="row row-cols-2 justify-content-between mb-3">
-          <div className="col-5">
+          <div className="col-lg-5 col-sm-12">
             <img
             src='/assets/pizza/friuli.png' 
             className="mt-4"

@@ -38,7 +38,7 @@ export const BottomNavBar = () => {
             offset={-70}
             duration={500}
             >
-              <i className="fa-solid fa-pizza-slice"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className='pizza-icon'/>
             </Link>
             <a 
             href="tel:930381911" 

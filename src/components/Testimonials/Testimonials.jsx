@@ -6,7 +6,7 @@ export const Testimonials = () => {
       <h4 className="text-center mb-5 mt-2 p-4 review-title">
         Que dicen nuestros clientes...
       </h4>
-      <div className="text-center py-3  d-inline row justify-content-around align-items-stretch d-flex">
+      <div className="container-fluid text-center py-3  d-inline row justify-content-around align-items-stretch d-flex">
         <div className="col-lg-3 align-bottom comment">
           <img
             src="/assets/testimonials/jonrwilliams.jpg"
