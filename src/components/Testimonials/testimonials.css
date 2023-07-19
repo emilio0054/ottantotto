@@ -22,7 +22,7 @@
 
 @media (max-width: 991px) {
   .comment {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     box-shadow: none;
   }
 
@@ -31,6 +31,6 @@
   }
 
   .message {
-    padding: 3rem;
+    padding: 0 3rem;
   }
 }
