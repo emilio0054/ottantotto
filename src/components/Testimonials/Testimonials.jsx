@@ -7,7 +7,7 @@ export const Testimonials = () => {
         NUESTROS CLIENTES...
       </h4>
       <div className="container-fluid text-center py-3 d-flex flex-wrap justify-content-around align-items-stretch mb-5">
-        <div className="col-lg-3 comment d-flex flex-column align-items-center justify-content-around">
+        <div className="col-lg-3 comment d-flex flex-column align-items-center justify-content-between">
           <div>
             <img
               src="/assets/testimonials/jonrwilliams.jpg"
@@ -48,7 +48,7 @@ export const Testimonials = () => {
             </li>
           </ul>
         </div>
-        <div className="col-lg-3 comment d-flex flex-column align-items-center justify-content-around">
+        <div className="col-lg-3 comment d-flex flex-column align-items-center justify-content-between">
           <div>
             <img
               src="/assets/testimonials/Daphne B..jpg"
@@ -89,7 +89,7 @@ export const Testimonials = () => {
             </li>
           </ul>
         </div>
-        <div className="col-lg-3 comment d-flex flex-column align-items-center justify-content-around">
+        <div className="col-lg-3 comment d-flex flex-column align-items-center justify-content-between">
           <div>
             <img
               src="/assets/testimonials/Erickginesta.jpg"

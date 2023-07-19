@@ -12,42 +12,42 @@ export const AboutUs = ({ id }) => {
           <div className="row row-cols-md-2 justify-content-between mb-3">
             <div
               id="carouselExampleControls"
-              className="carousel slide w-50"
+              className="carousel slide"
               data-bs-ride="carousel"
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
                     src="/assets/aboutUs/Ottantotto_1-39.jpg"
-                    className="d-block w-100"
+                    className="d-block"
                     alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(1).jpg"
-                    className="d-block w-100"
+                    className="d-block"
                     alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(2).jpg"
-                    className="d-block w-100"
+                    className="d-block"
                     alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(3).jpg"
-                    className="d-block w-100"
+                    className="d-block"
                     alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(4).jpg"
-                    className="d-block w-100"
+                    className="d-block"
                     alt="..."
                   ></img>
                 </div>
