@@ -20,35 +20,35 @@ export const AboutUs = ({ id }) => {
                   <img
                     src="/assets/aboutUs/Ottantotto_1-39.jpg"
                     className="d-block w-100"
-                    alt="...   "
+                    alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(1).jpg"
                     className="d-block w-100"
-                    alt="...   "
+                    alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(2).jpg"
                     className="d-block w-100"
-                    alt="...   "
+                    alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(3).jpg"
                     className="d-block w-100"
-                    alt="...   "
+                    alt="..."
                   ></img>
                 </div>
                 <div className="carousel-item">
                   <img
                     src="/assets/aboutUs/Ottantotto_salon(4).jpg"
                     className="d-block w-100"
-                    alt="...   "
+                    alt="..."
                   ></img>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export const AboutUs = ({ id }) => {
               </button>
             </div>
             <div className="col">
-              <p classNameName="mt-5 text">
+              <p className="mt-5 text">
                 Nuestra pizzería nace de una pasión por la cocina italiana y el
                 deseo de compartir su sabor auténtico con el público. Desde las
                 clásicas Marinara y Margherita hasta creaciones inspiradas en
