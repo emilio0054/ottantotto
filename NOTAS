@@ -33,7 +33,8 @@ Espero que estes bien.
 te dejo esto por ahi te sirve:
 https://bootstrapcreative.com/resources/bootstrap-5-cheat-sheet-classes-index/
 
-24/07
-Hola Lu, hoy veo de mejorar el carrousel de about us. Por lo visto, se nos estan pisando nuestras modificaciones sobre el carrousel, ya que hay uno en about us, y otro en homeview.
-Hay dos propiedades distintas ponele en .carousel-item
-Voy a darle nombre unicos a los diferentes div que tengo para que no pise al tuyo de homeview.
+25/07
+Corregido carousel de aboutUs.
+Falta mejorar responsive design
+Mejorar el texto, ya que de costado, deja un vacio en la pagina no muy lindo.
+Me gustaria mejorar el carousel del homeview, al menos darle indicadores en el pie de la imagen para que se sepa que es un carousel.

@@ -8,54 +8,63 @@ export const AboutUs = ({ id }) => {
     <>
       <div className="us-container" id={id}>
         <div className="container-p p-4">
-          <h2 className="text-center us-text">SOBRE NOSOTROS</h2>
-          <div className="row row-cols-md-2 justify-content-between mb-3">
+          <h2 className="text-center us-text mb-5">SOBRE NOSOTROS</h2>
+          <div className="row row-cols-xl-2 justify-content-between mb-3">
+            {/* /* CAROUSEL */}
+
             <div
-              id="carouselExampleControls"
-              className="carousel slide"
+              id="aboutUsCarousel"
+              className="carousel slide carousel-fade "
               data-bs-ride="carousel"
             >
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img
-                    src="/assets/aboutUs/Ottantotto_1-39.jpg"
-                    className="d-block"
-                    alt="..."
-                  ></img>
+              <div className="carousel-innerAbout">
+                <div className="carousel-item active" data-bs-interval="4000">
+                  <div className="containerAbout">
+                    <img
+                      src="/assets/aboutUs/Ottantotto_1-39.jpg"
+                      className="img-fluid"
+                    ></img>
+                  </div>
                 </div>
-                <div className="carousel-item">
-                  <img
-                    src="/assets/aboutUs/Ottantotto_salon(1).jpg"
-                    className="d-block"
-                    alt="..."
-                  ></img>
+                <div className="carousel-item" data-bs-interval="2000">
+                  <div className="containerAbout">
+                    <img
+                      src="/assets/aboutUs/Ottantotto_salon(1).jpg"
+                      className="img-fluid"
+                    ></img>
+                  </div>
                 </div>
-                <div className="carousel-item">
-                  <img
-                    src="/assets/aboutUs/Ottantotto_salon(2).jpg"
-                    className="d-block"
-                    alt="..."
-                  ></img>
+                <div className="carousel-item" data-bs-interval="2000">
+                  <div className="containerAbout">
+                    <img
+                      src="/assets/aboutUs/Ottantotto_salon(2).jpg"
+                      className="img-fluid"
+                    ></img>
+                  </div>
                 </div>
-                <div className="carousel-item">
-                  <img
-                    src="/assets/aboutUs/Ottantotto_salon(3).jpg"
-                    className="d-block"
-                    alt="..."
-                  ></img>
+                <div className="carousel-item" data-bs-interval="2000">
+                  <div className="containerAbout">
+                    <img
+                      src="/assets/aboutUs/Ottantotto_salon(3).jpg"
+                      className="img-fluid"
+                    ></img>
+                  </div>
                 </div>
-                <div className="carousel-item">
-                  <img
-                    src="/assets/aboutUs/Ottantotto_salon(4).jpg"
-                    className="d-block"
-                    alt="..."
-                  ></img>
+                <div className="carousel-item" data-bs-interval="2000">
+                  <div className="containerAbout">
+                    <img
+                      src="/assets/aboutUs/Ottantotto_salon(4).jpg"
+                      className="img-fluid"
+                    ></img>
+                  </div>
                 </div>
               </div>
-              <button
+
+              {/* BUTTONS */}
+              <a
                 className="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#aboutUsCarousel"
                 data-bs-slide="prev"
               >
                 <span
@@ -63,11 +72,11 @@ export const AboutUs = ({ id }) => {
                   aria-hidden="true"
                 ></span>
                 <span className="visually-hidden">Previous</span>
-              </button>
-              <button
+              </a>
+              <a
                 className="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#aboutUsCarousel"
                 data-bs-slide="next"
               >
                 <span
@@ -75,7 +84,7 @@ export const AboutUs = ({ id }) => {
                   aria-hidden="true"
                 ></span>
                 <span className="visually-hidden">Next</span>
-              </button>
+              </a>
             </div>
             <div className="col">
               <p className="mt-5 text">
