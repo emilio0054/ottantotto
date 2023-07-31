@@ -23,7 +23,7 @@ export const Testimonials = () => {
             >
               Tripadvisor
             </a>
-            <p className="message text-center ">
+            <p className="message text-center">
               <i className="bi-quote pe-2"></i>
               Stopped here for a little taste of Italy in Barcelona. Service was
               very personal and the food was excellent. Highly recommend if

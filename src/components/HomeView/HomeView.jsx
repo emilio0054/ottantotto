@@ -4,25 +4,55 @@ export const HomeView = ({ id }) => {
   return (
     <>
       <div id={id} className="homeview-container">
-        <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div
+          id="carouselExampleFade"
+          className="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="5000">
-              <img src="/assets/homeview/homeview8.jpeg" className="d-block w-100" alt="..."/>
+              <img
+                src="/assets/homeview/homeview8.jpeg"
+                className="d-block w-100"
+                alt="pizza piemonte"
+              />
             </div>
             <div className="carousel-item" data-bs-interval="5000">
-              <img src="/assets/homeview/homeview9.jpeg" className="d-block w-100" alt="..."/>
+              <img
+                src="/assets/homeview/homeview9.jpeg"
+                className="d-block w-100"
+                alt="pizza liguria"
+              />
             </div>
             <div className="carousel-item" data-bs-interval="5000">
-              <img src="/assets/homeview/homeview10.jpeg" className="d-block w-100" alt="..."/>
+              <img
+                src="/assets/homeview/homeview10.jpeg"
+                className="d-block w-100"
+                alt="pizza sardegna"
+              />
             </div>
             <div className="carousel-item" data-bs-interval="5000">
-              <img src="/assets/homeview/homeview11.jpeg" className="d-block w-100" alt="..."/>
+              <img
+                src="/assets/homeview/homeview11.jpeg"
+                className="d-block w-100"
+                alt="pizza calabria"
+              />
             </div>
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
             <span className="visually-hidden">Previous</span>
           </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
             <span className="visually-hidden">Next</span>
           </button>
         </div>
