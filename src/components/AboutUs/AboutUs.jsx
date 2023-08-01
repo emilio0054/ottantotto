@@ -7,7 +7,7 @@ export const AboutUs = ({ id }) => {
   return (
     <>
       <div className="us-container" id={id}>
-        <h2 className="text-center us-text ms-6 mb-4">SOBRE NOSOTROS</h2>
+        <h2 className="text-center us-text">SOBRE NOSOTROS</h2>
 
         <p className="textAb mb-5">
           Nuestra pizzería nace de una pasión por la cocina italiana y el deseo

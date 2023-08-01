@@ -1,5 +1,7 @@
 .homeview-container {
   position: sticky;
+  top: 0;
+  z-index: -1;
   /* background-image: url(/assets/homeview/homeview8.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,4 +54,11 @@ i {
 
 .carousel-inner > div > img {
   height: 92vh;
+  object-fit: cover;
 }
+
+/* @media(min-width: 992px){
+  .carousel-inner > div > img {
+    height: 100vh;
+  }
+} */
