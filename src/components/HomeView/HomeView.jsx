@@ -38,6 +38,13 @@ export const HomeView = ({ id }) => {
                 alt="pizza calabria"
               />
             </div>
+            <div className="carousel-item" data-bs-interval="3000">
+              <img
+                src="/assets/homeview/homeview11.jpeg"
+                className="d-block w-100"
+                alt="pizza calabria"
+              />
+            </div>
           </div>
           <button
             className="carousel-control-prev"
