@@ -5,14 +5,21 @@
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
-  padding: 1em 0em;
+  padding: 2rem 2rem;
+  box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
 }
 .comment {
   box-shadow: #e6d2cfcc 5px 5px 10px;
 }
 
 .message {
-  padding: 0.5rem;
+  padding: 0rem 2rem;
+  font-variation-settings: "wght" 400;
+  font-style: italic;
+  color: #3d3d3d;
+  /* font-size: 100%; */
+  text-align: center;
+  font-size: 1em;
 }
 
 .review-title {

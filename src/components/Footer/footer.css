@@ -1,55 +1,55 @@
 footer {
-    display:block;
-    background-color: #3d3d3d;
-    width: 100vw;
+  display: block;
+  background-color: #3d3d3d;
+  width: 100vw;
 }
 
 footer h5 {
-    color: #fbf7f7;
-    font-size: 0.9em;
-    font-variation-settings: "wght" 200;
-    text-align: start;
+  color: #fbf7f7;
+  font-size: 0.9em;
+  font-variation-settings: "wght" 200;
+  text-align: start;
 }
 
 footer h3 {
-    color: #fbf7f7;
-    text-align: start;
-    font-size: 1.2em;
-    font-variation-settings: "wght" 400;
-    margin-bottom: 0.8em;
+  color: #fbf7f7;
+  text-align: start;
+  font-size: 1.2em;
+  font-variation-settings: "wght" 400;
+  margin-bottom: 0.8em;
 }
 
 footer a {
-    color:#fbf7f7;
-    font-variation-settings: "wght" 300;
-    font-size: 0.9em;
+  color: #fbf7f7;
+  font-variation-settings: "wght" 300;
+  font-size: 0.9em;
 }
 
 footer a:hover {
-    color:#b53a20;
-    font-weight: lighter;
-    font-size: 0.9em;
+  color: #b53a20;
+  font-weight: lighter;
+  font-size: 0.9em;
 }
 
 footer a::selection {
-    color:#b53a20;
-    font-weight: lighter;
-    font-size: 0.9em;
+  color: #b53a20;
+  font-weight: lighter;
+  font-size: 0.9em;
 }
 
-.developed{
-    color: #fbf7f7;
-    font-variation-settings: "wght" 300;
-    font-size: 0.9em;
+.developed {
+  color: #fbf7f7;
+  font-variation-settings: "wght" 300;
+  font-size: 0.9em;
 }
 
 .social-media {
-    background-color: #5d5c5c;
-    width: 100vw;
+  background-color: #5d5c5c;
+  width: 100vw;
 }
 
 @media (max-width: 991px) {
-    footer{
-        display: none
-    }
+  footer {
+    display: none;
+  }
 }

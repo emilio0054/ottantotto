@@ -1,5 +1,5 @@
-.menu-container{
-  background-image: url(/assets/contact/2.png);
+.menu-container {
+  /* background-image: url(/assets/contact/2.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -7,15 +7,15 @@
   padding: 5em 0em;
 }
 
-.bottom-menu-container{
+.bottom-menu-container {
   margin-top: 5em;
   /* margin-bottom: 5em; */
 }
 
 #menu-img {
-    height: 100%;
-    box-shadow: #e6d2cf 0px 0px 10px;
-  }
+  height: 100%;
+  box-shadow: #e6d2cf 0px 0px 10px;
+}
 
 @media (max-width: 991px) {
   .menu-container {
@@ -25,14 +25,14 @@
 
   .menu-container > img {
     width: 80%;
-    align-self: center
+    align-self: center;
   }
 
   .menu-container > hr {
-    display:block
+    display: block;
   }
 
-  .logo-photo{
+  .logo-photo {
     width: 40%;
   }
 
@@ -40,12 +40,12 @@
     margin-bottom: 2em;
   }
 
-  .bottom-menu-container{
+  .bottom-menu-container {
     flex-direction: column;
-    margin-top: 0em
+    margin-top: 0em;
   }
 
-  .bottom-menu-container > img{
+  .bottom-menu-container > img {
     width: 80%;
     align-self: center;
   }

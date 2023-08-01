@@ -40,7 +40,7 @@ Mejorar el texto, ya que de costado, deja un vacio en la pagina no muy lindo.
 Me gustaria mejorar el carousel del homeview, al menos darle indicadores en el pie de la imagen para que se sepa que es un carousel.
 
 1/08
-Hola Emi, 
+Hola Emi,
 Veo bien el about us, no se cual es el vacio que comentas.
 Le cambie el diseño del titulo, para que este igual que todas las otras secciones.
 Si creo que hay que corregir la foto de Frafo ya que se ve como aplastada.
@@ -48,3 +48,24 @@ En cuanto al carrousel de la homeview no le quise poner los indicadores y por es
 Jugué un poco con las imagenes del carousel para que queden fijas y se ven cuando se pasa por el menú, creo que queda cool. Un estilo a lo que tienen en can pizza.
 Si no te copa lo sacamos.
 
+2/8
+
+Hola Lu
+Me gusta mucho el diseño del homeview :).. Veo que al modificar el ancho de la pantalla las imagenes mantienen sus definicion. Esta bueno.
+En el apartado menu, veo que aun quedo un background-image, lo comente por si tu intencion era dejarlo. Creo que en lo personal me gusta mas sin.
+El carousel de about us antes estaba como una grilla, teniendo el carousel del lado izquierdo y una reseña del lado derecho. Pero ayer lo modifique y esta asi como esta.
+La foto de fra es temporal, ya que pase por la pizzeria y le saque una foto con el movil.
+Creo que para que no haya lio con el carousel es fundamental que todas las imagenes tengan el mismo tamaño.
+Por otro lado tambien agregue el alt a las img
+--- Cosas que intentare corregir:
+
+- Debajo del google maps se puede ver que hay un mini espacio que permite ver el carousel del homeview. Vere si lo puedo quitar. (ya lo quite en css homeview-container, lo deje comentado para que lo veas)
+- Probare con el cambio de idioma de la pagina. Vi varios tutorials, algunos usan pluggin y otros javaScript, probare esta ultima.
+- Con respecto a responsive designs, no se cual es el minimo de ancho que deberia de tener la pagina, segun investigado, 320px es lo minimo para moviles viejos. Con ese ancho, hay caos en la pagina
+
+--- Opiniones:
+
+- Siento que en el homeview estaria bueno que tenga algun texto. Algo asi como el horario de apertura, telefono (boton para llamar), y direccion (boton)
+
+--- Dudas:
+' porque estamos poniendo className en vez de class? veo que los codigos bootstrap vienen con class, pero si no lo cambiamos a className, no hacen efecto, porque es?
