@@ -24,14 +24,14 @@ export const AboutUs = ({ id }) => {
         {/* /* CAROUSEL */}
         <div
           id="aboutUsCarousel"
-          className="carousel slide carousel-fade"
+          className="carousel slide carousel-fade mb-5"
           data-bs-ride="carousel"
         >
           <div className="carousel-innerAbout">
             <div className="carousel-item active" data-bs-interval="4000">
               <div className="containerAbout">
                 <img
-                  src="/assets/aboutUs/Frafo2.jpg"
+                  src="/assets/aboutUs/about-us2.jpg"
                   className="img-fluid"
                   alt="frafo parado"
                 ></img>
@@ -40,7 +40,7 @@ export const AboutUs = ({ id }) => {
             <div className="carousel-item" data-bs-interval="2000">
               <div className="containerAbout">
                 <img
-                  src="/assets/aboutUs/Ottantotto_salon(1).jpg"
+                  src="/assets/aboutUs/about-us8.jpg"
                   className="img-fluid"
                   alt="pizzeria salon"
                 ></img>
@@ -49,7 +49,7 @@ export const AboutUs = ({ id }) => {
             <div className="carousel-item" data-bs-interval="2000">
               <div className="containerAbout">
                 <img
-                  src="/assets/aboutUs/Ottantotto_salon(2).jpg"
+                  src="/assets/aboutUs/about-us9.jpg"
                   className="img-fluid"
                   alt="pizzeria salon"
                 ></img>
@@ -58,7 +58,7 @@ export const AboutUs = ({ id }) => {
             <div className="carousel-item" data-bs-interval="2000">
               <div className="containerAbout">
                 <img
-                  src="/assets/aboutUs/Ottantotto_salon(3).jpg"
+                  src="/assets/aboutUs/about-us10.jpg"
                   className="img-fluid"
                   alt="pizzeria salon"
                 ></img>
@@ -67,7 +67,7 @@ export const AboutUs = ({ id }) => {
             <div className="carousel-item" data-bs-interval="2000">
               <div className="containerAbout">
                 <img
-                  src="/assets/aboutUs/Ottantotto_salon(4).jpg"
+                  src="/assets/aboutUs/about-us11.jpg"
                   className="img-fluid"
                   alt="pizzeria salon"
                 ></img>

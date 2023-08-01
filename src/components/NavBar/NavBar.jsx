@@ -49,25 +49,25 @@ export const NavBar = () => {
             </a>
             <ul className="dropdown-menu">
               <li>
-                <Link className="dropdown-item mb-1 cat" to="home-view">
+                <Link className="dropdown-item mb-1" to="home-view">
                   <img src="/assets/languages/cat.png" width="30px" />
                 </Link>
               </li>
               <hr />
               <li>
-                <Link className="dropdown-item mb-1 usa" to="home-view">
+                <Link className="dropdown-item mb-1" to="home-view">
                   <img src="/assets/languages/usa.png" width="30px" />
                 </Link>
               </li>
               <hr />
               <li>
-                <Link className="dropdown-item mb-1 ita" to="home-view">
+                <Link className="dropdown-item mb-1" to="home-view">
                   <img src="/assets/languages/ita.png" width="30px" />
                 </Link>
               </li>
               <hr />
               <li>
-                <Link className="dropdown-item mb-1 fr" to="home-view">
+                <Link className="dropdown-item mb-1" to="home-view">
                   <img src="/assets/languages/fr.png" width="30px" />
                 </Link>
               </li>
