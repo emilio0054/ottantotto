@@ -8,7 +8,6 @@ export const AboutUs = ({ id }) => {
     <>
       <div className="us-container" id={id}>
         <h2 className="text-center us-text">SOBRE NOSOTROS</h2>
-
         <p className="textAb mb-5">
           Nuestra pizzería nace de una pasión por la cocina italiana y el deseo
           de compartir su sabor auténtico con el público. Desde las clásicas
@@ -22,84 +21,90 @@ export const AboutUs = ({ id }) => {
         </p>
 
         {/* /* CAROUSEL */}
-        <div
-          id="aboutUsCarousel"
-          className="carousel slide carousel-fade mb-5"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-innerAbout">
-            <div className="carousel-item active" data-bs-interval="4000">
-              <div className="containerAbout">
-                <img
-                  src="/assets/aboutUs/about-us2.jpg"
-                  className="img-fluid"
-                  alt="frafo parado"
-                ></img>
-              </div>
-            </div>
-            <div className="carousel-item" data-bs-interval="2000">
-              <div className="containerAbout">
-                <img
-                  src="/assets/aboutUs/about-us8.jpg"
-                  className="img-fluid"
-                  alt="pizzeria salon"
-                ></img>
-              </div>
-            </div>
-            <div className="carousel-item" data-bs-interval="2000">
-              <div className="containerAbout">
-                <img
-                  src="/assets/aboutUs/about-us9.jpg"
-                  className="img-fluid"
-                  alt="pizzeria salon"
-                ></img>
-              </div>
-            </div>
-            <div className="carousel-item" data-bs-interval="2000">
-              <div className="containerAbout">
-                <img
-                  src="/assets/aboutUs/about-us10.jpg"
-                  className="img-fluid"
-                  alt="pizzeria salon"
-                ></img>
-              </div>
-            </div>
-            <div className="carousel-item" data-bs-interval="2000">
-              <div className="containerAbout">
-                <img
-                  src="/assets/aboutUs/about-us11.jpg"
-                  className="img-fluid"
-                  alt="pizzeria salon"
-                ></img>
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12">
+              <div
+                id="aboutUsCarousel"
+                className="carousel slide carousel-fade mb-5"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-innerAbout">
+                  <div className="carousel-item active" data-bs-interval="4000">
+                    <div className="containerAbout">
+                      <img
+                        src="/assets/aboutUs/about-us2.jpg"
+                        className="img-fluid"
+                        alt="frafo parado"
+                      ></img>
+                    </div>
+                  </div>
+                  <div className="carousel-item" data-bs-interval="2000">
+                    <div className="containerAbout">
+                      <img
+                        src="/assets/aboutUs/about-us8.jpg"
+                        className="img-fluid"
+                        alt="pizzeria salon"
+                      ></img>
+                    </div>
+                  </div>
+                  <div className="carousel-item" data-bs-interval="2000">
+                    <div className="containerAbout">
+                      <img
+                        src="/assets/aboutUs/about-us9.jpg"
+                        className="img-fluid"
+                        alt="pizzeria salon"
+                      ></img>
+                    </div>
+                  </div>
+                  <div className="carousel-item" data-bs-interval="2000">
+                    <div className="containerAbout">
+                      <img
+                        src="/assets/aboutUs/about-us10.jpg"
+                        className="img-fluid"
+                        alt="pizzeria salon"
+                      ></img>
+                    </div>
+                  </div>
+                  <div className="carousel-item" data-bs-interval="2000">
+                    <div className="containerAbout">
+                      <img
+                        src="/assets/aboutUs/about-us11.jpg"
+                        className="img-fluid"
+                        alt="pizzeria salon"
+                      ></img>
+                    </div>
+                  </div>
+                </div>
+
+                {/* BUTTONS */}
+                <a
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#aboutUsCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Previous</span>
+                </a>
+                <a
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#aboutUsCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Next</span>
+                </a>
               </div>
             </div>
           </div>
-
-          {/* BUTTONS */}
-          <a
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#aboutUsCarousel"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </a>
-          <a
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#aboutUsCarousel"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </a>
         </div>
       </div>
       <Testimonials />
