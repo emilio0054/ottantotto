@@ -7,26 +7,24 @@ export const AboutUs = ({ id }) => {
   return (
     <>
       <div className="us-container" id={id}>
-        <h2 className="text-center us-text">SOBRE NOSOTROS</h2>
-        <p className="textAb mb-5">
+        <h2 className="d-flex justify-content-center mb-4">Sobre nosotros</h2>
+        <p className="text mb-4">
           Nuestra pizzería nace de una pasión por la cocina italiana y el deseo
-          de compartir su sabor auténtico con el público. Desde las clásicas
-          Marinara y Margherita hasta creaciones inspiradas en las distintas
-          regiones de Italia, cada pizza es una experiencia culinaria única. Nos
-          complace invitarle a nuestro restaurante, ubicado cerca de la Sagrada
-          Familia. Nuestro objetivo es brindarle una experiencia culinaria
-          excepcional, garantizando un servicio impecable y una atención
-          especializada. Disfrute de una combinación perfecta entre la
-          autenticidad de la cocina italiana y un ambiente familiar y acogedor.
+          de compartir su sabor auténtico con el público. Nos complace invitarle
+          a nuestro restaurante, ubicado cerca de la Sagrada Familia. Nuestro
+          objetivo es brindarle una experiencia culinaria excepcional,
+          garantizando un servicio impecable y una atención especializada.
+          Disfrute de una combinación perfecta entre la autenticidad de la
+          cocina italiana y un ambiente familiar y acogedor.
         </p>
 
         {/* /* CAROUSEL */}
         <div className="container">
-          <div className="row">
-            <div className="col-xs-12">
+          <div className="row d-flex justify-content-center">
+            <div className="col-lg-10 col-sm-10">
               <div
                 id="aboutUsCarousel"
-                className="carousel slide carousel-fade mb-5"
+                className="carousel slide carousel-fade mb-3"
                 data-bs-ride="carousel"
               >
                 <div className="carousel-innerAbout">

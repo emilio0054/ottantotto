@@ -5,32 +5,27 @@
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
-  padding: 2rem 2rem;
+  padding: 2rem 4rem;
   box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
+  height: 100%;
 }
 .comment {
-  box-shadow: #e6d2cfcc 10px 10px 10px 0px;
-  padding-left: 2rem;
+  box-shadow: #e6d2cfcc 5px 10px 10px 0px;
+  padding: 2rem;
 }
 
 .message {
-  padding: 0rem 2rem;
+  padding: 1rem rem;
   font-variation-settings: "wght" 400;
   font-style: italic;
   color: #3d3d3d;
-  /* font-size: 100%; */
   text-align: center;
   font-size: 1em;
 }
 
-.review-title {
-  font-size: 1.4em;
-  font-variation-settings: "wght" 300;
-}
-
 @media (max-width: 991px) {
   .comment {
-    margin-bottom: 1em;
+    margin-bottom: 2rem;
     box-shadow: none;
   }
 
