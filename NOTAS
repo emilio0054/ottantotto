@@ -69,3 +69,14 @@ Por otro lado tambien agregue el alt a las img
 
 --- Dudas:
 ' porque estamos poniendo className en vez de class? veo que los codigos bootstrap vienen con class, pero si no lo cambiamos a className, no hacen efecto, porque es?
+
+04/08
+
+Bueno anduve haciendo retoques en lo responsive del about us y testimonials. 
+Estaria bueno que tengamos otro sitio de notas donde solo pongamos los valores genericos de las cosas, para que todas las secciones tengan coincidencia entre si. 
+Como por ejemplo, decir que el font-size para pantallas md y lg sea de 1rem, pantallas sm y xs el font-size sea de 0.8rem (estos valores son lo que vi que hay en la pagina)
+como tambien podemos indicar cual es el color principal, las sombras, y tal. 
+
+He observado que a medida que la pagina es mas angosta, las secciones tienen diferentes tamaños, ponele los testimonials estan bastante grandes, la seccion de contacto tmb, el menu y las fotos de pizza estan diminutos. 
+
+Bueno. dejo constancia de eso, para yo no olvidarme tambien. 

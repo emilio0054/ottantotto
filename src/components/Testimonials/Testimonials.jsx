@@ -8,7 +8,7 @@ export const Testimonials = () => {
       </h2>
       <div className="container-fluid text-center py-3 d-flex flex-wrap justify-content-around align-items-stretch">
         <div className="row justify-content-between">
-          <div className="col-lg-4 col-md-12 comment  align-items-center justify-content-between px-3">
+          <div className="col-lg-4 col-md-12 comment d-flex flex-column align-items-center justify-content-around px-3">
             <img
               src="/assets/testimonials/Erickginesta.jpg"
               className="w-25 img-fluid rounded-circle shadow-1-strong mb-4  mt-2"
@@ -47,7 +47,7 @@ export const Testimonials = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-4 col-md-5 comment  align-items-center justify-content-between px-3">
+          <div className="col-lg-4 col-md-5 comment d-flex flex-column align-items-center justify-content-around px-3">
             <img
               src="/assets/testimonials/Daphne B..jpg"
               className="w-25 img-fluid rounded-circle shadow-1-strong mb-4 mt-2"
@@ -86,7 +86,7 @@ export const Testimonials = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-4 col-md-5 comment  align-items-center justify-content-between px-3">
+          <div className="col-lg-4 col-md-5 comment d-flex flex-column align-items-center justify-content-around px-3">
             <img
               src="/assets/testimonials/jonrwilliams.jpg"
               className="w-25 img-fluid rounded-circle shadow-1-strong mb-4 mt-2"
