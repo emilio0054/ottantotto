@@ -80,3 +80,14 @@ como tambien podemos indicar cual es el color principal, las sombras, y tal.
 He observado que a medida que la pagina es mas angosta, las secciones tienen diferentes tamaños, ponele los testimonials estan bastante grandes, la seccion de contacto tmb, el menu y las fotos de pizza estan diminutos. 
 
 Bueno. dejo constancia de eso, para yo no olvidarme tambien. 
+
+default:
+font-variation-settings: "wght" 400;
+font-size: 1em;
+color: #3d3d3d;
+line-height: 2rem;
+
+@media (max-width: 991px)  (xs, sm)
+font-size: 0.8rem;
+line-height: 1rm;
+
