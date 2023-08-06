@@ -8,7 +8,7 @@ export const AboutUs = ({ id }) => {
     <>
       <div className="us-container" id={id}>
         <h2 className="d-flex justify-content-center mb-4">Sobre nosotros</h2>
-        <p className="text mb-4">
+        <p className="textAb mb-4">
           Nuestra pizzería nace de una pasión por la cocina italiana y el deseo
           de compartir su sabor auténtico con el público. Nos complace invitarle
           a nuestro restaurante, ubicado cerca de la Sagrada Familia. Nuestro
@@ -32,7 +32,7 @@ export const AboutUs = ({ id }) => {
                     <div className="containerAbout">
                       <img
                         src="/assets/aboutUs/about-us2.jpg"
-                        className="img-fluid"
+                        className="img-fluid d-block"
                         alt="frafo parado"
                       ></img>
                     </div>
@@ -41,7 +41,7 @@ export const AboutUs = ({ id }) => {
                     <div className="containerAbout">
                       <img
                         src="/assets/aboutUs/about-us8.jpg"
-                        className="img-fluid"
+                        className="img-fluid d-block"
                         alt="pizzeria salon"
                       ></img>
                     </div>
@@ -50,7 +50,7 @@ export const AboutUs = ({ id }) => {
                     <div className="containerAbout">
                       <img
                         src="/assets/aboutUs/about-us9.jpg"
-                        className="img-fluid"
+                        className="img-fluid d-block"
                         alt="pizzeria salon"
                       ></img>
                     </div>
@@ -59,7 +59,7 @@ export const AboutUs = ({ id }) => {
                     <div className="containerAbout">
                       <img
                         src="/assets/aboutUs/about-us10.jpg"
-                        className="img-fluid"
+                        className="img-fluid d-block"
                         alt="pizzeria salon"
                       ></img>
                     </div>
@@ -68,7 +68,7 @@ export const AboutUs = ({ id }) => {
                     <div className="containerAbout">
                       <img
                         src="/assets/aboutUs/about-us11.jpg"
-                        className="img-fluid"
+                        className="img-fluid d-block"
                         alt="pizzeria salon"
                       ></img>
                     </div>

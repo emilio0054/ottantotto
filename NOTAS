@@ -13,7 +13,7 @@ fotos de solo las pizzas) mi idea era hacer algo similar
 , pero pinchando en cada pizza se abre la foto entera
 y en grande informando sobre los ingredientes.
 
-18/03/2023 - LU
+18/07/2023 - LU
 Hola Emiii,
 Como el otro día no terminamos de arreglar las tareas, estaba pensando que si te parece bien hagas vos la seccion que falta, que seria sobre los chicos y el restaurant.
 Mi idea era:
@@ -87,7 +87,25 @@ font-size: 1em;
 color: #3d3d3d;
 line-height: 2rem;
 
-@media (max-width: 991px)  (xs, sm)
-font-size: 0.8rem;
-line-height: 1rm;
+  (xs, sm)
+@media (max-width: 991px) {
+  p.text {
+    padding: 0rem 7rem;
+    font-variation-settings: "wght" 400;
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #3d3d3d;
+  }
+}
+
+6/8
+
+* sincronizacion en los font-sizes y font lines de cada seccion, junto con responsive designs
+* corregido problemas de alineacion en photosgrip, seccion foto de pizzas (sigue habiendo pequeño problema, ya que las imagenes no tienen el mismo tamaño. habra que corregir eso e igualarlas)
+* PROBLEMA en about us, la foto de fra es mas baja que las demas, y al cambiar de una a otra altera el background
+* comence a corregir en photogrid la grilla de las pizzas, modificando el tamaño de las imagenes, para que sean iguales entre ellas. Como tambien corrigiendo los contenedores para que esten alineados entre ellos y no se alteren segun el ancho de la pantalla. 
+CORREJIDO HASTA LA PIZZA LIGURIA, FALTA SEGUIR CORRIGIENDO.
+
 

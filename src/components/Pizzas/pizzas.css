@@ -1,24 +1,23 @@
 .pizzas-container {
-background-color: #fbf7f7;
-box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
-background-image: url(/assets/contact/pattern.png);
-background-repeat: repeat;
-background-size: contain;
-background-attachment: fixed;
-background-position: center;
-padding: 5em 0em;
+  background-color: #fbf7f7;
+  box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
+  background-image: url(/assets/contact/pattern.png);
+  background-repeat: repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 5em 0em;
 }
 
 .container-p {
-border-radius: 10px;
-padding: 1px;
-margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 1px;
+  margin-bottom: 15px;
 }
 
-.pizzas-container > div > h2 {
-    font-variation-settings: "wght" 700;
-    font-size: 2rem;
-    color: #3d3d3d;
-    margin-bottom: 5rem
-}
-    
+/* .pizzas-container > div > h2 {
+  font-variation-settings: "wght" 700;
+  font-size: 2rem;
+  color: #3d3d3d;
+  margin-bottom: 5rem;
+} */

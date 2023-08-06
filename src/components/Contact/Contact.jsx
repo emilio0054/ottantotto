@@ -8,13 +8,13 @@ export const Contact = ({ id }) => {
           RESERVAS Y PEDIDOS
         </h2>
         <p className="d-flex justify-content-center contact-subtitle">
-         HAZ TU RESERVA CON TAN SÓLO UN CLICK
+          HAZ TU RESERVA CON TAN SÓLO UN CLICK
         </p>
         <div className="d-flex justify-content-evenly main-container container ">
           <div className="d-flex flex-column justify-content-start item">
             <a
               href="https://api.whatsapp.com/send?phone=34722194408&text=¡Hola!%20quiero%20hacer%20una
-%20reserva:%20(incluye%20cantidad%20de%20personas,%20día%20y%20hora%20en%20tu%20solicitud.)"
+  %20reserva:%20(incluye%20cantidad%20de%20personas,%20día%20y%20hora%20en%20tu%20solicitud.)"
               target="_blank"
               className="text-decoration-none text-center"
             >

@@ -5,7 +5,7 @@
   background-size: cover;
   background-attachment: scroll;
   background-position: center; */
-  padding: 3em 0em; 
+  padding: 3em 0em;
   box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
 }
 
@@ -13,7 +13,7 @@
   font-variation-settings: "wght" 700;
   font-size: 2rem;
   color: #3d3d3d;
-  margin-bottom: 0.6rem
+  margin-bottom: 0.6rem;
 }
 
 .contact-subtitle {
@@ -118,5 +118,6 @@ p {
 @media (max-width: 575px) {
   .main-container {
     height: 60rem;
+    font-size: 0.8rem;
   }
 }
