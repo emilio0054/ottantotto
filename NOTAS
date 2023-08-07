@@ -108,6 +108,8 @@ line-height: 2rem;
  * agregado de fotos en el homeview
  * intento frustrado de cambiar de idioma
  
-
+dato curioso con respecto a la traduccion. 
+he observado que en el archivo index.html, empieza el codigo con <html lang="en">. Supongo que eso es incorrecto, ya que si la pagina esta seteada al español, deberia de decir "es" ?
+entiendo que eso es para los motores de busqueda. 
 
 
