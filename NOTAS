@@ -77,10 +77,6 @@ Estaria bueno que tengamos otro sitio de notas donde solo pongamos los valores g
 Como por ejemplo, decir que el font-size para pantallas md y lg sea de 1rem, pantallas sm y xs el font-size sea de 0.8rem (estos valores son lo que vi que hay en la pagina)
 como tambien podemos indicar cual es el color principal, las sombras, y tal. 
 
-He observado que a medida que la pagina es mas angosta, las secciones tienen diferentes tamaños, ponele los testimonials estan bastante grandes, la seccion de contacto tmb, el menu y las fotos de pizza estan diminutos. 
-
-Bueno. dejo constancia de eso, para yo no olvidarme tambien. 
-
 default:
 font-variation-settings: "wght" 400;
 font-size: 1em;
@@ -103,9 +99,15 @@ line-height: 2rem;
 6/8
 
 * sincronizacion en los font-sizes y font lines de cada seccion, junto con responsive designs
-* corregido problemas de alineacion en photosgrip, seccion foto de pizzas (sigue habiendo pequeño problema, ya que las imagenes no tienen el mismo tamaño. habra que corregir eso e igualarlas)
+* corregido problemas de alineacion en photosgrip, seccion foto de pizzas 
 * PROBLEMA en about us, la foto de fra es mas baja que las demas, y al cambiar de una a otra altera el background
-* comence a corregir en photogrid la grilla de las pizzas, modificando el tamaño de las imagenes, para que sean iguales entre ellas. Como tambien corrigiendo los contenedores para que esten alineados entre ellos y no se alteren segun el ancho de la pantalla. 
-CORREJIDO HASTA LA PIZZA LIGURIA, FALTA SEGUIR CORRIGIENDO.
+* correccion en photogrid del tamaño de las pizzas, y la alineacion de las filas con las columnas. correccion en el responsive designs
+
+8/8
+ *mini correcciones en photogrid, y testimonials
+ * agregado de fotos en el homeview
+ * intento frustrado de cambiar de idioma
+ 
+
 
 
