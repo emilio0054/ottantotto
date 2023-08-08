@@ -113,3 +113,10 @@ he observado que en el archivo index.html, empieza el codigo con <html lang="en"
 entiendo que eso es para los motores de busqueda. 
 
 
+8/8
+
+Hola Emi,
+perdon! recien hoy pude entrar a mirar. Con respecto a la duda que tenias sobre el className. Siempre se suele utilizar class, pero como estamos trabajando con React, utiliza className. Sigue siendo como llamar a la class pero se le llama de esa manera. Y no debería darte problemas para reconocer los estilos auqnue pongas classs en vez de className, pero si va a salir un error molesto en consola y puede generar errores al llevarlo a producción. Por ende, todo lo que veas con class, hay que reemplazarlo con className.
+Con respecto a lo del idioma si, viene por default en ingles, pero ahi deberiamos poner es seguramente.
+
+Ojo que con la clase img-fluid que le habias agregado a las fotos en homeview se nos descuadraba todo el scroll,  y la posicion fixed. Ahi lo arreglé.

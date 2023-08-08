@@ -1,6 +1,6 @@
 .homeview-container {
   position: sticky;
-  top: 0;
+  top: 8vh;
   z-index: -1;
   /* background-image: url(/assets/homeview/homeview8.jpeg);
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
   background-attachment: fixed;
   background-position: center; */
   /* height: calc(100vh - 8vh); con esto aplicado se pude ver imagen debajo de google maps*/
-  height: calc(100vh - -29vh);
+  height: calc(100vh - 8vh);
 }
 /* 
 .homeview-text {
@@ -51,6 +51,7 @@ i {
 .carousel-inner {
   height: 92vh !important;
   border-radius: 0 !important;
+  position: fixed;
 }
 
 .carousel-inner > div > img {
