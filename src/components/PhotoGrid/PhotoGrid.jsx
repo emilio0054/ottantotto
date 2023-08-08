@@ -4,8 +4,8 @@ export const PhotoGrid = () => {
   return (
     <>
       <div className="container text-center mb-5" id="photo-grid">
-        <h2 className="text-center">NUESTRAS PIZZAS</h2>
-        <p className="text mb-4">
+        <h2 className="text-center mb-4">NUESTRAS PIZZAS</h2>
+        <p className="text mb-5">
           Desde las clásicas Marinara y Margherita hasta creaciones inspiradas
           en las distintas regiones de Italia, cada pizza es una experiencia
           culinaria única.
@@ -15,7 +15,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/calabria.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con salami"
               />
@@ -29,7 +29,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/emilia.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con jamon"
               />
@@ -44,7 +44,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/friuli.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con jamon cerrano"
               />
@@ -58,7 +58,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/liguria.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con pesto"
               />
@@ -73,7 +73,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/marche.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con jamon y alcachofa"
               />
@@ -87,7 +87,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/margharita.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza queso y salsa tomate"
               />
@@ -102,7 +102,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/piemonte.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con trufa"
               />
@@ -116,7 +116,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/puglia.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con burrata"
               />
@@ -131,7 +131,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/sardegna.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con cebolla"
               />
@@ -145,7 +145,7 @@ export const PhotoGrid = () => {
             <div className="d-flex flex-column align-items-center justify-content-around">
               <img
                 src="/assets/pizza/toscana.png"
-                className="mb-2"
+                className="mb-4"
                 width="100%"
                 alt="pizza con salami y anis"
               />

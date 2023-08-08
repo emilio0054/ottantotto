@@ -116,7 +116,23 @@ entiendo que eso es para los motores de busqueda.
 8/8
 
 Hola Emi,
-perdon! recien hoy pude entrar a mirar. Con respecto a la duda que tenias sobre el className. Siempre se suele utilizar class, pero como estamos trabajando con React, utiliza className. Sigue siendo como llamar a la class pero se le llama de esa manera. Y no debería darte problemas para reconocer los estilos auqnue pongas classs en vez de className, pero si va a salir un error molesto en consola y puede generar errores al llevarlo a producción. Por ende, todo lo que veas con class, hay que reemplazarlo con className.
-Con respecto a lo del idioma si, viene por default en ingles, pero ahi deberiamos poner es seguramente.
+perdon! recien hoy pude entrar a mirar. 
 
-Ojo que con la clase img-fluid que le habias agregado a las fotos en homeview se nos descuadraba todo el scroll,  y la posicion fixed. Ahi lo arreglé.
+-Sobre el className. Siempre se suele utilizar class, pero como estamos trabajando con React, utiliza className. Sigue siendo como llamar a la class pero se le llama de esa manera. Y no debería darte problemas para reconocer los estilos aunque pongas class en vez de className, pero si va a salir un error molesto en consola y puede generar errores al llevarlo a producción. Por ende, todo lo que veas con class, hay que reemplazarlo con className.
+
+-El idioma si, viene por default en ingles, pero ahi deberiamos poner "es" seguramente.
+
+-Ojo que con la clase img-fluid que le habias agregado a las fotos en homeview se nos descuadraba todo el scroll,  y la posicion fixed. Ahi lo arreglé.
+
+-Por otro lado, sé que la idea inicial era que aparezcan los datos principales apenas se abria la pagina, pero considero que tambien para que se aprecien las fotos y tal, el filtro blanco no iria bien y tampoco se llega a apreciar tanto el texto con ese filtro. 
+Tenemos en la barra de navegación el boton de accion de llamada, despues tenemos info sobre contacto y etc apenas scrollean, y tambien en el footer de la pagina esta toda la info. Creo que esta bastante accesible y tiene presencia en la pagina. Si me gustaria agregar en algun lado mas visible la dirección, quizas en la parte de contacto también.
+
+-El tema de la foto de homeview que sigue al scrollear fue sin querer, pero lo deje porque me parecio que le daba dinamismo un poco a la pagina, y mas presencia a las fotos tmb.
+
+-La parte del sobre nosotros no queda mal pero no me convence asi, creo que quedaria mejor como grilla, de un lado el texto fijo y del otro un carousel o quizas una grilla de fotos, lastima que no pude verla en grilla como quedaba, si vos estas conforme con el resultado lo dejamos asi. Lo unico que te lo modularice, es decir, pase todo ese codigo y lo puse en otro componente, porque te acordas que estabamos trabajando asi? Es mas facil para reconocer errores y el codigo mas limpio/ordenado.
+
+*Arreglado el espacio debajo del mapa 
+
+-Arreglado espaciado en varias partes de la pagina, a mi parecer estaba todo muy junto en ciertas partes entre textos e imagenes, o secciones.
+
+nota al pie: ojo cuando grabas cambios, hice un montonazo de cambios la otra vez que ahora no están asique se deben haber sobreescrito cuando guardaste tu avance. Alguna configuracion de git para guardar cuando hay dos ramas superpuestas esta haciendo eso.

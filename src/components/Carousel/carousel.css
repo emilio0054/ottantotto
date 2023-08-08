@@ -1,82 +1,52 @@
-/* .carousel-control-prev {
-  left: 100%;
+#aboutUsCarousel {
+  height: 100%;
 }
-.carousel-inner {
-  height: 750px;
-  border-radius: 10px;
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
 }
-#carousel {
-  height: 600px;
-  display: none;
+
+#aboutUsCarousel {
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  max-height: 50%;
 }
 
 .carousel-item {
-  width: 100%;
-  height: 100%;
+  border-radius: 2%;
+}
+
+.containerAbout img {
+  border-radius: 2%;
+}
+
+.carousel-innerAbout {
   overflow: hidden;
 }
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.us-container .carousel-control-next,
+.us-container .carousel-control-prev {
+  height: 50px;
+  width: 50px;
+  opacity: 1;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  transition: all 0.3s ease;
 }
-.carousel-inner .image-container {
-  position: relative;
-  height: 100%;
+.us-container .carousel-control-next:hover,
+.us-container .carousel-control-prev:hover {
+  box-shadow: 0 0 10px #f4d9d3;
 }
 
-.carousel-caption {
-  position: absolute;
-  bottom: 0 !important;
-  left: 0 !important;
-  width: 100%;
-  background-color: rgba(255, 0, 0, 0.25);
-  color: white;
-  text-align: center;
-  padding: 15px;
+.us-container .carousel-control-next {
+  right: 5%;
+  top: 100%;
 }
 
-.carousel-caption h5 {
-  margin: 0;
-  padding: 0;
+.us-container .carousel-control-prev {
+  left: 5%;
+  top: 100%;
 }
-.carousel-inner {
-  height: 600px;
-  border-radius: 10px;
-}
-
-.carousel-img-container img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 991px) {
-  #carousel {
-    display: block;
-  }
-}
-
-@media (max-width: 768px) {
-  #carousel {
-    display: block;
-    height: 550px;
-  }
-  .carousel-inner {
-    height: 550px;
-  }
-  #slide-description {
-    display: block !important;
-    object-fit: cover;
-  }
-}
-
-@media (max-width: 695px) {
-  #carousel {
-    display: block;
-    max-height: 100vh;
-  }
-  .bg-danger {
-    height: max-content;
-  }
-} */

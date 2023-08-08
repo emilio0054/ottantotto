@@ -11,6 +11,10 @@
 }
 .testimonials h2 {
   text-align: center;
+  font-size: 1.8em;
+  font-variation-settings: "wght" 400;
+  margin-bottom: 1.2em;
+
 }
 .comment {
   box-shadow: #e6d2cfcc 5px 10px 10px 0px;

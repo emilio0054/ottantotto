@@ -7,6 +7,7 @@ import { BottomNavBar } from "./components/BottomNavBar/BottomNavBar";
 import { Footer } from "./components/Footer/Footer";
 import { SideBar } from "./components/SideBar/SideBar";
 import { Pizzas } from "./components/Pizzas/Pizzas";
+import { Map } from "./components/Map/Map";
 
 function OttantottoApp() {
   return (
@@ -17,6 +18,7 @@ function OttantottoApp() {
       <Menu dark={false} id="menu" />
       <Pizzas id="pizzas" />
       <AboutUs dark={false} id="about-us" />
+      <Map />
       <Footer />
       <BottomNavBar />
       <SideBar />
