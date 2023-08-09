@@ -10,8 +10,8 @@ export const Contact = ({ id }) => {
         <p className="d-flex justify-content-center contact-subtitle">
           HAZ TU RESERVA CON TAN SÓLO UN CLICK
         </p>
-        <div className="d-flex justify-content-evenly main-container container ">
-          <div className="d-flex flex-column justify-content-start item">
+        <div className="d-flex justify-content-evenly main-container container">
+          <div className="d-flex flex-column justify-content-space-around align-content-center item">
             <a
               href="https://api.whatsapp.com/send?phone=34722194408&text=¡Hola!%20quiero%20hacer%20una
   %20reserva:%20(incluye%20cantidad%20de%20personas,%20día%20y%20hora%20en%20tu%20solicitud.)"
@@ -27,7 +27,7 @@ export const Contact = ({ id }) => {
               *Reservas sólo con 24hs de anticipación.
             </p>
           </div>
-          <div className="d-flex flex-column justify-content-center item">
+          <div className="d-flex flex-column justify-content-space-around align-content-center item">
             <a
               href="tel:930381911"
               target="_blank"
@@ -39,7 +39,18 @@ export const Contact = ({ id }) => {
             <p className="mb-0">Lunes a Domingo</p>
             <p className="mt-0 mb-0">12:00 a 22:00</p>
           </div>
-          <div className="d-flex flex-column justify-content-center item">
+          <div className="d-flex flex-column justify-content-space-around align-content-center item">
+            <a
+              href="https://goo.gl/maps/wBcuYJXGbrhH2tdc9"
+              target="_blank"
+              className="text-decoration-none text-center"
+            >
+              <i className="bi bi-geo-alt-fill location-icon"></i>
+              <h3 className="contact-text">¿Dónde estamos?</h3>
+            </a>
+            <p className="location-text"> Info acá</p>
+          </div>
+          <div className="d-flex flex-column justify-content-space-around align-content-center item">
             <a
               href="mailto:"
               target="_blank"

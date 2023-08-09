@@ -136,3 +136,15 @@ Tenemos en la barra de navegación el boton de accion de llamada, despues tenemo
 -Arreglado espaciado en varias partes de la pagina, a mi parecer estaba todo muy junto en ciertas partes entre textos e imagenes, o secciones.
 
 nota al pie: ojo cuando grabas cambios, hice un montonazo de cambios la otra vez que ahora no están asique se deben haber sobreescrito cuando guardaste tu avance. Alguna configuracion de git para guardar cuando hay dos ramas superpuestas esta haciendo eso.
+
+
+09/8
+
+modifique contacto, agregue ubicacion. 
+falta corregir responsive designs
+me gustaria que en pantallas de 991px haya dos filas de 2 columnas cada una. y lo sea igual para pantallas mas chicas.
+991 son tabletas, por consiguiente el hover no es necesario
+
+Me gustaria cambiar el tamaño del menu, para cuando la pantalla esta en 1000px que aun es ordenador, el menu se ve muy pequeño
+al ancho 450 px, las fotos de las pizzas se ven genial, pero el menu es pequeño
+
