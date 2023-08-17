@@ -50,3 +50,14 @@
     align-self: center;
   }
 }
+
+@media (max-width: 768px) {
+  .bottom-menu-container img {
+    width: 90%;
+    align-self: center;
+  }
+
+  #menu-img {
+    margin-bottom: 0;
+  }
+}
