@@ -49,7 +49,7 @@ export const Contact = ({ id }) => {
                 <i className="bi bi-geo-alt-fill location-icon"></i>
                 <h3 className="contact-text">¿Dónde estamos?</h3>
               </a>
-              <p className="location-text"> Info acá</p>
+              <p className="location-text"> Info aquí</p>
             </div>
             <div className="col-xs-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
               <a
@@ -60,7 +60,7 @@ export const Contact = ({ id }) => {
                 <i className="bi bi-envelope-at mail-icon"></i>
                 <h3 className="contact-text">Envíanos un mail</h3>
               </a>
-              <p className="mail-text"> Info acá</p>
+              <p className="mail-text"> Info aquí</p>
             </div>
           </div>
         </div>
