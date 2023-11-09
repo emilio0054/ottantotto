@@ -14,7 +14,7 @@
 
 #menu-img {
   height: 100%;
-  box-shadow: #e6d2cf 0px 0px 10px;
+  /* box-shadow: #e6d2cf 0px 0px 10px; */
 }
 
 @media (max-width: 991px) {
