@@ -176,6 +176,10 @@ export const NavBar = () => {
               <hr />
               <li>
                 <Link className="dropdown-item mb-1" to="home-view">
+                  <a
+                    href="Ottantotto/ottantottoEN/index.html"
+                    class="language-link"
+                  ></a>
                   <img src="/assets/languages/usa.png" width="30px" />
                 </Link>
               </li>
