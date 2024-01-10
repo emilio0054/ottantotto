@@ -3,9 +3,7 @@ import "./testimonials.css";
 export const Testimonials = () => {
   return (
     <div className="testimonials">
-      <h2 className="d-flex justify-content-center">
-        Que dicen nuestros clientes
-      </h2>
+      <h2 className="d-flex justify-content-center">What our customers say</h2>
       <div className="container-fluid text-center py-3 d-flex flex-wrap justify-content-around align-items-stretch">
         <div className="row justify-content-between">
           <div className="col-lg-4 col-md-12 comment d-flex flex-column align-items-center justify-content-around px-3">
@@ -25,10 +23,9 @@ export const Testimonials = () => {
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              La mejor pizza de todas! Arturo, el dueño, es muy acogedor,
-              amigable y atento. Esta es la segunda vez que venimos aquí y
-              siempre nos hace sentir muy especiales. ¡Definitivamente
-              volveremos de nuevo!
+              Best pizza ever! Arturo, the owner, is so welcoming and caring.
+              This is the second time we come and he always makes us feel so
+              special. Will definitely come back again!
             </p>
             <ul className="list-unstyled d-flex justify-content-center text-warning">
               <li>
@@ -65,10 +62,9 @@ export const Testimonials = () => {
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              La comida y el personal fueron increíbles. Además, está muy cerca
-              de la Sagrada Familia, ¡lo cual es una gran ventaja! La comida y
-              el vino eran muy asequibles, así que recomendaría este lugar a
-              todos.
+              The food and the staff were amazing. Plus, it's very close to the
+              Sagrada Familia, which is a big advantage! The food and wine were
+              very affordable, so I would recommend this place to everyone.
             </p>
             <ul className="list-unstyled d-flex justify-content-center text-warning">
               <li>
@@ -105,10 +101,10 @@ export const Testimonials = () => {
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              Hicimos una parada aquí para disfrutar de un pequeño sabor de
-              Italia en Barcelona. El servicio fue muy personal y la comida fue
-              excelente. Lo recomiendo mucho si estás buscando una alternativa a
-              la cocina local.
+              We made a stop here to enjoy a little taste of Italy in Barcelona.
+              The service was very personal, and the food was excellent. I
+              highly recommend it if you're looking for an alternative to local
+              cuisine.
             </p>
             <ul className="list-unstyled d-flex justify-content-center text-warning">
               <li>

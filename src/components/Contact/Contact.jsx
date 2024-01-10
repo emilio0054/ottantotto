@@ -5,10 +5,10 @@ export const Contact = ({ id }) => {
     <>
       <div className="contact-container" id={id}>
         <h2 className="d-flex justify-content-center contact-title">
-          RESERVAS Y PEDIDOS
+          BOOKINGS AND ORDERS
         </h2>
         <p className="d-flex justify-content-center contact-subtitle">
-          HAZ TU RESERVA CON TAN SÓLO UN CLICK
+          MAKE YOUR BOOKING WITH ONE CLICK
         </p>
         <div className="d-flex justify-content-evenly main-container container">
           <div className="d-flex flex-column justify-content-space-around align-content-center item">
@@ -19,12 +19,12 @@ export const Contact = ({ id }) => {
               className="text-decoration-none text-center"
             >
               <i className="bi bi-whatsapp whatsapp-icon"></i>
-              <h3 className="contact-text">Por Whatsapp</h3>
+              <h3 className="contact-text">Whatsapp</h3>
             </a>
-            <p className="mb-0">Lunes a Viernes</p>
+            <p className="mb-0">Monday to Friday</p>
             <p className="mt-0 mb-0">12:00 a 20:00hs</p>
             <p className="statement">
-              *Reservas sólo con 24hs de anticipación.
+              *Bookings must be made at least 24 hours in advance.
             </p>
           </div>
           <div className="d-flex flex-column justify-content-space-around align-content-center item">
@@ -34,9 +34,9 @@ export const Contact = ({ id }) => {
               className="text-decoration-none text-center"
             >
               <i className="bi bi-telephone-outbound phone-icon"></i>
-              <h3 className="contact-text">Por teléfono</h3>
+              <h3 className="contact-text">Phone</h3>
             </a>
-            <p className="mb-0">Lunes a Domingo</p>
+            <p className="mb-0">Monday to Sunday</p>
             <p className="mt-0 mb-0">12:00 a 22:00</p>
           </div>
           <div className="d-flex flex-column justify-content-space-around align-content-center item">
@@ -46,9 +46,9 @@ export const Contact = ({ id }) => {
               className="text-decoration-none text-center"
             >
               <i className="bi bi-geo-alt-fill location-icon"></i>
-              <h3 className="contact-text">¿Dónde estamos?</h3>
+              <h3 className="contact-text">Location</h3>
             </a>
-            <p className="location-text"> Info acá</p>
+            <p className="location-text">Info</p>
           </div>
           <div className="d-flex flex-column justify-content-space-around align-content-center item">
             <a
@@ -57,17 +57,17 @@ export const Contact = ({ id }) => {
               className="text-decoration-none text-center"
             >
               <i className="bi bi-envelope-at mail-icon"></i>
-              <h3 className="contact-text">Envíanos un mail</h3>
+              <h3 className="contact-text">Send us an Email!</h3>
             </a>
-            <p className="mail-text"> Info acá</p>
+            <p className="mail-text">Info</p>
           </div>
         </div>
         <p className="contact-confirmation">
-          Confirmaremos su reserva o pedido tan pronto comprobemos la
-          disponibilidad para la fecha y hora solicitadas.
+          We will confirm your booking or order as soon as we verify
+          availability for the requested date and time.
         </p>
         <p className="contact-confirmation mt-0 mb-2">
-          Si la reserva o pedido no son confirmados, no tendrá validez alguna.
+          If the reservation or order is not confirmed, it will not be valid.
         </p>
       </div>
     </>
