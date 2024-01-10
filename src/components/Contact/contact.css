@@ -105,11 +105,16 @@ p {
     padding: 5em 5em;
   }
 
-  .whatsapp-icon,
-  .phone-icon,
-  .mail-icon,
-  .location-icon {
-    font-size: 5.2rem;
+  .contact-confirmation {
+    margin-top: 15rem;
+    margin-bottom: 0;
+  }
+
+  .whatsapp-icon:hover,
+  .phone-icon:hover,
+  .mail-icon:hover,
+  .location-icon:hover {
+    font-size: 4rem;
   }
 
   .contact-text {
@@ -119,7 +124,14 @@ p {
 
 @media (max-width: 575px) {
   .main-container {
-    height: 60rem;
+    height: 50rem;
     font-size: 0.8rem;
+  }
+  .contact-confirmation {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .item {
+    margin-bottom: 2rem;
   }
 }

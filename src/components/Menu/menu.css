@@ -14,7 +14,7 @@
 
 #menu-img {
   height: 100%;
-  box-shadow: #e6d2cf 0px 0px 10px;
+  /* box-shadow: #e6d2cf 0px 0px 10px; */
 }
 
 @media (max-width: 991px) {
@@ -48,5 +48,16 @@
   .bottom-menu-container > img {
     width: 80%;
     align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .bottom-menu-container img {
+    width: 90%;
+    align-self: center;
+  }
+
+  #menu-img {
+    margin-bottom: 0;
   }
 }
