@@ -6,15 +6,15 @@ export const AboutUs = ({ id }) => {
   return (
     <>
       <div className="us-container" id={id}>
-        <h2 className="d-flex justify-content-center us-title">SOBRE NOSOTROS</h2>
+        <h2 className="d-flex justify-content-center us-title">ABOUT US</h2>
         <p className="textAb">
-          Nuestra pizzería nace de una pasión por la cocina italiana y el deseo
-          de compartir su sabor auténtico con el público. Nos complace invitarle
-          a nuestro restaurante, ubicado cerca de la Sagrada Familia. Nuestro
-          objetivo es brindarle una experiencia culinaria excepcional,
-          garantizando un servicio impecable y una atención especializada.
-          Disfrute de una combinación perfecta entre la autenticidad de la
-          cocina italiana y un ambiente familiar y acogedor.
+          Our pizzeria is born from a passion for Italian cuisine and the desire
+          to share its authentic flavor with the public. We are pleased to
+          invite you to our restaurant, located near the Sagrada Familia. Our
+          goal is to provide you with an exceptional culinary experience,
+          ensuring impeccable service and specialized attention. Enjoy a perfect
+          blend of the authenticity of Italian cuisine and a family-friendly and
+          welcoming atmosphere.
         </p>
         <Carousel />
         <div>

@@ -28,7 +28,7 @@ export const NavBar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="d-flex align-items-center me-3">
+        {/* <div className="d-flex align-items-center me-3">
           <a
             href="tel:930381911"
             className="contact-button-mobile"
@@ -78,7 +78,8 @@ export const NavBar = () => {
               </li>
             </ul>
           </li>
-        </div>
+        </div> */}
+        {/* Nav bar Sections */}
         <div
           className="collapse navbar-collapse justify-content-center"
           id="navbarSupportedContent"
@@ -95,7 +96,7 @@ export const NavBar = () => {
                 offset={top}
                 duration={500}
               >
-                INICIO
+                HOME
               </Link>
             </li>
             <li className="nav-item">
@@ -109,7 +110,7 @@ export const NavBar = () => {
                 offset={-70}
                 duration={500}
               >
-                RESERVAS
+                BOOKINGS
               </Link>
             </li>
             <li className="nav-item">
@@ -123,7 +124,7 @@ export const NavBar = () => {
                 offset={-70}
                 duration={500}
               >
-                MENÚ
+                MENU
               </Link>
             </li>
             <li className="nav-item">
@@ -151,11 +152,12 @@ export const NavBar = () => {
                 offset={-70}
                 duration={500}
               >
-                NOSOTROS
+                ABOUT US
               </Link>
             </li>
           </ul>
         </div>
+        {/* --------------------------- */}
         <a href="tel:tel:930381911" className="contact-button">
           <button className="btn btn-danger me-4 w-1">
             <i className="bi bi-telephone-fill phone"></i>

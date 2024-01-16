@@ -9,7 +9,7 @@ import { SideBar } from "./components/SideBar/SideBar";
 import { Pizzas } from "./components/Pizzas/Pizzas";
 import { Map } from "./components/Map/Map";
 
-function OttantottoApp() {
+function OttantottoAppEN() {
   return (
     <>
       <NavBar />
@@ -26,4 +26,4 @@ function OttantottoApp() {
   );
 }
 
-export default OttantottoApp;
+export default OttantottoAppEN;
