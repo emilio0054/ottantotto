@@ -49,7 +49,7 @@ export const Testimonials = () => {
             <img
               src="/assets/testimonials/Daphne B..jpg"
               className="w-25 img-fluid rounded-circle shadow-1-strong mb-4 mt-2"
-              alt="Daphne B. profile pict"
+              alt="Sara Cano Trabalon profile pict"
               id="commentimg"
             />
             <h5 className="mb-1">Sara Cano Trabalon</h5>
@@ -62,9 +62,6 @@ export const Testimonials = () => {
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              The food and the staff were amazing. Plus, it's very close to the
-              Sagrada Familia, which is a big advantage! The food and wine were
-              very affordable, so I would recommend this place to everyone.
               Recomendable al 100%. Me comí una pizza Piamonte de lo más
               exquisita. La masa fina y le acompaña una cremosa superficie de
               queso, setas y trufa. Una delicia. Me la recomendaron ahí, y han

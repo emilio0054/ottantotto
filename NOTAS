@@ -156,3 +156,6 @@ arregle que cuando si pincha en inicio, o el logo, o en la flecha para arriba de
 QUIERO corregir
 "inicio" queda siempre seleccionado, por mas que estes en otra seccion.
 Quiero que el menu hamburguesa desaparezca (se cierre automaticamente)una vez el usuario pinche en la seccion que desea ir. 
+
+Verificar que esta la version en ingles en la pagina
+verificar que al achicarse la pantalla, el menu hamburguesa queda al costado derecho, desapareciendo el logo telefono e idioma

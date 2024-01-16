@@ -157,7 +157,6 @@ export const NavBar = () => {
             </li>
           </ul>
         </div>
-        {/* --------------------------- */}
         <a href="tel:tel:930381911" className="contact-button">
           <button className="btn btn-danger me-4 w-1">
             <i className="bi bi-telephone-fill phone"></i>
