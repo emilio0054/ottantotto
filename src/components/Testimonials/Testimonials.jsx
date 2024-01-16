@@ -55,20 +55,21 @@ export const Testimonials = () => {
               alt="Daphne B. profile pict"
               id="commentimg"
             />
-            <h5 className="mb-1">Daphne B.</h5>
+            <h5 className="mb-1">Sara Cano Trabalon</h5>
             <a
-              href="https://www.thefork.com/restaurant/ottantotto-r374051/reviews#tabSwitch=true"
+              href="https://maps.app.goo.gl/T1UJ14EVCKnWyFiS8"
               target="_blank"
               className="mb-2 text-decoration-none d-block "
             >
-              The Fork
+              Google Maps
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              La comida y el personal fueron increíbles. Además, está muy cerca
-              de la Sagrada Familia, ¡lo cual es una gran ventaja! La comida y
-              el vino eran muy asequibles, así que recomendaría este lugar a
-              todos.
+              Recomendable al 100%. Me comí una pizza Piamonte de lo más
+              exquisita. La masa fina y le acompaña una cremosa superficie de
+              queso, setas y trufa. Una delicia. Me la recomendaron ahí, y han
+              dado en el clavo! Gracias!! El servicio muy atento y agradable. Un
+              local bonito, de lo más acogedor y íntimo. Volveré sin duda!
             </p>
             <ul className="list-unstyled d-flex justify-content-center text-warning">
               <li>

@@ -53,7 +53,7 @@ export const Contact = ({ id }) => {
             </div>
             <div className="col-xs-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
               <a
-                href="mailto:"
+                href="mailto:pizzeriaottantotto@gmail.com"
                 target="_blank"
                 className="text-decoration-none text-center"
               >

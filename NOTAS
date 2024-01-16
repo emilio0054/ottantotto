@@ -147,4 +147,12 @@ me gustaria que en pantallas de 991px haya dos filas de 2 columnas cada una. y l
 
 Me gustaria cambiar el tamaño del menu, para cuando la pantalla esta en 1000px que aun es ordenador, el menu se ve muy pequeño
 al ancho 450 px, las fotos de las pizzas se ven genial, pero el menu es pequeño
+-------------------------------------------
+16/01
+Agregue el correo para cuando el usuario quiera hacer una reserva por correo.
+cambie un testimonial
+arregle que cuando si pincha en inicio, o el logo, o en la flecha para arriba del sidebar, la pantalla se scrolee para el top de la pagina.
 
+QUIERO corregir
+"inicio" queda siempre seleccionado, por mas que estes en otra seccion.
+Quiero que el menu hamburguesa desaparezca (se cierre automaticamente)una vez el usuario pinche en la seccion que desea ir. 

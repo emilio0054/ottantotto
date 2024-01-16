@@ -12,6 +12,7 @@ export const NavBar = () => {
           activeClass="active"
           spy={true}
           smooth={true}
+          offset={top}
           duration={500}
         >
           <Logo />
@@ -49,7 +50,11 @@ export const NavBar = () => {
             </a>
             <ul className="dropdown-menu">
               <li>
-                <Link className="dropdown-item mb-1" to="home-view">
+                <Link
+                  className="dropdown-item mb-1"
+                  to="home-view"
+                  offset={top}
+                >
                   <img src="/assets/languages/cat.png" width="30px" />
                 </Link>
               </li>
@@ -87,7 +92,7 @@ export const NavBar = () => {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-90}
+                offset={top}
                 duration={500}
               >
                 INICIO
