@@ -23,6 +23,11 @@ nav {
 
 .nav-links {
   color: black;
+  cursor: pointer;
+}
+.nav-item {
+  color: black;
+  cursor: pointer;
 }
 
 .phone {

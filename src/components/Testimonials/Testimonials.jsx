@@ -82,7 +82,7 @@ export const Testimonials = () => {
                 <i className="bi bi-star-fill"></i>
               </li>
               <li>
-                <i className="bi bi-star-half"></i>
+                <i className="bi bi-star-fill"></i>
               </li>
             </ul>
           </div>

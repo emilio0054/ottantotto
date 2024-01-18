@@ -28,7 +28,8 @@ export const NavBar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        {/* <div className="d-flex align-items-center me-3">
+        {/* 
+        <div className="d-flex align-items-center me-3">
           <a
             href="tel:930381911"
             className="contact-button-mobile"
@@ -78,7 +79,8 @@ export const NavBar = () => {
               </li>
             </ul>
           </li>
-        </div> */}
+        </div> 
+        */}
         {/* Nav bar Sections */}
         <div
           className="collapse navbar-collapse justify-content-center"
