@@ -1,4 +1,6 @@
 footer {
+  overflow: hidden;
+  max-width: 100%;
   display: block;
   background-color: #3d3d3d;
   width: 100vw;
