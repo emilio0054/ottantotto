@@ -10,7 +10,7 @@ export const Contact = ({ id }) => {
         <p className="d-flex justify-content-center contact-subtitle">
           MAKE YOUR BOOKING WITH ONE CLICK
         </p>
-        <div className="d-flex justify-content-evenly main-container container h-auto">
+        <div className="d-flex justify-content-evenly main-container container">
           <div className="row">
             <div className="col-xs-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
               <a
@@ -28,7 +28,7 @@ export const Contact = ({ id }) => {
                 *Bookings must be made at least 24 hours in advance.
               </p>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
+            <div className="col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
               <a
                 href="tel:930381911"
                 target="_blank"
@@ -40,7 +40,7 @@ export const Contact = ({ id }) => {
               <p className="mb-0">Monday to Sunday</p>
               <p className="mt-0 mb-0">12:00 a 22:00</p>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
+            <div className="col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
               <a
                 href="https://goo.gl/maps/wBcuYJXGbrhH2tdc9"
                 target="_blank"
@@ -51,7 +51,7 @@ export const Contact = ({ id }) => {
               </a>
               <p className="location-text">Info</p>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
+            <div className="col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
               <a
                 href="mailto:pizzeriaottantotto@gmail.com"
                 target="_blank"

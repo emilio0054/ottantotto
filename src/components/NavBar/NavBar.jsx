@@ -5,7 +5,7 @@ import "./navBar.css";
 export const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg sticky-top" id="navbar">
+      <nav className="navbar navbar-expand-lg sticky-top h-25" id="navbar">
         <Link
           to="home-view"
           className="navbar-brand"

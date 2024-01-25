@@ -159,3 +159,12 @@ Quiero que el menu hamburguesa desaparezca (se cierre automaticamente)una vez el
 
 Verificar que esta la version en ingles en la pagina
 verificar que al achicarse la pantalla, el menu hamburguesa queda al costado derecho, desapareciendo el logo telefono e idioma
+
+
+25 de enero
+
+Errores a modificar:
+idioma
+El nav bar cuando la pantall se achica, le falta margen inferior.
+La foto de fra en about us, tiene un tamaño distinto
+El footer, la direccion hace algo raro al achicar la pantalla

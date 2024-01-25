@@ -91,6 +91,7 @@ p {
     align-items: baseline;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    height: auto;
   }
   .item {
     width: 25%;
