@@ -1,39 +1,35 @@
-.bottom-container{
-    display:none;
+.bottom-container {
+  display: none;
 }
-#bottom-items{
-    display: none;
-}
-
-.pizza-icon {
-    color: #3d3d3d;
+#bottom-items {
+  display: none;
 }
 
-@media (max-width:991px) {
-    .bottom-container {
-        display:block;
-        background-color: #fbf7f7;
-        opacity: 95%;
-        box-shadow: #989999 0px 0px 10px;
-        /* margin-top: 2em; */
-        position: sticky;
-        bottom: 0;
-        padding: 1em;
-    }
-    
-    #bottom-items {
-        display: block;
-        color: #3d3d3d;
-        text-decoration: none;
-        margin-right: 2em;
-        font-weight: 500;
-    }
-    
-    #bottom-items:hover {
-        color: #b53a20;
-    }
-    
-    #bottom-items.active {
-        color: #b53a20;
-    }
+@media (max-width: 991px) {
+  .bottom-container {
+    display: block;
+    background-color: #fbf7f7;
+    opacity: 95%;
+    box-shadow: #989999 0px 0px 10px;
+    /* margin-top: 2em; */
+    position: sticky;
+    bottom: 0;
+    padding: 1em;
   }
+
+  #bottom-items {
+    display: block;
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-right: 2em;
+    font-weight: 500;
+  }
+
+  #bottom-items:hover {
+    color: #b53a20;
+  }
+
+  #bottom-items.active {
+    color: #b53a20;
+  }
+}
