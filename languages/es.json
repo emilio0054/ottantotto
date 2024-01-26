@@ -1,6 +1,14 @@
 {
   "contact": {
-    "first-contact-tittle": "Pedidos y reserva",
-    "second-contact-tittle": "Haz tu reserva con tan solo un click"
+    "first-line-tittle": "RESERVAS Y PEDIDOS",
+    "second-line-tittle": "HAZ TU RESERVA CON TAN SOLO UN CLICK",
+    "third-line-tittle": "Lunes a Viernes",
+    "fourth-line-tittle": "*Reservas se deben de hacer con 24 horas de anticipo.",
+    "fifth-line-tittle": "Teléfono",
+    "sixth-line.tittle": "Lunes a Viernes",
+    "seventh-line-tittle": "Ubicación",
+    "eighth-line-tittle": "Enviar Correo",
+    "ninth-line-tittle": "Confirmaremos tu reserva o pedido tan pronto verifiquemos disponibilidad.",
+    "tenth-line-tittle": "Si la reserva o el pedido no está confirmado, no será válido."
   }
 }

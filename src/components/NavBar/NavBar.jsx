@@ -111,11 +111,11 @@ export const NavBar = () => {
             <i className="d-flex align-items-center bi bi-telephone-fill phone"></i>
           </button>
         </a>
-        <div>
+        {/* <div>
           <Language />
-        </div>
+        </div> */}
         {/* EMPIEZA EL DROPDOWN DE BANDERAS */}
-        {/* <div className="d-flex align-items-center last-container">
+        <div className="d-flex align-items-center last-container">
           <li className="dropdown dropdown-desktop" id="nav-items">
             <a
               className="nav-link dropdown-toggle"
@@ -156,7 +156,7 @@ export const NavBar = () => {
               </li>
             </ul>
           </li>
-        </div> */}
+        </div>
       </nav>
     </>
   );
