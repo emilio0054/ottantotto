@@ -1,5 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Logo } from "../Logo/Logo";
+import { Language } from "../Language/Language";
 import "./navBar.css";
 
 export const NavBar = () => {
@@ -28,60 +29,6 @@ export const NavBar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        {/* 
-        <div className="d-flex align-items-center me-3">
-          <a
-            href="tel:930381911"
-            className="contact-button-mobile"
-            target="_blank"
-          >
-            <button className="btn btn-danger mt-1 me-3">
-              <i className="bi bi-telephone-fill phone"></i>
-            </button>
-          </a>
-          <li className="dropdown dropdown-mobile" id="nav-items">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img src="/assets/languages/esp.png" width="30px" />
-            </a>
-            <ul className="dropdown-menu">
-              <li>
-                <Link
-                  className="dropdown-item mb-1"
-                  to="home-view"
-                  offset={top}
-                >
-                  <img src="/assets/languages/cat.png" width="30px" />
-                </Link>
-              </li>
-              <hr />
-              <li>
-                <Link className="dropdown-item mb-1" to="home-view">
-                  <img src="/assets/languages/usa.png" width="30px" />
-                </Link>
-              </li>
-              <hr />
-              <li>
-                <Link className="dropdown-item mb-1" to="home-view">
-                  <img src="/assets/languages/ita.png" width="30px" />
-                </Link>
-              </li>
-              <hr />
-              <li>
-                <Link className="dropdown-item mb-1" to="home-view">
-                  <img src="/assets/languages/fr.png" width="30px" />
-                </Link>
-              </li>
-            </ul>
-          </li>
-        </div> 
-        */}
-        {/* Nav bar Sections */}
         <div
           className="collapse navbar-collapse justify-content-center"
           id="navbarSupportedContent"
@@ -161,10 +108,14 @@ export const NavBar = () => {
         </div>
         <a href="tel:tel:930381911" className="contact-button">
           <button className="btn btn-danger me-4 w-1">
-            <i className="bi bi-telephone-fill phone"></i>
+            <i className="d-flex align-items-center bi bi-telephone-fill phone"></i>
           </button>
         </a>
-        <div className="d-flex align-items-center last-container">
+        <div>
+          <Language />
+        </div>
+        {/* EMPIEZA EL DROPDOWN DE BANDERAS */}
+        {/* <div className="d-flex align-items-center last-container">
           <li className="dropdown dropdown-desktop" id="nav-items">
             <a
               className="nav-link dropdown-toggle"
@@ -205,7 +156,7 @@ export const NavBar = () => {
               </li>
             </ul>
           </li>
-        </div>
+        </div> */}
       </nav>
     </>
   );
