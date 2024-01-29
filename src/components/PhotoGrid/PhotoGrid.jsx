@@ -4,11 +4,21 @@ export const PhotoGrid = () => {
   return (
     <>
       <div className="container text-center mb-5" id="photo-grid">
-        <h2 className="text-center mb-4">OUR PIZZAS</h2>
-        <p className="text mb-5">
-          From the classic Marinara and Margherita to creations inspired by
-          different regions of Italy, each pizza offers a unique culinary
-          experience.
+        <h2
+          className="text-center mb-4"
+          data-section="photogrid"
+          data-value="first-pizza-tittle"
+        >
+          NUESTRAS PIZZAS
+        </h2>
+        <p
+          className="text mb-5"
+          data-section="photogrid"
+          data-value="second-pizza-tittle"
+        >
+          Desde las clásicas Marinara y Margarita hasta creaciones inspiradas en
+          diferentes regiones de Italia, cada pizza ofrece una experiencia
+          culinaria única.
         </p>
         <div className="row justify-content-between mb-3 gap-4">
           <div className="col-md-5 col-xs-12 d-flex flex-column align-items-center justify-content-around pizza-card">
@@ -35,7 +45,8 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">EMILIA</h5>
               <p className="ingredients">
-                Mozzarella, scamorza, artichokes, mortadella, Parmesan
+                Mozzarella, scamorza (smoked cheese), artichokes, mortadella,
+                Parmesan
               </p>
             </div>
           </div>
@@ -50,7 +61,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">FRIULI</h5>
               <p className="ingredients">
-                Tomato, mozzarella, spicy Calabrian salami, black olives
+                Tomato, mozzarella, cured ham, fresh basil
               </p>
             </div>
           </div>

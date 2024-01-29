@@ -10,5 +10,9 @@
     "eighth-line-tittle": "Send us an Email!",
     "ninth-line-tittle": "We will confirm your booking or order as soon as we verify availability for the requested date and time.",
     "tenth-line-tittle": "If the reservation or order is not confirmed, it will not be valid."
+  },
+  "photogrid": {
+    "first-pizza-tittle": "OUR PIZZAS",
+    "second-pizza-tittle": "From the classic Marinara and Margherita to creations inspired by different regions of Italy, each pizza offers a unique culinary experience."
   }
 }

@@ -10,5 +10,17 @@
     "eighth-line-tittle": "Enviar Correo",
     "ninth-line-tittle": "Confirmaremos tu reserva o pedido tan pronto verifiquemos disponibilidad.",
     "tenth-line-tittle": "Si la reserva o el pedido no está confirmado, no será válido."
+  },
+  "photogrid": {
+    "first-pizza-tittle": "NUESTRAS PIZZAS",
+    "second-pizza-tittle": "Desde las clásicas Marinara y Margarita hasta creaciones inspiradas en diferentes regiones de Italia, cada pizza ofrece una experiencia culinaria única.",
+    "first-type-pizza": "CALABRIA",
+    "first-pizza-description": "Tomate, muzzarella, salame picante de Calabria, aceitunas negras",
+    "second-type-pizza": "EMILIA",
+    "second-type-description": "Muzzarella, scamorza(queso ahumado), alcachofas, mortadela, parmesano",
+    "third-type-pizza": "FRIULI",
+    "third-type-description": "Tomate, muzzarella, jamon curado, albhaca fresca",
+    "fourth-type-pizza": "LIGURIA",
+    "fourth-type-description": "Muzzarella, estafarza, alcachofas, mortadela, parmesano"
   }
 }
