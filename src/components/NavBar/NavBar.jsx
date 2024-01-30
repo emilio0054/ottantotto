@@ -45,7 +45,7 @@ export const NavBar = () => {
                 offset={top}
                 duration={500}
               >
-                HOME
+                INICIO
               </Link>
             </li>
             <li className="nav-item">
@@ -59,7 +59,7 @@ export const NavBar = () => {
                 offset={-70}
                 duration={500}
               >
-                BOOKINGS
+                RESERVAS
               </Link>
             </li>
             <li className="nav-item">
@@ -101,7 +101,7 @@ export const NavBar = () => {
                 offset={-70}
                 duration={500}
               >
-                ABOUT US
+                CONOCENOS
               </Link>
             </li>
           </ul>
@@ -115,7 +115,7 @@ export const NavBar = () => {
           <Language />
         </div> */}
         {/* EMPIEZA EL DROPDOWN DE BANDERAS */}
-        <div className="d-flex align-items-center last-container">
+        {/* <div className="d-flex align-items-center last-container">
           <li className="dropdown dropdown-desktop" id="nav-items">
             <a
               className="nav-link dropdown-toggle"
@@ -128,13 +128,13 @@ export const NavBar = () => {
             </a>
             <ul className="dropdown-menu">
               <li>
-                <Link className="dropdown-item mb-1" to="home-view">
+                <Link className="dropdown-item mb-1" to="">
                   <img src="/assets/languages/cat.png" width="30px" />
                 </Link>
               </li>
               <hr />
               <li>
-                <Link className="dropdown-item mb-1" to="home-view">
+                <Link className="dropdown-item mb-1" to="">
                   <a
                     href="Ottantotto/ottantottoEN/index.html"
                     class="language-link"
@@ -144,18 +144,50 @@ export const NavBar = () => {
               </li>
               <hr />
               <li>
-                <Link className="dropdown-item mb-1" to="home-view">
+                <Link className="dropdown-item mb-1" to="">
                   <img src="/assets/languages/ita.png" width="30px" />
                 </Link>
               </li>
               <hr />
               <li>
-                <Link className="dropdown-item mb-1" to="home-view">
+                <Link className="dropdown-item mb-1" to="">
                   <img src="/assets/languages/fr.png" width="30px" />
                 </Link>
               </li>
             </ul>
           </li>
+        </div> */}
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img src="/assets/languages/esp.png" width="30px" />
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="/assets/languages/cat.png" width="30px" />
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="/assets/languages/usa.png" width="30px" />
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="/assets/languages/ita.png" width="30px" />
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="/assets/languages/fr.png" width="30px" />
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </>
