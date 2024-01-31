@@ -172,3 +172,14 @@ El footer, la direccion hace algo raro al achicar la pantalla
 29 DE enero
 
 Las pizzas con sus ingredientes estan desordenadas.
+
+31 de enero
+Añadiste scripts.js como archivo.. tambien lo agregaste a index.html en la linea 11. (eso ya lo borraste)
+Notaste que hay dos index.html. uno dentro de src y otra fuera.. preguntar si es correcto
+
+en el navbar, donde esta el dropdown de las banderas, en cada <a> agregaste className="flags_item" data-language="es" jugaste con esto en navbar.css
+
+tenes creado un component llamado language. hay que borrarlo.
+
+los botones de las banderas funcionan.. al hacer click te dirigen al comienzo de la pagina. Mi idea es que al hacer click, te lleven a un clon de la pagina en su idioma correspondinte. 
+Tambien al hacer click, ese icono de bandera debe quedar seleccionado

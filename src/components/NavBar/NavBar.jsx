@@ -157,33 +157,47 @@ export const NavBar = () => {
             </ul>
           </li>
         </div> */}
-        <div class="dropdown">
+        <div className="dropdown flags" id="flags">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            className="btn dropdown-toggle"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            <img src="/assets/languages/esp.png" width="30px" />
+            <a className="flags_item" data-language="es">
+              <img src="/assets/languages/esp.png" width="30px" />
+            </a>
           </button>
-          <ul class="dropdown-menu">
+          <ul className="dropdown-menu">
             <li>
-              <a class="dropdown-item" href="#">
+              <a
+                className="dropdown-item flags_item"
+                data-language="cat"
+                href="#"
+              >
                 <img src="/assets/languages/cat.png" width="30px" />
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <a
+                className="dropdown-item flags_item"
+                data-language="en"
+                href="#"
+              >
                 <img src="/assets/languages/usa.png" width="30px" />
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <a
+                className="dropdown-item flags_item"
+                data-language="it"
+                href="#"
+              >
                 <img src="/assets/languages/ita.png" width="30px" />
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <a className="dropdown-item" href="#">
                 <img src="/assets/languages/fr.png" width="30px" />
               </a>
             </li>
