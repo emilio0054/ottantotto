@@ -1,6 +1,5 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Logo } from "../Logo/Logo";
-import { Language } from "../Language/Language";
 import "./navBar.css";
 
 export const NavBar = () => {
@@ -111,9 +110,6 @@ export const NavBar = () => {
             <i className="d-flex align-items-center bi bi-telephone-fill phone"></i>
           </button>
         </a>
-        {/* <div>
-          <Language />
-        </div> */}
         {/* EMPIEZA EL DROPDOWN DE BANDERAS */}
         {/* <div className="d-flex align-items-center last-container">
           <li className="dropdown dropdown-desktop" id="nav-items">
