@@ -65,8 +65,7 @@ export const Footer = ({ id }) => {
           </a>
         </div>
         <p className="text-end me-5  mt-4 developed">
-          Pizzeria Bar Ottantotto © 2023 | Web and Design by Lucía Hobrecht &
-          Emilio León ✨{" "}
+          Pizzeria Bar Ottantotto © 2023 | Web and Design by ✨{" "}
         </p>
       </div>
     </footer>
