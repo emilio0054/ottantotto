@@ -11,7 +11,7 @@ export const Carousel = () => {
             data-bs-ride="carousel"
           >
             <div className="carousel-innerAbout">
-              <div className="carousel-item active" data-bs-interval="4000">
+              {/* <div className="carousel-item active" data-bs-interval="4000">
                 <div className="containerAbout">
                   <img
                     src="/assets/aboutUs/about-us2.jpg"
@@ -19,8 +19,8 @@ export const Carousel = () => {
                     alt="frafo parado"
                   ></img>
                 </div>
-              </div>
-              <div className="carousel-item" data-bs-interval="2000">
+              </div> */}
+              <div className="carousel-item active" data-bs-interval="2000">
                 <div className="containerAbout">
                   <img
                     src="/assets/aboutUs/about-us8.jpg"
