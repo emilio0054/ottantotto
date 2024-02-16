@@ -5,7 +5,7 @@ export const Footer = ({ id }) => {
     <footer className="" id={id}>
       <div className="row mb-0 align-items-start justify-content-between m-0">
         <div className="col-lg-3 p-5">
-          <h3>INFORMATION</h3>
+          <h3>INFORMACIÓN</h3>
           <a
             href="https://goo.gl/maps/kEcNZSV8wWY8TKst6?coh=178571&entry=tt"
             className="mt-2 text-decoration-none"
@@ -24,17 +24,17 @@ export const Footer = ({ id }) => {
           </a>
         </div>
         <div className="col-lg-3 p-5">
-          <h3>OPENING HOURS</h3>
-          <h5>Wednesday to Sunday</h5>
+          <h3>HORARIOS DE APERTURA</h3>
+          <h5>MIERCOLES a DOMINGO</h5>
           <h5>13:00 a 16:00</h5>
           <h5>20:00 a 23:00</h5>
         </div>
         <div className="col-lg-3 p-5">
-          <h3>SECTIONS</h3>
-          <h5>Home</h5>
-          <h5>Booking and orders</h5>
+          <h3>SECCIONES</h3>
+          <h5>Inicio</h5>
+          <h5>Reservas y pedidos</h5>
           <h5>Pizzas</h5>
-          <h5>About Us</h5>
+          <h5>Sobre nosotros</h5>
         </div>
         <div className="col-lg-3 p-5">
           <h3>POLÍTICAS</h3>

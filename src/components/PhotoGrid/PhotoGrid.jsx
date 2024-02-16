@@ -31,7 +31,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">CALABRIA</h5>
               <p className="ingredients">
-                Tomato, mozzarella, spicy Calabrian salami, black olives
+                Tomate, muzzarella, salami picante de calabria, olivas negras
               </p>
             </div>
           </div>
@@ -45,8 +45,8 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">EMILIA</h5>
               <p className="ingredients">
-                Mozzarella, scamorza (smoked cheese), artichokes, mortadella,
-                Parmesan
+                Muzzarella, scamorza (queso ahumado), alcachofas, mortadella,
+                parmesano
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">FRIULI</h5>
               <p className="ingredients">
-                Tomato, mozzarella, cured ham, fresh basil
+                Tomate, muzzarella. jamón curado, albahaca fresca
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">LIGURIA</h5>
               <p className="ingredients">
-                Mozzarella, scamorza, artichokes, mortadella, Parmesan
+                Muzzarella, patatas, pesto hecho en casa
               </p>
             </div>
           </div>
@@ -90,7 +90,8 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">MARCHE</h5>
               <p className="ingredients">
-                Tomato, mozzarella, spicy Calabrian salami, black olives
+                Tomate, muzzarella, champiñones, alcachofas, jamon cocido,
+                olivas negras
               </p>
             </div>
           </div>
@@ -103,9 +104,7 @@ export const PhotoGrid = () => {
                 alt="pizza queso y salsa tomate"
               />
               <h5 className="pizzaName text-center">MARGHARITA</h5>
-              <p className="ingredients">
-                Mozzarella, scamorza, artichokes, mortadella, Parmesan
-              </p>
+              <p className="ingredients">Tomate, muzzarella, abhaca freca</p>
             </div>
           </div>
 
@@ -119,7 +118,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">PIEMONTE</h5>
               <p className="ingredients">
-                Tomato, mozzarella, spicy Calabrian salami, black olives
+                Muzzarella, queso taleggio, setas porcini, trufa deshidratada
               </p>
             </div>
           </div>
@@ -132,9 +131,7 @@ export const PhotoGrid = () => {
                 alt="pizza con burrata"
               />
               <h5 className="pizzaName text-center">PUGLIA</h5>
-              <p className="ingredients">
-                Mozzarella, scamorza, artichokes, mortadella, Parmesan
-              </p>
+              <p className="ingredients">Tomate, burrata, albahca fresca</p>
             </div>
           </div>
 
@@ -148,7 +145,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">SARDEGNA</h5>
               <p className="ingredients">
-                Tomato, mozzarella, spicy Calabrian salami, black olives
+                Tomate, muzzarella, atún, cebolla, olivas negras, oregano
               </p>
             </div>
           </div>
@@ -162,7 +159,8 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">TOSCANA</h5>
               <p className="ingredients">
-                Mozzarella, scamorza, artichokes, mortadella, Parmesan
+                Tomate, muzzarella, finocchiona (fiambre toscano de cerdo con
+                semillas de hinojo)
               </p>
             </div>
           </div>

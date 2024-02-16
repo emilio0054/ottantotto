@@ -100,7 +100,7 @@ export const NavBar = () => {
                 offset={-70}
                 duration={500}
               >
-                CONOCENOS
+                SOBRE NOSOTROS
               </Link>
             </li>
           </ul>

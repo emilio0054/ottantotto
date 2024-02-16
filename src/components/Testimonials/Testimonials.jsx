@@ -3,7 +3,9 @@ import "./testimonials.css";
 export const Testimonials = () => {
   return (
     <div className="testimonials">
-      <h2 className="d-flex justify-content-center">What our customers say</h2>
+      <h2 className="d-flex justify-content-center">
+        Que dicen nuestros clientes
+      </h2>
       <div className="container-fluid text-center py-3 d-flex flex-wrap justify-content-around align-items-stretch">
         <div className="row justify-content-between">
           <div className="col-lg-4 col-md-12 comment d-flex flex-column align-items-center justify-content-around px-3">
