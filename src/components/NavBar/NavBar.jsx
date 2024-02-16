@@ -111,7 +111,7 @@ export const NavBar = () => {
           </button>
         </a>
         {/* EMPIEZA EL DROPDOWN DE BANDERAS */}
-        {/* <div className="d-flex align-items-center last-container">
+        <div className="d-flex align-items-center last-container">
           <li className="dropdown dropdown-desktop" id="nav-items">
             <a
               className="nav-link dropdown-toggle"
@@ -152,52 +152,6 @@ export const NavBar = () => {
               </li>
             </ul>
           </li>
-        </div> */}
-        <div className="dropdown flags" id="flags">
-          <button
-            className="btn dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <a className="flags_item" data-language="es">
-              <img src="/assets/languages/esp.png" width="30px" />
-            </a>
-          </button>
-          <ul className="dropdown-menu">
-            <li>
-              <a
-                className="dropdown-item flags_item"
-                data-language="cat"
-                href="#"
-              >
-                <img src="/assets/languages/cat.png" width="30px" />
-              </a>
-            </li>
-            <li>
-              <a
-                className="dropdown-item flags_item"
-                data-language="en"
-                href="#"
-              >
-                <img src="/assets/languages/usa.png" width="30px" />
-              </a>
-            </li>
-            <li>
-              <a
-                className="dropdown-item flags_item"
-                data-language="it"
-                href="#"
-              >
-                <img src="/assets/languages/ita.png" width="30px" />
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                <img src="/assets/languages/fr.png" width="30px" />
-              </a>
-            </li>
-          </ul>
         </div>
       </nav>
     </>
