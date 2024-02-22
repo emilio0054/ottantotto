@@ -1,6 +1,8 @@
 import "./contact.css";
+import { useTranslation } from "react-i18next";
 
 export const Contact = ({ id }) => {
+  const {t}=useTranslation()
   return (
     <>
       <div className="contact-container" id={id}>
@@ -9,14 +11,15 @@ export const Contact = ({ id }) => {
           data-section="contact"
           data-value="first-line-tittle"
         >
-          RESERVAS Y PEDIDOS
+          {t("firstLinetittle")}
+
         </h2>
         <p
           className="d-flex justify-content-center contact-subtitle"
           data-section="contact"
           data-value="second-line-tittle"
         >
-          HAZ TU RESERVA CON TAN SOLO UN CLICK
+          {t("secondtLinetittle")}
         </p>
         <div className="d-flex justify-content-evenly main-container container">
           <div className="row">
@@ -35,7 +38,7 @@ export const Contact = ({ id }) => {
                 data-section="contact"
                 data-value="third-line-tittle"
               >
-                Lunes a Viernes
+                {t("thirdtLinetittle")}
               </p>
               <p className="mt-0 mb-0">12:00 a 20:00hs</p>
               <p
@@ -43,7 +46,7 @@ export const Contact = ({ id }) => {
                 data-section="contact"
                 data-value="fourth-line-tittle"
               >
-                *Reservas se deben de hacer con 24 horas de anticipo.
+                {t("forthLinetittle")}
               </p>
             </div>
             <div className="col-12 col-sm-6 col-lg-3 d-flex flex-column justify-content-space-around align-content-center item">
@@ -58,7 +61,7 @@ export const Contact = ({ id }) => {
                   data-section="contact"
                   data-value="fifth-line-tittle"
                 >
-                  Teléfono
+                  {t("fifthtLinetittle")}
                 </h3>
               </a>
               <p
@@ -66,7 +69,7 @@ export const Contact = ({ id }) => {
                 data-section="contact"
                 data-value="sixth-line-tittle"
               >
-                Lunes a Viernes
+                {t("sixthLinetittle")}
               </p>
               <p className="mt-0 mb-0">12:00 a 22:00</p>
             </div>
@@ -82,7 +85,7 @@ export const Contact = ({ id }) => {
                   data-section="contact"
                   data-value="seventh-line-tittle"
                 >
-                  Ubicación
+                  {t("seventhLinetittle")}
                 </h3>
               </a>
               <p className="location-text">Info</p>
@@ -99,7 +102,7 @@ export const Contact = ({ id }) => {
                   data-section="contact"
                   data-value="eighth-line-tittle"
                 >
-                  Enviar Correo!
+                 {t("eighthLinetittle")}
                 </h3>
               </a>
               <p className="mail-text">Info</p>
@@ -111,15 +114,14 @@ export const Contact = ({ id }) => {
           data-section="contact"
           data-value="ninth-line-tittle"
         >
-          Confirmaremos tu reserva o pedido tan pronto verifiquemos
-          disponibilidad.
+         {t("ninthLinetittle")}
         </p>
         <p
           className="contact-confirmation mt-0 mb-2"
           data-section="contact"
           data-value="tenth-line-tittle"
         >
-          Si la reserva o el pedido no está confirmado, no será válido.
+          {t("tenthLinetittle")}
         </p>
       </div>
     </>

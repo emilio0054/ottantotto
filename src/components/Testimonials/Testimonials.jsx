@@ -1,10 +1,13 @@
 import "./testimonials.css";
+import { useTranslation } from "react-i18next";
 
 export const Testimonials = () => {
+  const {t}=useTranslation()
+
   return (
     <div className="testimonials">
       <h2 className="d-flex justify-content-center">
-        Que dicen nuestros clientes
+       {t("testimonialTitle")}
       </h2>
       <div className="container-fluid text-center py-3 d-flex flex-wrap justify-content-around align-items-stretch">
         <div className="row justify-content-between">
@@ -25,9 +28,7 @@ export const Testimonials = () => {
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              Best pizza ever! Arturo, the owner, is so welcoming and caring.
-              This is the second time we come and he always makes us feel so
-              special. Will definitely come back again!
+            {t("testimonialC1")}
             </p>
             <ul className="list-unstyled d-flex justify-content-center text-warning">
               <li>
@@ -64,11 +65,7 @@ export const Testimonials = () => {
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              Recomendable al 100%. Me comí una pizza Piamonte de lo más
-              exquisita. La masa fina y le acompaña una cremosa superficie de
-              queso, setas y trufa. Una delicia. Me la recomendaron ahí, y han
-              dado en el clavo! Gracias!! El servicio muy atento y agradable. Un
-              local bonito, de lo más acogedor y íntimo. Volveré sin duda!
+            {t("testimonialC2")}
             </p>
             <ul className="list-unstyled d-flex justify-content-center text-warning">
               <li>
@@ -105,10 +102,7 @@ export const Testimonials = () => {
             </a>
             <p className="message text-center px-2">
               <i className="bi-quote pe-2"></i>
-              We made a stop here to enjoy a little taste of Italy in Barcelona.
-              The service was very personal, and the food was excellent. I
-              highly recommend it if you're looking for an alternative to local
-              cuisine.
+             {t("testimonialC3")}
             </p>
             <ul className="list-unstyled d-flex justify-content-center text-warning">
               <li>

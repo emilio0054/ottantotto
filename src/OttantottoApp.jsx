@@ -1,3 +1,6 @@
+
+
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { NavBar } from "./components/NavBar/NavBar";
 import { HomeView } from "./components/HomeView/HomeView";
 import { Menu } from "./components/Menu/Menu";
@@ -11,18 +14,20 @@ import { Map } from "./components/Map/Map";
 
 function OttantottoApp() {
   return (
+   
     <>
-      <NavBar />
-      <HomeView dark={false} id="home-view" />
-      <Contact dark={false} id="contact" />
-      <Menu dark={false} id="menu" />
-      <Pizzas id="pizzas" />
-      <AboutUs dark={false} id="about-us" />
-      <Map />
-      <Footer />
-      <BottomNavBar />
-      <SideBar />
-    </>
+    <NavBar />
+    <HomeView dark={false} id="home-view" />
+    <Contact dark={false} id="contact" />
+    <Menu dark={false} id="menu" />
+    <Pizzas id="pizzas" />
+    <AboutUs dark={false} id="about-us" />
+    <Map />
+    <Footer />
+    <BottomNavBar />
+    <SideBar />
+  </>
+   
   );
 }
 
