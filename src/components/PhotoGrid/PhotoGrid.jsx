@@ -1,6 +1,9 @@
 import "./photoGrid.css";
+import { useTranslation } from "react-i18next";
 
 export const PhotoGrid = () => {
+  const {t}=useTranslation()
+
   return (
     <>
       <div className="container text-center mb-5" id="photo-grid">
@@ -9,16 +12,14 @@ export const PhotoGrid = () => {
           data-section="photogrid"
           data-value="first-pizza-tittle"
         >
-          NUESTRAS PIZZAS
+         {t("photogridTitle")}
         </h2>
         <p
           className="text mb-5"
           data-section="photogrid"
           data-value="second-pizza-tittle"
         >
-          Desde las clásicas Marinara y Margarita hasta creaciones inspiradas en
-          diferentes regiones de Italia, cada pizza ofrece una experiencia
-          culinaria única.
+         {t("secondpizzatittle")}
         </p>
         <div className="row justify-content-between mb-3 gap-4">
           <div className="col-md-5 col-xs-12 d-flex flex-column align-items-center justify-content-around pizza-card">
@@ -31,7 +32,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">CALABRIA</h5>
               <p className="ingredients">
-                Tomate, muzzarella, salami picante de calabria, olivas negras
+                {t("ingredients1")}
               </p>
             </div>
           </div>
@@ -45,8 +46,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">EMILIA</h5>
               <p className="ingredients">
-                Muzzarella, scamorza (queso ahumado), alcachofas, mortadella,
-                parmesano
+              {t("ingredients2")}
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">FRIULI</h5>
               <p className="ingredients">
-                Tomate, muzzarella. jamón curado, albahaca fresca
+               {t("ingredients3")}
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">LIGURIA</h5>
               <p className="ingredients">
-                Muzzarella, patatas, pesto hecho en casa
+                {t("ingredients4")}
               </p>
             </div>
           </div>
@@ -90,8 +90,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">MARCHE</h5>
               <p className="ingredients">
-                Tomate, muzzarella, champiñones, alcachofas, jamon cocido,
-                olivas negras
+                {t("ingredients5")}
               </p>
             </div>
           </div>
@@ -104,7 +103,7 @@ export const PhotoGrid = () => {
                 alt="pizza queso y salsa tomate"
               />
               <h5 className="pizzaName text-center">MARGHARITA</h5>
-              <p className="ingredients">Tomate, muzzarella, abhaca freca</p>
+              <p className="ingredients">{t("ingredients6")}</p>
             </div>
           </div>
 
@@ -118,7 +117,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">PIEMONTE</h5>
               <p className="ingredients">
-                Muzzarella, queso taleggio, setas porcini, trufa deshidratada
+                {t("ingredients7")}
               </p>
             </div>
           </div>
@@ -131,7 +130,7 @@ export const PhotoGrid = () => {
                 alt="pizza con burrata"
               />
               <h5 className="pizzaName text-center">PUGLIA</h5>
-              <p className="ingredients">Tomate, burrata, albahca fresca</p>
+              <p className="ingredients">{t("ingredients8")}</p>
             </div>
           </div>
 
@@ -145,7 +144,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">SARDEGNA</h5>
               <p className="ingredients">
-                Tomate, muzzarella, atún, cebolla, olivas negras, oregano
+               {t("ingredients9")}
               </p>
             </div>
           </div>
@@ -159,8 +158,7 @@ export const PhotoGrid = () => {
               />
               <h5 className="pizzaName text-center">TOSCANA</h5>
               <p className="ingredients">
-                Tomate, muzzarella, finocchiona (fiambre toscano de cerdo con
-                semillas de hinojo)
+               {t("ingredients10")}
               </p>
             </div>
           </div>

@@ -1,11 +1,13 @@
 import "./footer.css";
+import { useTranslation } from "react-i18next";
 
 export const Footer = ({ id }) => {
+  const {t}=useTranslation()
   return (
     <footer className="" id={id}>
       <div className="row mb-0 align-items-start justify-content-between m-0">
         <div className="col-lg-3 p-5">
-          <h3>INFORMACIÓN</h3>
+          <h3>{t("footerTitle1")}</h3>
           <a
             href="https://goo.gl/maps/kEcNZSV8wWY8TKst6?coh=178571&entry=tt"
             className="mt-2 text-decoration-none"
@@ -24,22 +26,22 @@ export const Footer = ({ id }) => {
           </a>
         </div>
         <div className="col-lg-3 p-5">
-          <h3>HORARIOS DE APERTURA</h3>
-          <h5>MIERCOLES a DOMINGO</h5>
+          <h3>{t("footerTitle2")}</h3>
+          <h5>{t("footerTime")}</h5>
           <h5>13:00 a 16:00</h5>
           <h5>20:00 a 23:00</h5>
         </div>
         <div className="col-lg-3 p-5">
-          <h3>SECCIONES</h3>
-          <h5>Inicio</h5>
-          <h5>Reservas y pedidos</h5>
-          <h5>Pizzas</h5>
-          <h5>Sobre nosotros</h5>
+          <h3>{t("footerTitle3")}</h3>
+          <h5>{t("footerTitle3C1")}</h5>
+          <h5>{t("footerTitle3C2")}</h5>
+          <h5>{t("footerTitle3C3")}</h5>
+          <h5>{t("footerTitle3C4")}</h5>
         </div>
         <div className="col-lg-3 p-5">
-          <h3>POLÍTICAS</h3>
-          <h5>Privacidad</h5>
-          <h5>Cookies</h5>
+          <h3>{t("footerpolicy")}</h3>
+          <h5>{t("footerPrivicy")}</h5>
+          <h5>{t("footerCookies")}</h5>
         </div>
       </div>
       <div className="social-media d-flex justify-content-between">

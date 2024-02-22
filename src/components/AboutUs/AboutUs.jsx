@@ -1,22 +1,25 @@
 import "./aboutUs.css";
 import { Testimonials } from "../Testimonials/Testimonials";
 import { Carousel } from "../Carousel/Carousel";
+import { useTranslation } from "react-i18next";
+
+
+
 
 export const AboutUs = ({ id }) => {
+const {t}=useTranslation()
   return (
     <>
       <div className="us-container" id={id}>
         <h2 className="d-flex justify-content-center us-title">
-          SOBRE NOSOTROS
+        
+          {t("AboutTitle")}
+        
         </h2>
+     
         <p className="textAb">
-          Nuestra pizzería nace de la pasión por la cocina italiana y el deseo
-          para compartir su auténtico sabor con el público. Nos complace Te
-          invitamos a nuestro restaurante, situado cerca de la Sagrada Familia.
-          Nuestro El objetivo es brindarle una experiencia culinaria
-          excepcional, garantizando un servicio impecable y atención
-          especializada. Disfruta de un perfecto mezcla de la autenticidad de la
-          cocina italiana y un ambiente familiar y ambiente acogedor.
+        
+          {t("AboutParagraph")}
         </p>
         <Carousel />
         <div>
